@@ -3729,7 +3729,7 @@ input[type="file"]::file-selector-button {
   .p-facility-intro__paragraph {
     margin-inline: auto;
     margin-right: inherit;
-    margin-left: inherit;
+    /* margin-left: inherit; */
     font-size: 1.375rem;
     line-height: 1.1818181818;
   }
