@@ -3708,7 +3708,10 @@ input[type="file"]::file-selector-button {
     left: inherit;
   }
   .p-facility-intro__img--stop {
-    display: none;
+    /* display: none; */
+    bottom: -50px;
+    left: 7.925rem;
+    width: 16rem;
   }
   .p-facility-intro__img--flag {
     top: inherit;
