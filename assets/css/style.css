@@ -351,14 +351,14 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4.375rem;
+  font-size: 5.375rem;
   line-height: 1.3285714286;
   color: #000;
 }
 .l-footer__address {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.2222222222;
@@ -559,7 +559,7 @@ input[type="file"]::file-selector-button {
 }
 .l-header__follow {
   position: fixed;
-  top: 21.6125rem;
+  top: 22.6125rem;
   right: 0;
   z-index: 50;
 }
@@ -567,7 +567,7 @@ input[type="file"]::file-selector-button {
   position: relative;
   display: block;
   width: 3.375rem;
-  height: 12.8125rem;
+  height: 11rem;
   color: #fff;
   text-align: center;
   background-color: #0041ff;
@@ -578,7 +578,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.125rem;
+  font-size: 2.3rem;
   line-height: 1.5882352941;
 }
 .l-header__follow-link:last-child {
@@ -605,7 +605,7 @@ input[type="file"]::file-selector-button {
 .p-concept__paragraph {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 2.75rem;
   line-height: 1.2045454545;
@@ -843,7 +843,7 @@ input[type="file"]::file-selector-button {
   color: #000;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -1054,7 +1054,7 @@ input[type="file"]::file-selector-button {
 .p-main-visual__catch p {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 2.5rem;
   line-height: 1.2;
@@ -1290,7 +1290,7 @@ input[type="file"]::file-selector-button {
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -1321,7 +1321,7 @@ input[type="file"]::file-selector-button {
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
