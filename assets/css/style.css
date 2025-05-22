@@ -3807,3 +3807,20 @@ input[type="file"]::file-selector-button {
     margin-top: 5.4125rem;
   }
 }
+/* Add this to your CSS */
+@media (min-width: 751px) {
+  body {
+    width: 70vw;
+    margin: 0 auto;
+    transform: scale(0.7);
+    transform-origin: top center;
+    position: relative;
+    left: -15%; /* Adjusts horizontal positioning */
+  }
+  
+  html {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100%;
+  }
+}
