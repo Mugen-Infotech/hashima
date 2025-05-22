@@ -764,7 +764,7 @@ input[type="file"]::file-selector-button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.375rem 2.625rem 1.375rem 4.09375rem;
+  padding: 1.375rem 3.625rem 1.375rem 3.09375rem;
   margin-top: -0.125rem;
   margin-left: auto;
   color: #fff;
@@ -787,6 +787,13 @@ input[type="file"]::file-selector-button {
   content: "";
   background-color: #fff;
   translate: 0 -50%;
+}
+.p-contact__button:hover {
+  background-color: #fff;
+  color: #000;
+}
+.p-contact__button:hover:after {
+  background-color: #000;
 }
 .p-facility-intro {
   position: relative;
