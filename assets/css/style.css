@@ -1085,14 +1085,17 @@ input[type="file"]::file-selector-button {
   left: 1.6125rem;
   display: flex;
   flex-wrap: wrap;
-  width: 15.625rem;
+  width: 18.625rem;
   overflow: hidden;
   color: #000;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.5rem;
-  line-height: 1.3214285714;
+  font-size: 4rem;
+  line-height: 1;
+}
+.map__title_size{
+  font-size: 10rem;
 }
 .p-map__title span {
   display: block;
