@@ -1199,7 +1199,7 @@ input[type="file"]::file-selector-button {
   width: 100%;
 }
 .p-plan__main-title {
-  padding-top: 21.375rem;
+  padding-top: 19.375rem;
   margin-left: 2.915625rem;
 }
 .p-plan__main-title-en {
@@ -1293,7 +1293,7 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__main-price {
   position: absolute;
-  top: 33.80rem;
+  top: 31.80rem;
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
@@ -1390,7 +1390,7 @@ input[type="file"]::file-selector-button {
   width: 100%;
 }
 .p-plan__sub-title {
-  padding-top: 18.125rem;
+  padding-top: 17.87rem;
   margin-left: 1.6125rem;
 }
 .p-plan__sub-title-en {
@@ -1399,8 +1399,8 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.75rem;
-  line-height: 1.25;
+  font-size: 4.75rem;
+  line-height: 1;
   letter-spacing: 0.01em;
   color: #fff;
 }
@@ -1487,7 +1487,7 @@ input[type="file"]::file-selector-button {
   margin-top: 1rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 2.125rem;
   line-height: 1.2058823529;
@@ -1503,7 +1503,7 @@ input[type="file"]::file-selector-button {
   color: #fff;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -1536,7 +1536,7 @@ input[type="file"]::file-selector-button {
   text-align: justify;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
