@@ -3676,14 +3676,15 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 2.259375rem;
-    margin-right: inherit;
+    margin-right: auto;
   }
   .p-contact__tel {
     font-size: 3.875rem;
     line-height: 1.1129032258;
   }
   .p-contact__button {
-    margin-right: -1.25rem;
+    margin-right: auto;
+    margin-top: 2rem;
   }
   .p-facility-intro {
     margin-top: 5.984375rem;
@@ -3831,7 +3832,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__background {
     top: 7.209375rem;
-    height: 165.46875rem;
+    height: 169.46875rem;
   }
   .p-plan__inner {
     width: 43.48125rem;
@@ -3850,7 +3851,7 @@ input[type="file"]::file-selector-button {
     margin-top: 0.9375rem;
   }
   .p-plan__main-price {
-    top: 25.70625rem;
+    top: 24.70625rem;
     right: 2.35625rem;
   }
   .p-plan__main-price-unit {
@@ -3893,7 +3894,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-price {
     position: absolute;
-    top: 24.375rem;
+    top: 28.375rem;
     right: 0.54375rem;
     margin-top: inherit;
     margin-right: inherit;
@@ -3919,6 +3920,15 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.4125rem;
+  }
+  .p-concept__img{
+    margin-right: auto;
+  }
+  .p-facility-intro__img--shop{
+    left: 12px;
+  }
+  .p-plan__sub-title{
+    padding-top: 17.4375rem;
   }
 }
 /* Add this to your CSS */
