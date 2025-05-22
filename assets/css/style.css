@@ -1201,7 +1201,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 7.75rem;
+  font-size: 10rem;
   line-height: 1.3225806452;
   color: #fff;
 }
@@ -1286,7 +1286,7 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__main-price {
   position: absolute;
-  top: 31.25rem;
+  top: 33.80rem;
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
