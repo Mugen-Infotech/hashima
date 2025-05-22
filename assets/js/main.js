@@ -393,3 +393,21 @@ function N() {
 document.addEventListener("DOMContentLoaded", () => {
   k(), new x(), M(), O(), N();
 });
+
+let current = 0;
+const slides = document.querySelectorAll(".p-main-visual__slide");
+
+function showSlide(index) {
+  console.log("object");
+  slides.forEach((slide, i) => {
+    slide.classList.remove("active");
+    if (i === index) {
+      slide.classList.add("active");
+    }
+  });
+}
+
+setInterval(() => {
+  current = (current + 1) % slides.length;
+  showSlide(current);
+}, 4000);

@@ -1101,7 +1101,7 @@ input[type="file"]::file-selector-button {
   font-size: 4rem;
   line-height: 1;
 }
-.map__title_size{
+.map__title_size {
   font-size: 10rem;
 }
 .p-map__title span {
@@ -1303,7 +1303,7 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__main-price {
   position: absolute;
-  top: 31.80rem;
+  top: 31.8rem;
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
@@ -1902,6 +1902,117 @@ input[type="file"]::file-selector-button {
   clip: rect(0 0 0 0) !important;
   white-space: nowrap !important;
   border: 0 !important;
+}
+.carousel {
+  position: relative;
+  width: 800px;
+  margin: 0 auto;
+  overflow: hidden;
+  border-radius: 10px;
+}
+
+/* Hide radio buttons */
+.carousel input {
+  display: none;
+}
+
+/* Slides */
+.carousel__slides {
+  display: flex;
+  width: 300%;
+  transition: transform 0.5s ease-in-out;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.carousel__slide {
+  width: 100%;
+  flex-shrink: 0;
+}
+
+.carousel__slide img {
+  width: 100%;
+  display: block;
+}
+
+/* Navigation dots */
+.carousel__nav {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.carousel__nav label {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  background: #ccc;
+  border-radius: 50%;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+#slide1:checked ~ .carousel__slides {
+  transform: translateX(0%);
+}
+#slide2:checked ~ .carousel__slides {
+  transform: translateX(-100%);
+}
+#slide3:checked ~ .carousel__slides {
+  transform: translateX(-200%);
+}
+
+#slide1:checked ~ .carousel__nav label[for="slide1"],
+#slide2:checked ~ .carousel__nav label[for="slide2"],
+#slide3:checked ~ .carousel__nav label[for="slide3"] {
+  background: #333;
+}
+
+.p-main-visual__carousel {
+  position: relative;
+  width: 100%;
+  height: auto;
+  min-height: 1050px;
+  overflow: hidden;
+}
+
+.p-main-visual__slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  opacity: 0;
+  transition: opacity 1s ease-in-out;
+}
+
+.p-main-visual__slide.active {
+  opacity: 1;
+  z-index: 1;
+}
+
+.p-main-visual__image {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.p-main-visual__catch {
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  color: white;
+}
+
+.p-main-visual__catch p {
+  font-family: "Noto Sans JP", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  font-weight: 500;
+  margin: 0;
+}
+
+.p-main-visual__catch p:last-child {
+  margin-top: 0.4rem;
 }
 @media (min-width: 640px) {
   .u-sm-dn {
@@ -3816,10 +3927,16 @@ input[type="file"]::file-selector-button {
     transform-origin: top center;
     position: relative;
   }
-  
+
   html {
     overflow-x: hidden;
     width: 100%;
     height: 100%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .p-main-visual__carousel {
+    min-height: 500px;
   }
 }
