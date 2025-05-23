@@ -3745,7 +3745,7 @@ input[type="file"]::file-selector-button {
     line-height: 1.1129032258;
   }
   .p-contact__button {
-    margin-right: auto;
+    margin-right: 0rem;
     margin-top: 2rem;
   }
   .p-facility-intro {
@@ -3894,7 +3894,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__background {
     top: 7.209375rem;
-    height: 169.46875rem;
+    height: 172.46875rem;
   }
   .p-plan__inner {
     width: 43.48125rem;
@@ -3924,6 +3924,7 @@ input[type="file"]::file-selector-button {
     width: 100%;
     margin-top: 2.6rem;
     margin-left: 0;
+    font-size: 1.5rem;
   }
   .p-plan__main-button {
     position: relative;
@@ -3978,7 +3979,7 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-description {
     width: 100%;
     margin-top: 2.4625rem;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     line-height: 1.3636363636;
   }
   .p-plan__sub-button {
