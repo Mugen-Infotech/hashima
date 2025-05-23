@@ -3684,7 +3684,18 @@ input[type="file"]::file-selector-button {
     flex-flow: column;
     justify-content: inherit;
     padding: 3.725rem 0 3.65625rem;
-    background-image: url(/assets/images/p-contact/bg-sp.svg);
+    background-image: url(/assets/images/p-contact/contact_bg.jpg);
+    background-repeat: no-repeat;
+    background-position: center 55%;
+    background-size: 152;
+  }
+  .p-contact::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background-image: url(/assets/images/p-contact/bg.svg);
+    mix-blend-mode: multiply;
+    z-index: -1;
   }
   .p-contact__title {
     margin-left: inherit;
