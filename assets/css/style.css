@@ -372,7 +372,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 0.75rem;
+  font-size: 0.99rem;
   line-height: 1.25;
   color: #3e3a39;
 }
@@ -414,7 +414,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 0.75rem;
+  font-size: 0.99rem;
   line-height: 1.25;
   color: #3e3a39;
 }
@@ -628,8 +628,8 @@ input[type="file"]::file-selector-button {
   padding: 5.75rem 0rem 5rem;
   background-image: url(/assets/images/p-contact/contact_bg.jpg);
   background-repeat: no-repeat;
-  background-position: center 55%;
-  background-size: cover;
+  background-position: center 59%;
+  background-size: auto;
   position: relative;
   isolation: isolate;
 }
@@ -654,8 +654,8 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 7.4375rem;
-  line-height: 1.3193277311;
+  font-size: 10rem;
+  /* line-height: 1.3193277311; */
 }
 .p-contact__title-en span {
   display: block;
@@ -755,17 +755,17 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.375rem;
-  line-height: 1.3148148148;
+  font-size: 4.375rem;
+  line-height: 1.5148148148;
   color: #fff;
 }
 .p-contact__time {
   margin-top: -0.625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-optical-sizing: auto;
-  font-size: 1rem;
+  font-size: 1.2rem;
   line-height: 1.1875;
   color: #fff;
 }
@@ -783,7 +783,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
@@ -881,7 +881,7 @@ input[type="file"]::file-selector-button {
 .p-information__group {
   position: relative;
   padding-bottom: 17.375rem;
-  padding-left: 9.3rem;
+  padding-left: 6.3rem;
 }
 .p-information__title {
   display: flex;
@@ -889,7 +889,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 3.5rem;
+  font-size: 5.5rem;
   line-height: 1.3214285714;
   color: #000;
 }
@@ -955,7 +955,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
@@ -998,7 +998,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1rem;
+  font-size: 1.3rem;
   line-height: 1.3125;
   color: #a9a9aa;
 }
@@ -1008,9 +1008,8 @@ input[type="file"]::file-selector-button {
   padding-bottom: 1.525rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
   font-optical-sizing: auto;
-  font-size: 1.125rem;
+  font-size: 1.3rem;
   line-height: 1.2222222222;
   color: #000;
 }
@@ -1367,7 +1366,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
@@ -1589,7 +1588,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
