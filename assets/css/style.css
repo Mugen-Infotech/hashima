@@ -351,7 +351,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 5.375rem;
+  font-size: 4.375rem;
   line-height: 1.3285714286;
   color: #000;
 }
@@ -372,7 +372,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 0.99rem;
+  font-size: 0.75rem;
   line-height: 1.25;
   color: #3e3a39;
 }
@@ -414,7 +414,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 0.99rem;
+  font-size: 0.75rem;
   line-height: 1.25;
   color: #3e3a39;
 }
