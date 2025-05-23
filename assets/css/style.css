@@ -3602,6 +3602,7 @@ input[type="file"]::file-selector-button {
     left: 2.24375rem;
     margin-top: inherit;
     margin-left: inherit;
+    font-size: 1.2rem;
   }
   .l-footer__nav {
     position: relative;
@@ -3633,6 +3634,7 @@ input[type="file"]::file-selector-button {
     position: absolute;
     right: 0;
     bottom: -4.6875rem;
+    font-size: 1.2rem;
   }
   .l-global-menu-button {
     display: inherit;
