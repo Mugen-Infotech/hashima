@@ -1518,6 +1518,21 @@ input[type="file"]::file-selector-button {
   font-size: 1.25rem;
   line-height: 1.2;
 }
+.p-plan__sub-price2 {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  margin-top: 1.64375rem;
+  margin-right: 1.71875rem;
+  margin-left: auto;
+  color: #fff;
+  font-family: Noto Sans JP, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-optical-sizing: auto;
+  font-size: 1.25rem;
+  line-height: 1.2;
+}
 .p-plan__sub-price-number {
   margin-left: 0.4875rem;
   font-family: Bebas Neue, sans-serif;
@@ -2013,6 +2028,9 @@ input[type="file"]::file-selector-button {
 
 .p-main-visual__catch p:last-child {
   margin-top: 0.4rem;
+}
+.line-break-lg {
+  display: none;
 }
 @media (min-width: 640px) {
   .u-sm-dn {
@@ -2628,6 +2646,9 @@ input[type="file"]::file-selector-button {
   }
   .u-md-mt100 {
     margin-top: 6.25rem !important;
+  }
+  .line-break-lg {
+    display: inline;
   }
 }
 @media (min-width: 1024px) {
@@ -3856,7 +3877,7 @@ input[type="file"]::file-selector-button {
     width: 43.48125rem;
   }
   .p-plan__main-title {
-    padding-top: 17.8125rem;
+    padding-top: 17.4125rem;
     margin-left: 0.5625rem;
   }
   .p-plan__main-title-en {
@@ -3912,7 +3933,15 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-price {
     position: absolute;
-    top: 28.375rem;
+    top: 23.575rem;
+    right: 0.54375rem;
+    margin-top: inherit;
+    margin-right: inherit;
+    margin-left: inherit;
+  }
+  .p-plan__sub-price2 {
+    position: absolute;
+    top: 28.99rem;
     right: 0.54375rem;
     margin-top: inherit;
     margin-right: inherit;
