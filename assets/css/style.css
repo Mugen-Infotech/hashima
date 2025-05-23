@@ -3602,6 +3602,7 @@ input[type="file"]::file-selector-button {
     left: 2.24375rem;
     margin-top: inherit;
     margin-left: inherit;
+    font-size: 1.2rem;
   }
   .l-footer__nav {
     position: relative;
@@ -3633,6 +3634,7 @@ input[type="file"]::file-selector-button {
     position: absolute;
     right: 0;
     bottom: -4.6875rem;
+    font-size: 1.2rem;
   }
   .l-global-menu-button {
     display: inherit;
@@ -3724,8 +3726,8 @@ input[type="file"]::file-selector-button {
     padding: 3.725rem 0 3.65625rem;
     background-image: url(/assets/images/p-contact/contact_bg.jpg);
     background-repeat: no-repeat;
-    background-position: center 55%;
-    background-size: 152;
+    background-position: center 66%;
+    background-size: 159%;
   }
   .p-contact::before {
     content: "";
@@ -3761,7 +3763,7 @@ input[type="file"]::file-selector-button {
     line-height: 1.1129032258;
   }
   .p-contact__button {
-    margin-right: auto;
+    margin-right: 0rem;
     margin-top: 2rem;
   }
   .p-facility-intro {
@@ -3910,7 +3912,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__background {
     top: 7.209375rem;
-    height: 169.46875rem;
+    height: 172.46875rem;
   }
   .p-plan__inner {
     width: 43.48125rem;
@@ -3940,6 +3942,7 @@ input[type="file"]::file-selector-button {
     width: 100%;
     margin-top: 2.6rem;
     margin-left: 0;
+    font-size: 1.5rem;
   }
   .p-plan__main-button {
     position: relative;
@@ -3994,7 +3997,7 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-description {
     width: 100%;
     margin-top: 2.4625rem;
-    font-size: 1.375rem;
+    font-size: 1.5rem;
     line-height: 1.3636363636;
   }
   .p-plan__sub-button {
