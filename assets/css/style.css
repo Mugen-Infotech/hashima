@@ -1175,7 +1175,7 @@ input[type="file"]::file-selector-button {
 .p-map__title span:nth-child(14),
 .p-map__title span:nth-child(15) {
   font-size: 8.125rem;
-  line-height: 1.3230769231;
+  line-height: 1.1230769231;
 }
 .p-map__title.is-visible span {
   -webkit-transform: translate(0, 0);
@@ -4020,23 +4020,6 @@ input[type="file"]::file-selector-button {
     padding-top: 17.4375rem;
   }
 }
-/* Add this to your CSS */
-@media (min-width: 751px) {
-  body {
-    width: 100vw;
-    margin: 0 auto;
-    transform: scale(0.7);
-    transform-origin: top center;
-    position: relative;
-  }
-
-  html {
-    overflow-x: hidden;
-    width: 100%;
-    height: 100%;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .p-main-visual__carousel {
     min-height: 500px;
