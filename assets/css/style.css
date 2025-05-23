@@ -3634,7 +3634,7 @@ input[type="file"]::file-selector-button {
     background: white;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   }
-  .l-global-menu-button{
+  .l-global-menu-button {
     z-index: 1000;
   }
   body {
@@ -3749,9 +3749,9 @@ input[type="file"]::file-selector-button {
     left: 0;
   }
   .p-facility-intro__paragraph {
-    margin-inline: auto;
+    /* margin-inline: auto;
     margin-right: inherit;
-    /* margin-left: inherit; */
+    margin-left: inherit; */
     font-size: 1.375rem;
     line-height: 1.1818181818;
   }
@@ -3939,13 +3939,13 @@ input[type="file"]::file-selector-button {
     margin-inline: auto;
     margin-top: 5.4125rem;
   }
-  .p-concept__img{
+  .p-concept__img {
     margin-right: auto;
   }
-  .p-facility-intro__img--shop{
+  .p-facility-intro__img--shop {
     left: 12px;
   }
-  .p-plan__sub-title{
+  .p-plan__sub-title {
     padding-top: 17.4375rem;
   }
 }
