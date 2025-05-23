@@ -626,9 +626,20 @@ input[type="file"]::file-selector-button {
   justify-content: space-between;
   width: 100%;
   padding: 5.75rem 0rem 5rem;
-  background-image: url(/assets/images/p-contact/bg.svg);
+  background-image: url(/assets/images/p-contact/contact_bg.jpg);
   background-repeat: no-repeat;
+  background-position: center 55%;
   background-size: cover;
+  position: relative;
+  isolation: isolate;
+}
+.p-contact::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url(/assets/images/p-contact/bg.svg);
+  mix-blend-mode: multiply;
+  z-index: -1;
 }
 .p-contact__title {
   margin-left: 10.5375rem;
@@ -730,7 +741,7 @@ input[type="file"]::file-selector-button {
   margin-left: 0.9rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 100;
+  font-weight: 300;
   font-optical-sizing: auto;
   font-size: 1.375rem;
   line-height: 1.1818181818;
