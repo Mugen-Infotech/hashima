@@ -421,7 +421,7 @@ input[type="file"]::file-selector-button {
 .l-global-menu-button {
   position: fixed;
   top: 2.125rem;
-  right: 3.875rem;
+  right: 2.875rem;
   z-index: 101;
   display: none;
   width: 3.6rem;
@@ -3663,7 +3663,25 @@ input[type="file"]::file-selector-button {
     justify-content: space-between;
     padding: 1.2875rem 1.84375rem;
     background: white;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  .l-header__name {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    position: fixed; /* Optional: fixes at top */
+    top: 10px;
+    left: 10px;
+    right: 0;
+    text-align: center;
+    background-color: white;
+    z-index: 1000;
+    padding: 0.5rem;
+    text-align: left;
+  }
+
+  .l-header__name.is-visible {
+    opacity: 1;
+    transform: translateY(0);
   }
   .l-global-menu-button {
     z-index: 1000;
