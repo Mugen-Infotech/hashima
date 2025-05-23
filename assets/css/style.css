@@ -3706,8 +3706,8 @@ input[type="file"]::file-selector-button {
     padding: 3.725rem 0 3.65625rem;
     background-image: url(/assets/images/p-contact/contact_bg.jpg);
     background-repeat: no-repeat;
-    background-position: center 55%;
-    background-size: 152;
+    background-position: center 66%;
+    background-size: 159%;
   }
   .p-contact::before {
     content: "";
