@@ -585,7 +585,7 @@ input[type="file"]::file-selector-button {
   background-color: #595757;
 }
 .l-main-content {
-  padding-top: 9.71875rem;
+  /* padding-top: 9.71875rem; */
 }
 .l-main-content__googlemap {
   width: 100%;
@@ -820,6 +820,9 @@ input[type="file"]::file-selector-button {
   height: 43.125rem;
 }
 .p-facility-intro__img {
+  position: absolute;
+}
+.p-facility-intro__img-two {
   position: absolute;
 }
 .p-facility-intro__img--signboard {
