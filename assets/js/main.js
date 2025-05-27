@@ -428,3 +428,10 @@ function handleScrollForMobile() {
 
 window.addEventListener("scroll", handleScrollForMobile);
 window.addEventListener("resize", handleScrollForMobile);
+document.addEventListener("DOMContentLoaded", () => {
+  const letters = document.querySelectorAll(".letter");
+  letters.forEach((letter, index) => {
+    letter.style.animationDelay = `${index * 0.1}s`;
+    letter.classList.add("animate");
+  });
+});
