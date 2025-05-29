@@ -3744,12 +3744,12 @@ input[type="file"]::file-selector-button {
     transition: opacity 0.3s ease, transform 0.3s ease;
     position: fixed; /* Optional: fixes at top */
     top: 10px;
-    left: 10px;
+    left: 0px;
     right: 0;
     text-align: center;
     background-color: white;
     z-index: 1000;
-    padding: 0.5rem;
+    padding: 0.5rem 0.5rem 0.5rem 14px;
     text-align: left;
   }
 
