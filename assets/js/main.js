@@ -448,7 +448,7 @@ ScrollTrigger.matchMedia({
           trigger: ".p-concept",
           start: "top top",
           end: "+=100%",
-          scrub: 0.2,
+          scrub: 1.5,
           pin: true,
           anticipatePin: 1,
         },
@@ -471,6 +471,7 @@ ScrollTrigger.matchMedia({
         },
         0
       );
+      
 
     // 2. js-facility-wrapper animation
     gsap
@@ -479,7 +480,7 @@ ScrollTrigger.matchMedia({
           trigger: ".js-facility-wrapper",
           start: "top top",
           end: "+=100%",
-          scrub: 0.2,
+          scrub: 1.5,
           pin: true,
           anticipatePin: 1,
         },
@@ -510,7 +511,7 @@ ScrollTrigger.matchMedia({
           trigger: ".p-facility-intro__gallery",
           start: "top top",
           end: "+=100%",
-          scrub: 0.2,
+          scrub: 1.5,
           pin: true,
           anticipatePin: 1,
         },

@@ -4102,3 +4102,13 @@ input[type="file"]::file-selector-button {
     display: none;
   }
 }
+
+.content__font-family{
+  font-family: Noto Sans JP, sans-serif;
+}
+.title__font-family{
+  font-family: Bebas Neue, sans-serif;;
+}
+.about-content span:not(:first-child) {
+    margin-top: 1.625rem;
+}
