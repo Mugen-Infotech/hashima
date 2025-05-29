@@ -457,7 +457,7 @@ ScrollTrigger.matchMedia({
         ".p-concept__paragraph",
         {
           x: "-6vw",
-          scale: 0.8,
+          scale: 0.7,
           ease: "none",
         },
         0
@@ -466,7 +466,7 @@ ScrollTrigger.matchMedia({
         ".p-concept__img",
         {
           x: "6vw",
-          scale: 0.8,
+          scale: 0.7,
           ease: "none",
         },
         0
@@ -489,7 +489,7 @@ ScrollTrigger.matchMedia({
         ".p-facility-intro__img",
         {
           x: "-6vw",
-          scale: 0.8,
+          scale: 0.7,
           ease: "none",
         },
         0
@@ -498,7 +498,7 @@ ScrollTrigger.matchMedia({
         ".p-facility-intro__paragraph",
         {
           x: "6vw",
-          scale: 0.8,
+          scale: 0.7,
           ease: "none",
         },
         0
