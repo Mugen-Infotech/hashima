@@ -1117,8 +1117,22 @@ input[type="file"]::file-selector-button {
   transition-delay: 0.66s;
 }
 .p-main-visual__title-text-desktop.is-visible span {
+    -webkit-transform: translate(0, 0);
+    transform: translate(0);
 }
 .p-main-visual__title-text-desktop span {
+    display: block;
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+    transition: -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+    transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+    transition: transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s, -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
+    -webkit-transform: translate(0, 105%);
+    transform: translateY(105%);
 }
 .p-main-visual__title-text br {
   display: none;
@@ -3896,7 +3910,7 @@ input[type="file"]::file-selector-button {
     line-height: 0.9090909091;
   }
   .p-information__button {
-    top: 43.375rem;
+    top: 34.375rem;
     left: 50%;
     translate: -50% 0;
   }
@@ -3913,12 +3927,8 @@ input[type="file"]::file-selector-button {
     margin-top: 2.885625rem;
     margin-right: inherit;
   }
-  .p-information__date {
-    font-size: 14px;
-  }
   .p-information__news {
     padding-top: 1.21875rem;
-    font-size: 14px;
   }
   .p-main-visual {
     width: calc(100% - 3.625rem);
@@ -3973,7 +3983,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__background {
     top: 7.209375rem;
-    height: 187.01875rem;
+    height: 172.46875rem;
   }
   .p-plan__inner {
     width: 43.48125rem;
@@ -4004,7 +4014,6 @@ input[type="file"]::file-selector-button {
     margin-top: 2.6rem;
     margin-left: 0;
     font-size: 1.5rem;
-    line-height: 24px;
   }
   .p-plan__main-button {
     position: relative;
@@ -4060,7 +4069,7 @@ input[type="file"]::file-selector-button {
     width: 100%;
     margin-top: 2.4625rem;
     font-size: 1.5rem;
-    line-height: 24px;
+    line-height: 1.3636363636;
   }
   .p-plan__sub-button {
     position: relative;
@@ -4094,8 +4103,11 @@ input[type="file"]::file-selector-button {
   }
 }
 
+.content__font-family{
   font-family: Noto Sans JP, sans-serif;
 }
+.title__font-family{
+  font-family: Bebas Neue, sans-serif;;
 }
 .about-content span:not(:first-child) {
     margin-top: 1.625rem;
