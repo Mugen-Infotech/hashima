@@ -73,7 +73,7 @@
             <a class="l-header__link" href="#"> RENTAL KITCHEN TRAILER </a>
           </li>
           <li class="l-header__item">
-            <a class="l-header__link" href="#"> INFORMATION </a>
+            <a class="l-header__link" href="information.html"> INFORMATION </a>
           </li>
           <li class="l-header__item">
             <a class="l-header__link" href="/pages/contact.html"> CONTACT </a>
@@ -137,7 +137,7 @@
             <a class="l-global-menu__link" href="#"> RENTAL KITCHEN TRAILER </a>
           </li>
           <li class="l-global-menu__item">
-            <a class="l-global-menu__link" href="#"> INFORMATION </a>
+            <a class="l-global-menu__link" href="/pages/information.html"> INFORMATION </a>
           </li>
           <li class="l-global-menu__item">
             <a class="l-global-menu__link" href="/pages/contact.html"> CONTACT </a>
@@ -160,9 +160,8 @@
 
     <main class="l-main-content !pt-10">
       <!-- Contact Area Start -->
-      <section class="flex flex-col items-center w-full py-16 bg-white">
+      <!-- <section class="flex flex-col items-center w-full py-16 bg-white">
         <div class="w-full max-w-[980px]">
-          <!-- Title -->
           <h2 class="text-[130px] justify-center mb-2 leading-none l-main-content__contact-title-en js-title">
             <span>C</span>
             <span>O</span>
@@ -175,10 +174,8 @@
           <p class="text-center text-[24px] font-bold mb-32">お問い合わせ／内覧お申込み／お申込み</p>
           <p class="text-center font-medium text-[20px] mb-10">メールフォームにてお気軽にお問い合わせください。</p>
 
-          <!-- Form -->
           <form class="w-full">
             <div class="border-t border-b border-black rounded-none">
-              <!-- お問い合わせカテゴリー -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="category">お問い合わせカテゴリー</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 font-medium">必　須</span>
@@ -189,65 +186,48 @@
                   <option value="apply">お申込み</option>
                 </select>
               </div>
-              <!-- 会社名 -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[334px] px-4 py-3 text-[18px] font-bold text-black" for="company">会社名</label>
                 <input id="company" type="text" class="flex-1 px-3 py-2 bg-white border-none outline-none text-[18px]" />
               </div>
-              <!-- 氏名 -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="name">氏 名</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 font-medium">必　須</span>
                 <input id="name" type="text" required class="flex-1 px-3 py-2 bg-white border-none outline-none text-[18px]" />
               </div>
-              <!-- ふりがな -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="furigana">ふりがな</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 font-medium">必　須</span>
                 <input id="furigana" type="text" required class="flex-1 px-3 py-2 bg-white border-none outline-none text-[18px]" />
               </div>
-              <!-- 電話番号 -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="tel">電話番号</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 font-medium">必　須</span>
                 <input id="tel" type="tel" required class="flex-1 px-3 py-2 bg-white border-none outline-none text-[18px]" />
               </div>
-              <!-- メールアドレス -->
               <div class="flex items-center p-4 bg-[#ededed] border-b border-black">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="email">メールアドレス</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 font-medium">必　須</span>
                 <input id="email" type="email" required class="flex-1 px-3 py-2 bg-white border-none outline-none text-[18px]" />
               </div>
-              <!-- お問い合わせ内容 -->
               <div class="flex items-start p-4 bg-[#ededed]">
                 <label class="w-[236px] px-4 py-3 text-[18px] font-bold text-black" for="message">問い合わせ内容</label>
                 <span class="text-sm text-white bg-[#8e8e8e] px-2 py-[2px] ml-2 mr-8 mt-3 font-medium">必　須</span>
                 <textarea id="message" required rows="7" class="flex-1 px-3 py-2 mt-3 bg-white border-none outline-none text-[18px] resize-none"></textarea>
               </div>
             </div>
-            <!-- 個人情報保護 -->
             <div class="mt-8">
               <p class="text-xl font-bold mb-4">個人情報保護</p>
               <p class="text-[18px] font-medium mb-3">
                 ここで入力された情報で個人情報にあたるものは、「プライバシーポリシー」に従って利用させていただきます。<br>
                 同意いただける方は「入力内容確認画面へ」と進んでください。
               </p>
-              <div class="flex items-center justify-center mb-2">
-  <input
-    type="radio"
-    name="privacy"
-    id="privacy"
-    required
-    checked
-    class="w-6 h-6 accent-black border-2 border-black rounded-full mr-3"
-  />
-  <label for="privacy" class="text-[24px] font-bold text-black select-none">
-    プライバシーポリシーに同意する
-  </label>
-</div>
+              <label class="inline-flex items-center text-lg font-medium">
+                <input type="radio" name="privacy" required checked class="accent-black mr-2" />
+                プライバシーポリシーに同意する
+              </label>
             </div>
 
-            <!-- Button -->
             <div class="flex justify-center mt-20">
               <button type="submit" class="w-[320px] h-25 bg-[#6d6d6d] text-white text-lg font-bold rounded-full flex items-center justify-center shadow-none hover:bg-[#444] transition">
                 入力内容確認画面
@@ -256,8 +236,98 @@
             </div>
           </form>
         </div>
-      </section>
+      </section> -->
       <!-- Contact Area End -->
+
+      <section class="flex flex-col items-center w-full py-8 md:py-16 bg-white">
+        <div class="w-full px-4 md:px-0 max-w-[980px]">
+          <h2 class="text-[50px] md:text-[80px] lg:text-[130px] justify-center mb-2 leading-none l-main-content__contact-title-en js-title">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+          </h2>
+          <p class="text-center text-[18px] md:text-[20px] lg:text-[24px] font-bold mb-20 md:mb-32">お問い合わせ／内覧お申込み／お申込み</p>
+          <p class="text-center font-medium text-[14px] md:text-[18px] lg:text-[20px] mb-8 md:mb-10">メールフォームにてお気軽にお問い合わせください。</p>
+
+          <form class="w-full">
+            <div class="border-t border-b border-black rounded-none">
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <div class="flex items-center w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="category">お問い合わせカテゴリー</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必　須</span>
+                </div>
+                <select id="category" required class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]">
+                  <option value="">以下から選択してください</option>
+                  <option value="inquiry">お問い合わせ</option>
+                  <option value="tour">内覧お申込み</option>
+                  <option value="apply">お申込み</option>
+                </select>
+              </div>
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <label class="w-[200px] md:w-[334px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="company">会社名</label>
+                <input id="company" type="text" class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              </div>
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <div class="flex items-center w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="name">氏 名</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必　須</span>
+                </div>
+                <input id="name" type="text" required class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              </div>
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <div class="flex items-center w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="furigana">ふりがな</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必　須</span>
+                </div>
+                <input id="furigana" type="text" required class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              </div>
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <div class="flex items-center w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="tel">電話番号</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必　須</span>
+                </div>
+                <input id="tel" type="tel" required class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              </div>
+              <div class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 bg-[#ededed] border-b border-black">
+                <div class="flex items-center w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="email">メールアドレス</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必　須</span>
+                </div>
+                <input id="email" type="email" required class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              </div>
+              <div class="flex flex-col md:flex-row items-start p-3 md:p-4 bg-[#ededed]">
+                <div class="flex items-start w-full md:w-auto mb-2 md:mb-0">
+                  <label class="w-[200px] md:w-[236px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black" for="message">問い合わせ内容</label>
+                  <span class="text-[12px] md:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 mt-3 font-medium">必　須</span>
+                </div>
+                <textarea id="message" required rows="7" class="w-full md:flex-1 px-3 py-2 mt-0 md:mt-3 bg-white border-none outline-none text-[14px] md:text-[18px] resize-none"></textarea>
+              </div>
+            </div>
+            <div class="mt-6 md:mt-8">
+              <p class="text-3xl md:text-xl font-bold mb-6 md:mb-4">個人情報保護</p>
+              <p class="text-[12px] md:text-[18px] font-medium mb-6 md:mb-3">
+                ここで入力された情報で個人情報にあたるものは、「プライバシーポリシー」に従って利用させていただきます。<br>
+                同意いただける方は「入力内容確認画面へ」と進んでください。
+              </p>
+              <label class="inline-flex items-center text-[12px] md:text-lg font-medium">
+                <input type="radio" name="privacy" required checked class="accent-black mr-2" />
+                プライバシーポリシーに同意する
+              </label>
+            </div>
+
+            <div class="flex justify-center mt-12 md:mt-20">
+              <button type="submit" class="w-[250px] md:w-[320px] h-25 md:h-25 bg-[#6d6d6d] text-white text-[16px] md:text-lg font-bold rounded-full flex items-center justify-center shadow-none hover:bg-[#444] transition">
+                入力内容確認画面
+                <span class="ml-4 md:ml-8 text-lg md:text-xl">&#9654;</span>
+              </button>
+            </div>
+          </form>
+        </div>
+      </section>
     </main>
     <footer class="l-footer">
       <div class="l-footer__group">
@@ -301,7 +371,7 @@
             <a class="l-footer__link" href="#"> RENTAL KITCHEN TRAILER </a>
           </li>
           <li class="l-footer__item">
-            <a class="l-footer__link" href="#"> INFORMATION </a>
+            <a class="l-footer__link" href="information.html"> INFORMATION </a>
           </li>
           <li class="l-footer__item">
             <a class="l-footer__link" href="/pages/contact.html"> CONTACT </a>
