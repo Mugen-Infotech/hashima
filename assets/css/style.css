@@ -4121,6 +4121,10 @@ input[type="file"]::file-selector-button {
 .title__font-family {
   font-family: Bebas Neue, sans-serif;
 }
+
+
+/* Pages Css */
+/* About */
 .about-content span:not(:first-child) {
   margin-top: 1.625rem;
 }
@@ -4161,7 +4165,9 @@ input[type="file"]::file-selector-button {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
 }
+/* About End */
 
+/* Contact */
 .l-main-content__contact-title-en {
   display: flex;
   overflow: hidden;
@@ -4208,3 +4214,4 @@ input[type="file"]::file-selector-button {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
 }
+/* Contact End */
