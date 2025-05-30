@@ -135,15 +135,29 @@ function M() {
     }).start();
   });
 }
+// function O() {
+//   const n = document.querySelector(".js-facility-wrapper"),
+//     e = document.querySelector(":root");
+//   window.addEventListener("scroll", () => {
+//     const t = document.documentElement.clientHeight - n.scrollHeight;
+//     let i = window.scrollY / t;
+//     i < -9 && (i = -9), e.style.setProperty("--scroll-progress-wrapper", i);
+//   });
+// }
 function O() {
-  const n = document.querySelector(".js-facility-wrapper"),
-    e = document.querySelector(":root");
+  const n = document.querySelector(".js-facility-wrapper");
+  if (!n) return;
+
+  const e = document.querySelector(":root");
+
   window.addEventListener("scroll", () => {
     const t = document.documentElement.clientHeight - n.scrollHeight;
     let i = window.scrollY / t;
-    i < -9 && (i = -9), e.style.setProperty("--scroll-progress-wrapper", i);
+    i < -9 && (i = -9);
+    e.style.setProperty("--scroll-progress-wrapper", i);
   });
 }
+
 var a, y, w, m, L;
 class T {
   constructor(e = {}) {
