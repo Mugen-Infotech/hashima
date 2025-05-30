@@ -585,7 +585,7 @@ input[type="file"]::file-selector-button {
   background-color: #595757;
 }
 .l-main-content {
-  /* padding-top: 9.71875rem; */
+  padding-top: 9.71875rem;
 }
 .l-main-content__googlemap {
   width: 100%;
@@ -2423,6 +2423,9 @@ input[type="file"]::file-selector-button {
   }
 }
 @media (min-width: 768px) {
+  .l-main-content {
+    padding-top: 4rem;
+  }
   .u-md-dn {
     display: none !important;
   }
