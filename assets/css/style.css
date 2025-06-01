@@ -4274,6 +4274,24 @@ input[type="file"]::file-selector-button {
 .l-main-content__space-title-en span:nth-child(12) {
   transition-delay: 0.99s;
 }
+.l-main-content__space-title-en span:nth-child(13) {
+  transition-delay: 1.08s;
+}
+.l-main-content__space-title-en span:nth-child(14) {
+  transition-delay: 1.17s;
+}
+.l-main-content__space-title-en span:nth-child(15) {
+  transition-delay: 1.26s;
+}
+.l-main-content__space-title-en span:nth-child(16) {
+  transition-delay: 1.35s;
+}
+.l-main-content__space-title-en span:nth-child(17) {
+  transition-delay: 1.44s;
+}
+.l-main-content__space-title-en span:nth-child(18) {
+  transition-delay: 1.53s;
+}
 .l-main-content__space-title-en.is-visible span {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
