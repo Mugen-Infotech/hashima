@@ -1,410 +1,591 @@
 <!DOCTYPE html>
 <html lang="ja">
-   <head>
-      <meta charset="UTF-8" />
-      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="format-detection" content="telephone=no,email=no" />
-      <title>HASHIMA BASE</title>
-      <meta name="description" content="HASHIMA BASEの紹介ページ" />
-      <link rel="canonical" href="https://hoge.com" />
-      <!-- Favicon -->
-      <link rel="icon" href="#" />
-      <!-- apple-touch-icon -->
-      <link rel="apple-touch-icon" sizes="180x180" href="#" />
-      <!-- Open Graph Protocol -->
-      <meta property="og:locale" content="ja_JP" />
-      <meta property="og:url" content="https://hoge.com" />
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="HASHIMA BASE" />
-      <meta property="og:description" content="HASHIMA BASEの紹介ページ" />
-      <meta property="og:site_name" content="HASHIMA BASE" />
-      <meta property="og:image" content="/og-image.jpg" />
-      <!-- Twitter Card -->
-      <meta name="twitter:card" content="summary_large_image" />
-      <meta name="twitter:site" content="@hashimabase" />
-      <meta name="twitter:title" content="HASHIMA BASE" />
-      <meta name="twitter:description" content="HASHIMA BASEの紹介ページ" />
-      <meta name="twitter:image" content="/twitter-image.jpg" />
-      <!-- Google Fonts -->
-      <link rel="preconnect" href="https://fonts.googleapis.com" />
-      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-      <link
-         href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
-         rel="stylesheet"
-         />
-      <!-- FONTPLUS -->
-      <script
-         defer=""
-         src="https://webfont.fontplus.jp/accessor/script/fontplus.js?4SOBObYu78U%3D&box=9RpT-y2Pask%3D&aa=1&ab=2"
-         ></script>
-      <!-- Fontawesome -->
-      <script
-         src="https://kit.fontawesome.com/234d4cc762.js"
-         crossorigin="anonymous"
-         defer
-         ></script>
-      <script type="module" crossorigin src="/assets/js/main.js"></script>
-      <link rel="stylesheet" crossorigin href="/assets/css/style.css" />
-      <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-      <script src="https://cdn.tailwindcss.com"></script>
-   </head>
-   <body class="l-body">
-      <header class="l-header">
-         <p class="l-header__name">HASHIMA BASE</p>
-         <nav class="l-header__nav">
-            <ul class="l-header__list">
-               <li class="l-header__item">
-                  <a class="l-header__link" href="/pages/about.html"> ABOUT </a>
-               </li>
-               <li class="l-header__item">
-                  <a class="l-header__link" href="/pages/bike.html"> RENTAL BIKE GARAGE </a>
-               </li>
-               <li class="l-header__item">
-                  <a class="l-header__link" href="/pages/space.html"> RENTAL SPACE </a>
-               </li>
-               <li class="l-header__item">
-                  <a class="l-header__link" href="/pages/trailer.html"> RENTAL KITCHEN TRAILER </a>
-               </li>
-               <li class="l-header__item">
-                  <a class="l-header__link" href="information.html"> INFORMATION </a>
-               </li>
-               <li class="l-header__item">
-                  <a class="l-header__link" href="/pages/contact.html"> CONTACT </a>
-               </li>
-            </ul>
-            <div class="l-header__sns">
-               <a class="l-header__sns-link">
-               <i class="fa-brands fa-instagram"></i>
-               </a>
-               <a class="l-header__sns-link">
-               <i class="fa-brands fa-facebook"></i>
-               </a>
-            </div>
-         </nav>
-         <div class="l-header__follow">
-            <a class="l-header__follow-link" href="#">CONTACT</a>
-            <a class="l-header__follow-link" href="#">TEL</a>
-         </div>
-      </header>
-      <button
-         class="l-global-menu-button js-global-menu-button"
-         type="button"
-         aria-controls="global-menu"
-         aria-expanded="false"
-         aria-label="メニューを開く"
-         >
-      <span
-         class="l-global-menu-button__bar l-global-menu-button__bar--top"
-         ></span>
-      <span
-         class="l-global-menu-button__bar l-global-menu-button__bar--bottom"
-         ></span>
-      </button>
-      <div
-         id="global-menu"
-         class="l-global-menu js-global-menu"
-         aria-hidden="true"
-         >
-         <div class="l-global-menu__inner">
-            <div class="l-global-menu__sns">
-               <a class="l-global-menu__sns-link" href="#">
-               <i class="fa-brands fa-instagram"></i>
-               </a>
-               <a class="l-global-menu__sns-link" href="#">
-               <i class="fa-brands fa-facebook"></i>
-               </a>
-            </div>
-            <ul class="l-global-menu__list">
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/about.html"> ABOUT </a>
-               </li>
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/bike.html"> RENTAL BIKE GARAGE </a>
-               </li>
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/space.html"> RENTAL SPACE </a>
-               </li>
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/trailer.html"> RENTAL KITCHEN TRAILER </a>
-               </li>
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/information.html">
-                  INFORMATION
-                  </a>
-               </li>
-               <li class="l-global-menu__item">
-                  <a class="l-global-menu__link" href="/pages/contact.html">
-                  CONTACT
-                  </a>
-               </li>
-            </ul>
-            <div class="l-global-menu__group">
-               <img
-                  class="l-global-menu__logo"
-                  src="../assets/images/common/logo.svg"
-                  width="236"
-                  height="220"
-                  decoding="async"
-                  alt="ロゴ"
-                  />
-               <p class="l-global-menu__name">HASHIMA<br />BASE</p>
-            </div>
-         </div>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="format-detection" content="telephone=no,email=no" />
+    <title>HASHIMA BASE</title>
+    <meta name="description" content="HASHIMA BASEの紹介ページ" />
+    <link rel="canonical" href="https://hoge.com" />
+    <!-- Favicon -->
+    <link rel="icon" href="#" />
+    <!-- apple-touch-icon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="#" />
+    <!-- Open Graph Protocol -->
+    <meta property="og:locale" content="ja_JP" />
+    <meta property="og:url" content="https://hoge.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HASHIMA BASE" />
+    <meta property="og:description" content="HASHIMA BASEの紹介ページ" />
+    <meta property="og:site_name" content="HASHIMA BASE" />
+    <meta property="og:image" content="/og-image.jpg" />
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@hashimabase" />
+    <meta name="twitter:title" content="HASHIMA BASE" />
+    <meta name="twitter:description" content="HASHIMA BASEの紹介ページ" />
+    <meta name="twitter:image" content="/twitter-image.jpg" />
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- FONTPLUS -->
+    <script
+      defer=""
+      src="https://webfont.fontplus.jp/accessor/script/fontplus.js?4SOBObYu78U%3D&box=9RpT-y2Pask%3D&aa=1&ab=2"
+    ></script>
+    <!-- Fontawesome -->
+    <script
+      src="https://kit.fontawesome.com/234d4cc762.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script type="module" crossorigin src="/assets/js/main.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/css/style.css" />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="l-body">
+    <header class="l-header">
+      <p class="l-header__name">HASHIMA BASE</p>
+      <nav class="l-header__nav">
+        <ul class="l-header__list">
+          <li class="l-header__item">
+            <a class="l-header__link" href="/pages/about.html"> ABOUT </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="/pages/bike.html">
+              RENTAL BIKE GARAGE
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="/pages/space.html">
+              RENTAL SPACE
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="/pages/trailer.html">
+              RENTAL KITCHEN TRAILER
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="information.html"> INFORMATION </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="/pages/contact.html"> CONTACT </a>
+          </li>
+        </ul>
+        <div class="l-header__sns">
+          <a class="l-header__sns-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="l-header__sns-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+      </nav>
+      <div class="l-header__follow">
+        <a class="l-header__follow-link" href="#">CONTACT</a>
+        <a class="l-header__follow-link" href="#">TEL</a>
       </div>
-      <div class="p-main-visual">
-        <div class="p-main-visual__group">
-            <img class="w-full h-auto block" src="/assets/images/p-plan/space-sp.webp" width="1326" height="920" alt="" />
+    </header>
+    <button
+      class="l-global-menu-button js-global-menu-button"
+      type="button"
+      aria-controls="global-menu"
+      aria-expanded="false"
+      aria-label="メニューを開く"
+    >
+      <span
+        class="l-global-menu-button__bar l-global-menu-button__bar--top"
+      ></span>
+      <span
+        class="l-global-menu-button__bar l-global-menu-button__bar--bottom"
+      ></span>
+    </button>
+    <div
+      id="global-menu"
+      class="l-global-menu js-global-menu"
+      aria-hidden="true"
+    >
+      <div class="l-global-menu__inner">
+        <div class="l-global-menu__sns">
+          <a class="l-global-menu__sns-link" href="#">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="l-global-menu__sns-link" href="#">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <ul class="l-global-menu__list">
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/about.html"> ABOUT </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/bike.html">
+              RENTAL BIKE GARAGE
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/space.html">
+              RENTAL SPACE
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/trailer.html">
+              RENTAL KITCHEN TRAILER
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/information.html">
+              INFORMATION
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="/pages/contact.html">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+        <div class="l-global-menu__group">
+          <img
+            class="l-global-menu__logo"
+            src="../assets/images/common/logo.svg"
+            width="236"
+            height="220"
+            decoding="async"
+            alt="ロゴ"
+          />
+          <p class="l-global-menu__name">HASHIMA<br />BASE</p>
+        </div>
+      </div>
+    </div>
+    <div class="p-main-visual">
+      <div class="p-main-visual__group">
+        <img
+          class="w-full h-auto block"
+          src="/assets/images/p-plan/space-sp.webp"
+          width="1326"
+          height="920"
+          alt=""
+        />
+      </div>
+    </div>
+    <main class="pt-10 sm:pt-20 md:pt-20 lg:pt-10 xl:pt-10 2xl:pt-48">
+      <section class="w-full bg-white">
+        <div class="max-w-5xl mx-auto px-4 pb-10">
+          <h2
+            class="text-[50px] md:text-[80px] lg:text-[205px] title__font-family justify-center leading-none mb-2 l-main-content__space-title-en js-title"
+          >
+            <span>R</span>
+            <span>E</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>L</span>
+            <span>&nbsp;</span>
+            <span>S</span>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>E</span>
+          </h2>
+          <p
+            class="text-center text-[18px] md:text-[20px] lg:text-[40px] font-bold mb-20"
+          >
+            レンタルスペース
+          </p>
+          <p
+            class="text-left text-3xl md:text-lg lg:text-xl max-w-3xl mx-auto font-medium pb-20 !leading-10 sm:!leading-20 md:!leading-10 lg:!leading-10"
+          >
+            バイク仲間とのイベントやミーティング、期間限定のポップアップショップや展示会など、多彩な用途でご利用いただけます。室内外どちらでも快適に過ごせるうえ、レイアウトも自由自在。あなたの夢やアイデアをカタチにする拠点として有効にご活用ください。
+          </p>
+          <p
+            class="text-center text-[18px] md:text-[20px] lg:text-[20px] font-bold mb-8"
+          >
+            こんな方におすすめです!
+          </p>
+          <div class="flex flex-wrap justify-center gap-4 mb-24">
+            <span
+              class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
+              ><i
+                class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"
+              ></i
+              >イベント利用の方</span
+            >
+            <span
+              class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
+              ><i
+                class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"
+              ></i
+              >ミーティング利用の方</span
+            >
+            <span
+              class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
+              ><i
+                class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"
+              ></i
+              >期間限定SHOPを開催したい方</span
+            >
+            <span
+              class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
+              ><i
+                class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"
+              ></i
+              >展示会を開催したい方</span
+            >
+            <span
+              class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
+              ><i
+                class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"
+              ></i
+              >バイク仲間欲しい方</span
+            >
+            <span class="flex items-center font-semibold text-2xl md:text-xl"
+              >など</span
+            >
           </div>
-      </div>
-      <main class="pt-10 sm:pt-20 md:pt-20 lg:pt-10 xl:pt-10 2xl:pt-48">
-         <section class="w-full bg-white">
-         <div class="max-w-5xl mx-auto px-4 pb-10">
-               <h2 class="text-[50px] md:text-[80px] lg:text-[205px] title__font-family justify-center leading-none mb-2 l-main-content__space-title-en js-title">
-                  <span>R</span>
-                  <span>E</span>
-                  <span>N</span>
-                  <span>T</span>
-                  <span>A</span>
-                  <span>L</span>
-                  <span>&nbsp;</span>
-                  <span>S</span>
-                  <span>P</span>
-                  <span>A</span>
-                  <span>C</span>
-                  <span>E</span>
-               </h2>
-               <p class="text-center text-[18px] md:text-[20px] lg:text-[40px] font-bold mb-20">レンタルスペース</p>
-               <p class="text-left text-3xl md:text-lg lg:text-xl max-w-3xl mx-auto font-medium pb-20 !leading-10 sm:!leading-20 md:!leading-10 lg:!leading-10">
-                  バイク仲間とのイベントやミーティング、期間限定のポップアップショップや展示会など、多彩な用途でご利用いただけます。室内外どちらでも快適に過ごせるうえ、レイアウトも自由自在。あなたの夢やアイデアをカタチにする拠点として有効にご活用ください。
-               </p>
-               <p class="text-center text-[18px] md:text-[20px] lg:text-[20px] font-bold mb-8">こんな方におすすめです!</p>
-               <div class="flex flex-wrap justify-center gap-4 mb-24">
-                  <span class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"><i class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"></i>イベント利用の方</span>
-                  <span class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"><i class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"></i>ミーティング利用の方</span>
-                  <span class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"><i class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"></i>期間限定SHOPを開催したい方</span>
-                  <span class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"><i class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"></i>展示会を開催したい方</span>
-                  <span class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"><i class="fa-solid fa-check mr-2 text-3xl sm:text-3xl md:text-3xl lg:text-xl"></i>バイク仲間欲しい方</span>
-                  <span class="flex items-center font-semibold text-2xl md:text-xl">など</span>
-               </div>
-               <div class="flex justify-center">
-                  <div class="relative z-20 -mb-7">
-                     <img src="/assets/images/common/logo.svg" alt="HASHIMA BASE" class="object-contain" />
-                  </div>
-               </div>
+          <div class="flex justify-center">
+            <div class="relative z-20 -mb-7">
+              <img
+                src="/assets/images/common/logo.svg"
+                alt="HASHIMA BASE"
+                class="object-contain"
+              />
             </div>
-            
-            <div class="relative w-full bg-black py-0">
-               <div class="relative z-10 w-full flex flex-col lg:flex-row items-center rounded-2xl shadow-xl pt-44 pb-12 mt-[-90px]">
-                  <div class="w-full lg:w-[980px] flex justify-center mb-8 lg:mb-0">
-                     <img src="/assets/images/p-plan/space1.jpg" alt="Rental Space" class="w-full h-auto object-cover" />
-                  </div>
-                  <div class="w-full lg:w-1/2 flex flex-col justify-center px-4 lg:px-10">
-                     <h2 class="title__font-family text-white text-[50px] md:text-[48px] lg:text-[64px] mb-6 leading-none l-main-content__space-title-en js-title">
-                        <span>R</span>
-                        <span>E</span>
-                        <span>N</span>
-                        <span>T</span>
-                        <span>A</span>
-                        <span>L</span>
-                        <span>&nbsp;</span>
-                        <span>S</span>
-                        <span>P</span>
-                        <span>A</span>
-                        <span>C</span>
-                        <span>E</span>
-                     </h2>
-                     <div class="flex items-center mb-6">
-                     <div class="flex-shrink-0">
-                        <div class="rounded-full border-2 border-white w-[45px] md:w-[60px] md:h-[60px] h-[45px] flex items-center justify-center">
-                           <span class="text-white text-[14px] md:text-[20px] font-bold tracking-wide">貸料</span>
-                        </div>
-                     </div>
-                     <div class="ml-6">
-                        <p class="text-[14px] md:text-[20px] font-medium text-white mb-1">午前（8:00から12:00）</p>
-                        <p class="text-[14px] md:text-[20px] font-medium text-white">午後（13:00から17:00）共に</p>
-                     </div>
-                     </div>
-                     <h3 class="text-[25px] md:text-[30px] font-bold mb-4 tracking-tight text-white">レンタルスペース</h3>
-                     <div class="space-y-3 mb-4">
-                        <div class="flex items-baseline px-6">
-                           <span class="text-[14px] md:text-[20px] mr-4 text-white font-bold">4時間／</span>
-                           <span class="text-[40px] md:text-[48px] text-white title__font-family tracking-[0.30rem]">10,000</span>
-                           <span class="text-[22px] text-white title__font-family">YEN</span>
-                           <span class="text-[16px] ml-2 text-white font-medium">（税別）</span>
-                        </div>
-                        <div class="flex items-baseline px-6">
-                           <span class="text-[14px] md:text-[20px] mr-4 text-white font-bold">1ヶ月／</span>
-                           <span class="text-[40px] md:text-[48px] text-white title__font-family tracking-[0.30rem]">40,000</span>
-                           <span class="text-[22px] text-white title__font-family">YEN</span>
-                           <span class="text-[16px] ml-2 text-white font-medium">（税別）</span>
-                        </div>
-                        <div class="flex items-baseline px-6 !mt-0">
-                           <p class="text-[14px] md:text-[16px] text-white font-normal">※2年目以降は50,000円。</p>
-                        </div>
-                     </div>
-                     <p class="text-[14px] md:text-[16px] mt-4 text-white font-normal">
-                     ※期間延長の場合は2時間〜となる（2,500円/時間）<br>
-                     ※平日、貸出および延長は全て事前連絡です。
-                     </p>
-                  </div>
-               </div>
-            </div>
+          </div>
+        </div>
 
-         <div class="bg-black text-white py-28">
-            <div class="max-w-7xl mx-auto px-4">
-               <div class="mb-8 border-b pb-2">
-               <span class="text-[14px] md:text-xl font-bold">セットで借りるとお得！</span>
-               </div>
-               <div class="flex">
-                  <div class="text-center">
-                     <h2 class="text-5xl md:text-8xl mb-4 title__font-family">
-                        <span>SET RENTAL</span>
-                        <span class="text-2xl md:text-4xl font-bold ml-4 align-middle">レンタルスペース + レンタルキッチントレーラー</span>
-                     </h2>
+        <div class="relative w-full bg-black py-0">
+          <div
+            class="relative z-10 w-full flex flex-col lg:flex-row items-center rounded-2xl shadow-xl pt-44 pb-12 mt-[-90px]"
+          >
+            <div class="w-full lg:w-[980px] flex justify-center mb-8 lg:mb-0">
+              <img
+                src="/assets/images/p-plan/space1.jpg"
+                alt="Rental Space"
+                class="w-full h-auto object-cover"
+              />
+            </div>
+            <div
+              class="w-full lg:w-1/2 flex flex-col justify-center px-4 lg:px-10"
+            >
+              <h2
+                class="title__font-family text-white text-[50px] md:text-[48px] lg:text-[64px] mb-6 leading-none l-main-content__space-title-en js-title"
+              >
+                <span>R</span>
+                <span>E</span>
+                <span>N</span>
+                <span>T</span>
+                <span>A</span>
+                <span>L</span>
+                <span>&nbsp;</span>
+                <span>S</span>
+                <span>P</span>
+                <span>A</span>
+                <span>C</span>
+                <span>E</span>
+              </h2>
+              <div class="flex items-center mb-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="rounded-full border-2 border-white w-[45px] md:w-[60px] md:h-[60px] h-[45px] flex items-center justify-center"
+                  >
+                    <span
+                      class="text-white text-[14px] md:text-[20px] font-bold tracking-wide"
+                      >貸料</span
+                    >
                   </div>
-               </div>
-               <div class="w-full flex flex-col lg:flex-row items-center gap-8">
-                  <div class="flex-1/2 flex flex-col lg:flex-row items-center gap-2">
-                     <img src="/assets/images/p-plan/space.webp" alt="レンタルスペース" class="w-full mb-[-8px] md:mb-4">
-                     <span class="text-8xl font-bold pr-8 md:pr-8">+</span>
-                     <img src="/assets/images/p-plan/trailer.webp" alt="キッチントレーラー" class="w-full mb-4 md:mb-4">
+                </div>
+                <div class="ml-6">
+                  <p
+                    class="text-[14px] md:text-[20px] font-medium text-white mb-1"
+                  >
+                    午前（8:00から12:00）
+                  </p>
+                  <p class="text-[14px] md:text-[20px] font-medium text-white">
+                    午後（13:00から17:00）共に
+                  </p>
+                </div>
+              </div>
+              <h3
+                class="text-[25px] md:text-[30px] font-bold mb-4 tracking-tight text-white"
+              >
+                レンタルスペース
+              </h3>
+              <div class="space-y-3 mb-4">
+                <div class="flex items-baseline px-6">
+                  <span
+                    class="text-[14px] md:text-[20px] mr-4 text-white font-bold"
+                    >4時間／</span
+                  >
+                  <span
+                    class="text-[40px] md:text-[48px] text-white title__font-family tracking-[0.30rem]"
+                    >10,000</span
+                  >
+                  <span class="text-[22px] text-white title__font-family"
+                    >YEN</span
+                  >
+                  <span class="text-[16px] ml-2 text-white font-medium"
+                    >（税別）</span
+                  >
+                </div>
+                <div class="flex items-baseline px-6">
+                  <span
+                    class="text-[14px] md:text-[20px] mr-4 text-white font-bold"
+                    >1ヶ月／</span
+                  >
+                  <span
+                    class="text-[40px] md:text-[48px] text-white title__font-family tracking-[0.30rem]"
+                    >40,000</span
+                  >
+                  <span class="text-[22px] text-white title__font-family"
+                    >YEN</span
+                  >
+                  <span class="text-[16px] ml-2 text-white font-medium"
+                    >（税別）</span
+                  >
+                </div>
+                <div class="flex items-baseline px-6 !mt-0">
+                  <p class="text-[14px] md:text-[16px] text-white font-normal">
+                    ※2年目以降は50,000円。
+                  </p>
+                </div>
+              </div>
+              <p class="text-[14px] md:text-[16px] mt-4 text-white font-normal">
+                ※期間延長の場合は2時間〜となる（2,500円/時間）<br />
+                ※平日、貸出および延長は全て事前連絡です。
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="bg-black text-white py-28">
+          <div class="max-w-7xl mx-auto px-4">
+            <div class="mb-8 border-b pb-2">
+              <span class="text-[14px] md:text-xl font-bold"
+                >セットで借りるとお得！</span
+              >
+            </div>
+            <div class="flex">
+              <div class="text-center">
+                <h2 class="text-5xl md:text-8xl mb-4 title__font-family">
+                  <span>SET RENTAL</span>
+                  <span class="text-2xl md:text-4xl font-bold ml-4 align-middle"
+                    >レンタルスペース + レンタルキッチントレーラー</span
+                  >
+                </h2>
+              </div>
+            </div>
+            <div class="w-full flex flex-col lg:flex-row items-center gap-8">
+              <div
+                class="flex-1/2 flex flex-col lg:flex-row items-center gap-2"
+              >
+                <img
+                  src="/assets/images/p-plan/space.webp"
+                  alt="レンタルスペース"
+                  class="w-full mb-[-8px] md:mb-4"
+                />
+                <span class="text-8xl font-bold pr-8 md:pr-8">+</span>
+                <img
+                  src="/assets/images/p-plan/trailer.webp"
+                  alt="キッチントレーラー"
+                  class="w-full mb-4 md:mb-4"
+                />
+              </div>
+              <div class="flex-1/5 flex flex-col items-start lg:items-center">
+                <div class="flex flex-col gap-2">
+                  <div class="flex items-baseline">
+                    <span class="text-[14px] md:text-[20px] mr-4 font-bold"
+                      >1日限定／</span
+                    >
+                    <span
+                      class="text-[40px] md:text-[48px] title__font-family tracking-[0.30rem]"
+                      >5,000</span
+                    >
+                    <span class="text-[22px] title__font-family">YEN</span>
+                    <span class="text-[16px] ml-1 font-normal">（税別）</span>
                   </div>
-                  <div class="flex-1/5 flex flex-col items-start lg:items-center">
-                     <div class="flex flex-col gap-2">
-                        <div class="flex items-baseline">
-                           <span class="text-[14px] md:text-[20px] mr-4 font-bold">1日限定／</span>
-                           <span class="text-[40px] md:text-[48px] title__font-family tracking-[0.30rem]">5,000</span>
-                           <span class="text-[22px] title__font-family">YEN</span>
-                           <span class="text-[16px] ml-1 font-normal">（税別）</span>
-                        </div>
-                        <div class="flex items-baseline">
-                           <span class="text-[14px] md:text-[20px] mr-4 font-bold">1ヶ月／</span>
-                           <span class="text-[40px] md:text-[48px] title__font-family tracking-[0.30rem]">50,000</span>
-                           <span class="text-[22px] title__font-family">YEN</span>
-                           <span class="text-[16px] ml-1 font-normal">（税別）</span>
-                        </div>
-                        <div class="flex items-baseline mt-[-17px]">
-                           <div class="text-3xl md:text-lg text-white">※2年目以降は60,000円。</div>
-                        </div>
-                     </div>
+                  <div class="flex items-baseline">
+                    <span class="text-[14px] md:text-[20px] mr-4 font-bold"
+                      >1ヶ月／</span
+                    >
+                    <span
+                      class="text-[40px] md:text-[48px] title__font-family tracking-[0.30rem]"
+                      >50,000</span
+                    >
+                    <span class="text-[22px] title__font-family">YEN</span>
+                    <span class="text-[16px] ml-1 font-normal">（税別）</span>
                   </div>
-               </div>
+                  <div class="flex items-baseline mt-[-17px]">
+                    <div class="text-3xl md:text-lg text-white">
+                      ※2年目以降は60,000円。
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-         </div>
+          </div>
+        </div>
 
-         <div class="max-w-8xl mx-auto px-4 bg-black pb-0 py-16">
-            <div class="grid grid-cols-5 grid-rows-2 gap-2">
-               <div class="col-span-2 row-span-1">
-                  <img src="/assets/images/p-plan/space2.jpg" alt="Gallery 1" class="w-full h-full object-cover" />
-               </div>
-               <div class="col-span-2 row-span-1">
-                  <img src="/assets/images/p-plan/space3.jpg" alt="Gallery 2" class="w-full h-full object-cover" />
-               </div>
-               <div class="col-span-1 row-span-1">
-                  <img src="/assets/images/p-plan/space4.jpg" alt="Gallery 3" class="w-full h-full object-cover" />
-               </div>
-               <div class="col-span-1 row-span-1">
-                  <img src="/assets/images/p-plan/space5.jpg" alt="Gallery 5" class="w-full h-full object-cover" />
-               </div>
-               <div class="col-span-2 row-span-1">
-                  <img src="/assets/images/p-plan/space6.jpg" alt="Gallery 6" class="w-full h-full object-cover" />
-               </div>
-               <div class="col-span-2 row-span-1">
-                  <img src="/assets/images/p-plan/space7.jpg" alt="Gallery 7" class="w-full h-full object-cover" />
-               </div>
+        <div class="max-w-8xl mx-auto px-4 bg-black pb-0 py-16">
+          <div class="grid grid-cols-5 grid-rows-2 gap-2">
+            <div class="col-span-2 row-span-1">
+              <img
+                src="/assets/images/p-plan/space2.jpg"
+                alt="Gallery 1"
+                class="w-full h-full object-cover"
+              />
             </div>
-         </div>
+            <div class="col-span-2 row-span-1">
+              <img
+                src="/assets/images/p-plan/space3.jpg"
+                alt="Gallery 2"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="col-span-1 row-span-1">
+              <img
+                src="/assets/images/p-plan/space4.jpg"
+                alt="Gallery 3"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="col-span-1 row-span-1">
+              <img
+                src="/assets/images/p-plan/space5.jpg"
+                alt="Gallery 5"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="col-span-2 row-span-1">
+              <img
+                src="/assets/images/p-plan/space6.jpg"
+                alt="Gallery 6"
+                class="w-full h-full object-cover"
+              />
+            </div>
+            <div class="col-span-2 row-span-1">
+              <img
+                src="/assets/images/p-plan/space7.jpg"
+                alt="Gallery 7"
+                class="w-full h-full object-cover"
+              />
+            </div>
+          </div>
+        </div>
 
-         <div class="max-w-[1090px] mx-auto px-8 md:px-4 py-16 !pt-36 pb-40">
-            <div class="mb-20">
-               <div class="text-4xl md:text-2xl mb-2 font-bold">駐車場</div>
-               <div class="bg-gray-200 font-semibold rounded px-4 py-4 mb-2 text-2xl md:text-lg">駐車14台スペースあり（コンテナ利用者共用駐車場）</div>
+        <div class="max-w-[1090px] mx-auto px-8 md:px-4 py-16 !pt-36 pb-40">
+          <div class="mb-20">
+            <div class="text-4xl md:text-2xl mb-2 font-bold">駐車場</div>
+            <div
+              class="bg-gray-200 font-semibold rounded px-4 py-4 mb-2 text-2xl md:text-lg"
+            >
+              駐車14台スペースあり（コンテナ利用者共用駐車場）
             </div>
-            <div>
-               <div class="font-black border-b border-black text-4xl md:text-xl pb-1 mb-8">使用についての注意事項</div>
-               <ul class="text-2xl md:text-lg list-disc pl-5 font-semibold space-y-1">
-                  <li>フリースペース（コンテナ内の設備は自由に使用してもOK）</li>
-                  <li>ゴミはお持ち帰りください。</li>
-                  <li>ペットはペットケース・バギーなど、体全体が外に出ていないようにしてください。</li>
-                  <li>契約駐車場以外の駐車場をご利用ください。</li>
-                  <li>RENTAL BIKE GARAGEゾーンへの出入りは禁止。</li>
-               </ul>
+          </div>
+          <div>
+            <div
+              class="font-black border-b border-black text-4xl md:text-xl pb-1 mb-8"
+            >
+              使用についての注意事項
             </div>
-         </div>
-         </section>
-         <!-- Space Area End -->
-
-         <div class="p-contact">
-            <hgroup class="p-contact__title">
-               <h2 class="p-contact__title-en js-title">
-                  <span>C</span>
-                  <span>O</span>
-                  <span>N</span>
-                  <span>T</span>
-                  <span>A</span>
-                  <span>C</span>
-                  <span>T</span>
-               </h2>
-               <p class="p-contact__title-ja">
-                  お問い合わせ／内覧お申込み／お申込み
-               </p>
-            </hgroup>
-            <div class="p-contact__group">
-               <p class="p-contact__tel">TEL 090-4153-3258</p>
-               <p class="p-contact__time">営業時間 8：00〜18：00</p>
-               <a class="p-contact__button" href="#">CONTACT</a>
-            </div>
-         </div>
-      </main>
-      <footer class="l-footer">
-         <div class="l-footer__group">
-            <img
-               class="l-footer__logo"
-               src="../assets/images/common/logo.svg"
-               width="200"
-               height="186"
-               decoding="async"
-               alt="ロゴ"
-               />
-            <div class="l-footer__text-group">
-               <p class="l-footer__name">HASHIMA BASE</p>
-               <p class="l-footer__address">
-                  〒501-6207 岐阜県羽島市足近町6丁目63-1
-               </p>
-            </div>
-         </div>
-         <small class="l-footer__copyright">&copy; 2025 HASHIMA BASE</small>
-         <nav class="l-footer__nav">
-            <div class="l-footer__sns">
-               <a class="l-footer__sns-link">
-               <i class="fa-brands fa-instagram"></i>
-               </a>
-               <a class="l-footer__sns-link">
-               <i class="fa-brands fa-facebook"></i>
-               </a>
-            </div>
-            <ul class="l-footer__list">
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="/pages/about.html"> ABOUT </a>
-               </li>
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="/pages/bike.html"> RENTAL BIKE GARAGE </a>
-               </li>
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="/pages/space.html"> RENTAL SPACE </a>
-               </li>
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="/pages/trailer.html"> RENTAL KITCHEN TRAILER </a>
-               </li>
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="information.html"> INFORMATION </a>
-               </li>
-               <li class="l-footer__item">
-                  <a class="l-footer__link" href="/pages/contact.html"> CONTACT </a>
-               </li>
+            <ul
+              class="text-2xl md:text-lg list-disc pl-5 font-semibold space-y-1"
+            >
+              <li>フリースペース（コンテナ内の設備は自由に使用してもOK）</li>
+              <li>ゴミはお持ち帰りください。</li>
+              <li>
+                ペットはペットケース・バギーなど、体全体が外に出ていないようにしてください。
+              </li>
+              <li>契約駐車場以外の駐車場をご利用ください。</li>
+              <li>RENTAL BIKE GARAGEゾーンへの出入りは禁止。</li>
             </ul>
-            <p class="l-footer__policy">PRIVACY POLICY &nbsp;&nbsp; SITEMAP</p>
-         </nav>
-      </footer>
-   </body>
+          </div>
+        </div>
+      </section>
+      <!-- Space Area End -->
+
+      <div class="p-contact">
+        <hgroup class="p-contact__title">
+          <h2 class="p-contact__title-en js-title">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+          </h2>
+          <p class="p-contact__title-ja">
+            お問い合わせ／内覧お申込み／お申込み
+          </p>
+        </hgroup>
+        <div class="p-contact__group">
+          <p class="p-contact__tel">TEL 090-4153-3258</p>
+          <p class="p-contact__time">営業時間 8：00〜18：00</p>
+          <a class="p-contact__button" href="#">CONTACT</a>
+        </div>
+      </div>
+    </main>
+    <footer class="l-footer">
+      <div class="l-footer__group">
+        <img
+          class="l-footer__logo"
+          src="../assets/images/common/logo.svg"
+          width="200"
+          height="186"
+          decoding="async"
+          alt="ロゴ"
+        />
+        <div class="l-footer__text-group">
+          <p class="l-footer__name">HASHIMA BASE</p>
+          <p class="l-footer__address">
+            〒501-6207 岐阜県羽島市足近町6丁目63-1
+          </p>
+        </div>
+      </div>
+      <small class="l-footer__copyright">&copy; 2025 HASHIMA BASE</small>
+      <nav class="l-footer__nav">
+        <div class="l-footer__sns">
+          <a class="l-footer__sns-link">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="l-footer__sns-link">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <ul class="l-footer__list">
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="/pages/about.html"> ABOUT </a>
+          </li>
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="/pages/bike.html">
+              RENTAL BIKE GARAGE
+            </a>
+          </li>
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="/pages/space.html">
+              RENTAL SPACE
+            </a>
+          </li>
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="/pages/trailer.html">
+              RENTAL KITCHEN TRAILER
+            </a>
+          </li>
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="information.html"> INFORMATION </a>
+          </li>
+          <li class="l-footer__item">
+            <a class="l-footer__link" href="/pages/contact.html"> CONTACT </a>
+          </li>
+        </ul>
+        <p class="l-footer__policy">PRIVACY POLICY &nbsp;&nbsp; SITEMAP</p>
+      </nav>
+    </footer>
+  </body>
 </html>
