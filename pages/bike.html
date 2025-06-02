@@ -222,7 +222,7 @@
           >
             こんな方におすすめです!
           </p>
-          <div class="flex flex-wrap justify-center gap-4 mb-24">
+          <div class="max-w-6xl mx-auto flex flex-wrap justify-center gap-4 mb-24">
             <span
               class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-semibold"
               ><i
@@ -475,10 +475,10 @@
             </div>
             <div class="overflow-x-auto">
               <table
-                class="w-full min-w-[600px] table-fixed border-separate border-spacing-2"
+                class="w-full min-w-[600px] table-fixed border-separate border-spacing-x-2"
               >
                 <tbody>
-                  <tr class="odd:bg-gray-200">
+                  <tr class="odd:bg-gray-200 even:bg-gray-100">
                     <td
                       class="px-6 py-4 text-lg md:text-xl font-semibold text-left"
                     >
@@ -490,7 +490,7 @@
                       警備会社契約済み
                     </td>
                   </tr>
-                  <tr class="odd:bg-gray-200">
+                  <tr class="odd:bg-gray-200 even:bg-gray-100">
                     <td
                       class="px-6 py-4 text-lg md:text-xl font-semibold text-left"
                     >
@@ -502,7 +502,7 @@
                       24時間365日出し入れOK
                     </td>
                   </tr>
-                  <tr class="odd:bg-gray-200">
+                  <tr class="odd:bg-gray-200 even:bg-gray-100">
                     <td
                       class="px-6 py-4 text-lg md:text-xl font-semibold text-left"
                     >
@@ -514,7 +514,7 @@
                       フェンス用カードキー1枚
                     </td>
                   </tr>
-                  <tr class="odd:bg-gray-200">
+                  <tr class="odd:bg-gray-200 even:bg-gray-100">
                     <td
                       class="px-6 py-4 text-lg md:text-xl font-semibold text-left"
                     >
@@ -529,7 +529,7 @@
                       洗車スペース設置予定
                     </td>
                   </tr>
-                  <tr class="odd:bg-gray-200">
+                  <tr class="odd:bg-gray-200 even:bg-gray-100">
                     <td
                       class="px-6 py-4 text-lg md:text-xl font-semibold text-left"
                     >
@@ -680,8 +680,7 @@
           <div class="flex flex-col gap-6 min-w-[340px]">
             <!-- Title -->
             <div>
-              <h2
-                class="text-[48px] md:text-[70px] mb-2 title__font-family">
+              <h2 class="text-[48px] md:text-[70px] mb-2 title__font-family">
                 GARAGE AVAILABILITY
               </h2>
               <div class="text-[22px] md:text-[24px] font-bold mb-2">
@@ -717,40 +716,108 @@
                 >
                   <tbody>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 w-1/3 border-b border-black">A-01</td>
-                      <td class="px-2 py-2 w-1/3 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">✕</td>
-                    </tr>
-                    <tr class=" font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-02</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">✕</td>
-                    </tr>
-                    <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-03</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
-                    </tr>
-                    <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-04</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 w-1/3 border-b border-black"
+                      >
+                        A-01
+                      </td>
+                      <td
+                        class="px-2 py-2 w-1/3 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        ✕
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-05</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-02
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        ✕
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-06</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-03
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-07</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-04
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-white px-4 py-2 border-b border-black">A-08</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black">〇</td>
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-05
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
+                    </tr>
+                    <tr class="font-bold">
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-06
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
+                    </tr>
+                    <tr class="font-bold">
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-07
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
+                    </tr>
+                    <tr class="font-bold">
+                      <td
+                        class="bg-orange-500 text-white px-4 py-2 border-b border-black"
+                      >
+                        A-08
+                      </td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500 border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
                       <td class="bg-orange-500 text-white px-4 py-2">A-09</td>
-                      <td class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500">〇</td>
+                      <td
+                        class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500"
+                      >
+                        〇
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -776,40 +843,108 @@
                 >
                   <tbody>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 w-1/3 border-b border-black">B-01</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 w-1/3 text-center text-[22px] border-b border-black">✕</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 w-1/3 border-b border-black"
+                      >
+                        B-01
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 w-1/3 text-center text-[22px] border-b border-black"
+                      >
+                        ✕
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-02</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">✕</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-02
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        ✕
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-03</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-03
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-04</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-04
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-05</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-05
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-06</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-06
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-07</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-07
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black">B-08</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black">〇</td>
+                      <td
+                        class="bg-[#00B6F1] text-white px-4 py-2 border-b border-black"
+                      >
+                        B-08
+                      </td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px] border-b border-black"
+                      >
+                        〇
+                      </td>
                     </tr>
                     <tr class="font-bold">
                       <td class="bg-[#00B6F1] text-white px-4 py-2">B-09</td>
-                      <td class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px]">〇</td>
+                      <td
+                        class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px]"
+                      >
+                        〇
+                      </td>
                     </tr>
                   </tbody>
                 </table>
@@ -826,7 +961,200 @@
           </div>
         </div>
 
+        <div class="w-full">
+          <div class="bg-black relative overflow-hidden py-20 px-4">
+            <div
+              class="max-w-6xl mx-auto flex flex-col md:flex-row items-center md:items-start gap-10"
+            >
+              <div class="flex-1 flex flex-col justify-center items-start">
+                <h2
+                  class="text-white text-[64px] md:text-[90px] font-extrabold leading-none mb-4"
+                >
+                  DIY
+                </h2>
+                <div
+                  class="text-white text-[22px] md:text-[28px] font-bold mb-2"
+                >
+                  DIYの改造事例
+                </div>
+                <div
+                  class="text-white text-[16px] md:text-[18px] leading-relaxed"
+                >
+                  工具の貸し出しもしています。<br />
+                  （インパクト・丸ノコなど）
+                </div>
+              </div>
+              <div class="flex-2 flex justify-center pb-7">
+                <img
+                  src="/assets/images/p-plan/garage9.jpg"
+                  alt="DIY事例"
+                  class="w-full max-w-[720px] object-cover z-10"
+                />
+              </div>
+            </div>
 
+            <div
+              class="absolute inset-0 flex items-end justify-center pointer-events-none select-none z-0"
+            >
+              <span
+                class="w-full text-center text-[80px] md:text-[180px] lg:text-[200px] text-white/10 leading-none title__font-family"
+              >
+                RENTAL BIKE GARAGE
+              </span>
+            </div>
+          </div>
+
+          <div class="bg-white py-20 px-4">
+            <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
+              <div class="flex-1 flex flex-col items-start">
+                <h2
+                  class="text-black text-[64px] md:text-[120px] leading-none mb-4 title__font-family"
+                >
+                  VOICE
+                </h2>
+                <div
+                  class="text-black text-[22px] md:text-[28px] font-bold mb-2"
+                >
+                  利用者の声
+                </div>
+              </div>
+
+              <div class="flex-[2] flex flex-col gap-12">
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                  <img
+                    src="/assets/images/p-plan/user-default.jpg"
+                    alt="利用者1"
+                    class="rounded-full border-4 border-gray-200"
+                  />
+                  <div>
+                    <div
+                      class="text-black text-[22px] md:text-[26px] font-bold mb-2"
+                    >
+                      コメントが入ります。コメントが入ります。
+                    </div>
+                    <div
+                      class="text-black text-[16px] md:text-[20px] leading-relaxed"
+                    >
+                      コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。
+                    </div>
+                  </div>
+                </div>
+                <div class="flex flex-col md:flex-row items-center gap-8">
+                  <img
+                    src="/assets/images/p-plan/user-default.jpg"
+                    alt="利用者2"
+                    class="rounded-full border-4 border-gray-200"
+                  />
+                  <div>
+                    <div
+                      class="text-black text-[22px] md:text-[26px] font-bold mb-2"
+                    >
+                      コメントが入ります。コメントが入ります。
+                    </div>
+                    <div
+                      class="text-black text-[16px] md:text-[20px] leading-relaxed"
+                    >
+                      コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。コメントが入ります。
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- FLOW Section -->
+        <div class="w-full bg-[#f5f5f6] py-24 px-4">
+          <!-- Title: Full width, top -->
+          <div
+            class="max-w-7xl mx-auto flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30"
+          >
+            <h2
+              class="text-black text-[64px] md:text-[90px] font-extrabold leading-none mb-4"
+              style="font-family: 'Bebas Neue', sans-serif"
+            >
+              FLOW
+            </h2>
+            <div class="text-black text-[28px] md:text-[32px] font-bold mb-2">
+              契約までの流れ
+            </div>
+          </div>
+          <!-- Steps: Below title -->
+          <div
+            class="max-w-full mx-auto flex flex-row items-start justify-between gap-4 w-full"
+          >
+            <!-- Step 1 -->
+            <div class="flex flex-col items-center w-1/4">
+              <img
+                src="/assets/images/p-plan/contact.png"
+                alt="お問い合わせ"
+                class="w-[150px] h-[150px] mb-4"
+              />
+              <span
+                class="bg-black text-white rounded-full w-[245px] px-8 text-center py-2 text-[22px] font-bold mb-2"
+                >お問い合わせ</span
+              >
+            </div>
+            <!-- Arrow -->
+            <div class="flex items-center justify-center w-[40px] h-[120px]">
+              <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+                <polygon points="0,0 32,16 0,32" fill="#ccc" />
+              </svg>
+            </div>
+            <!-- Step 2 -->
+            <div class="flex flex-col items-center w-1/4">
+              <img
+                src="/assets/images/p-plan/preview.png"
+                alt="内覧"
+                class="w-[150px] h-[150px] mb-4"
+              />
+              <span
+                class="bg-black text-white rounded-full w-[245px] px-8 text-center py-2 text-[22px] font-bold mb-2"
+                >内 覧</span
+              >
+              <span
+                class="text-black text-[20px] mt-2 text-center leading-tight"
+                >※内覧は無しでも<br />大丈夫です。</span
+              >
+            </div>
+            <!-- Arrow -->
+            <div class="flex items-center justify-center w-[40px] h-[120px]">
+              <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+                <polygon points="0,0 32,16 0,32" fill="#ccc" />
+              </svg>
+            </div>
+            <!-- Step 3 -->
+            <div class="flex flex-col items-center w-1/4">
+              <img
+                src="/assets/images/p-plan/apply.png"
+                alt="お申込み"
+                class="w-[150px] h-[150px] mb-4"
+              />
+              <span
+                class="bg-black text-white rounded-full w-[245px] px-8 text-center py-2 text-[22px] font-bold mb-2"
+                >お申込み</span
+              >
+            </div>
+            <!-- Arrow -->
+            <div class="flex items-center justify-center w-[40px] h-[120px]">
+              <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+                <polygon points="0,0 32,16 0,32" fill="#ccc" />
+              </svg>
+            </div>
+            <!-- Step 4 -->
+            <div class="flex flex-col items-center w-1/4">
+              <img
+                src="/assets/images/p-plan/contract.png"
+                alt="契約"
+                class="w-[150px] h-[150px] mb-4"
+              />
+              <span
+                class="bg-black text-white rounded-full w-[245px] px-8 text-center py-2 text-[22px] font-bold mb-2"
+                >契 約</span
+              >
+            </div>
+          </div>
+        </div>
       </section>
       <!-- Bike Area End -->
       <div class="p-contact">
