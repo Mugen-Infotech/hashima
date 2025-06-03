@@ -174,72 +174,199 @@
           </div>
           <!-- Blog/Event/News Grid Section -->
           <div class="w-full flex flex-col items-center bg-white pb-20">
-            <!-- Filter Buttons -->
-            <div class="flex gap-2 mb-8">
-              <button class="px-6 py-2 border border-black bg-black text-white font-bold tracking-widest">ALL</button>
-              <button class="px-6 py-2 border border-black bg-white text-black font-bold tracking-widest">EVENT</button>
-              <button class="px-6 py-2 border border-black bg-white text-black font-bold tracking-widest">NEWS</button>
+            <div class="flex gap-2 mb-20">
+              <button class="filter-btn px-6 py-2 !border border-black bg-black text-white font-bold tracking-widest" data-filter="all">ALL</button>
+              <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="event">EVENT</button>
+              <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="news">NEWS</button>
             </div>
-            <!-- Grid -->
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] w-full px-4">
-              <!-- Card 1 -->
-              <div class="flex flex-col">
-                <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200" />
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] w-full px-4" id="postGrid">
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">Renewal OPEN！</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">Renewal OPEN！</a>
               </div>
-              <!-- Card 2 -->
-              <div class="flex flex-col">
-                <img src="/assets/images/sample1.jpg" alt="バイカー集合" class="w-full h-[200px] object-cover border border-gray-200" />
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
               </div>
-              <!-- Card 3 -->
-              <div class="flex flex-col">
-                <img src="/assets/images/sample2.jpg" alt="休業日" class="w-full h-[200px] object-cover border border-gray-200" />
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">今週の水曜日はお休みをいただきます。</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
               </div>
-              <div class="flex flex-col">
-                <img src="/assets/images/sample2.jpg" alt="休業日" class="w-full h-[200px] object-cover border border-gray-200" />
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">今週の水曜日はお休みをいただきます。</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">Renewal OPEN！</a>
               </div>
-              <div class="flex flex-col">
-                <img src="/assets/images/sample2.jpg" alt="休業日" class="w-full h-[200px] object-cover border border-gray-200" />
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">今週の水曜日はお休みをいただきます。</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
               </div>
-              <div class="flex flex-col">
-                <img src="/assets/images/sample2.jpg" alt="休業日" class="w-full h-[200px] object-cover border border-gray-200" />
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
                 <div class="flex items-center gap-2 mt-2">
-                  <span class="bg-black text-white text-xs px-2 py-1">EVENT</span>
-                  <span class="text-xs text-gray-500">2025.04.00</span>
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
                 </div>
-                <p class="mt-1 text-sm font-medium">今週の水曜日はお休みをいただきます。</p>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">Renewal OPEN！</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">Renewal OPEN！</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="Renewal OPEN!" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">Renewal OPEN！</a>
+              </div>
+              <div class="flex flex-col" data-category="event">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">EVENT</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
+              </div>
+              <div class="flex flex-col" data-category="news">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">NEWS</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
+              </div>
+              <div class="flex flex-col" data-category="news">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">NEWS</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
+              </div>
+              <div class="flex flex-col" data-category="news">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">NEWS</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">来週の土曜日、日曜日は全国のバイカー集合のイベントです。</a>
+              </div>
+              <div class="flex flex-col" data-category="news">
+                <a href="/pages/informationDetails.html">
+                  <img src="/assets/images/common/logo.svg" alt="休業日" class="w-full h-[200px] object-contain bg-white border border-gray-200  p-3" />
+                </a>
+                <div class="flex items-center gap-2 mt-2">
+                  <span class="border-2 border-black text-black font-bold text-2xl md:text-sm px-2">NEWS</span>
+                  <span class="text-2xl md:text-sm font-bold text-gray-500">2025.04.00</span>
+                </div>
+                <a href="/pages/informationDetails.html" class="mt-1 text-4xl md:text-lg font-medium hover:underline block">今週の水曜日はお休みをいただきます。</a>
               </div>
             </div>
-            <!-- Pagination -->
-            <div class="flex items-center gap-4 mt-12">
-              <span class="w-8 h-8 flex items-center justify-center rounded-full bg-gray-200 text-black">1</span>
-              <span class="w-8 h-8 flex items-center justify-center rounded-full text-black">2</span>
-              <span class="text-xl">&gt;</span>
-            </div>
+            <div class="flex items-center gap-4 mt-12" id="pagination">
+              <span class="text-xl cursor-pointer" onclick="showPage(1)">&lt;</span>
+              <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer bg-gray-200 text-black" onclick="showPage(1)">1</span>
+              <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer text-black" onclick="showPage(2)">2</span>
+              <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer text-black" onclick="showPage(3)">3</span>
+              <span class="text-xl cursor-pointer" onclick="showPage(2)">&gt;</span>
           </div>
         </section>
          <div class="p-contact">
@@ -319,14 +446,98 @@
          function showDetail(itemId) {
            document.getElementById('info1').classList.add('hidden');
            document.getElementById('info2').classList.remove('hidden');
-         
-           // You can customize the detail content using `itemId` if needed
          }
          
          function goBack() {
            document.getElementById('info2').classList.add('hidden');
            document.getElementById('info1').classList.remove('hidden');
          }
+      </script>
+      <script>
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          // Button active style
+          document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.remove('bg-black', 'text-white');
+            b.classList.add('bg-white', 'text-black');
+          });
+          this.classList.add('bg-black', 'text-white');
+          this.classList.remove('bg-white', 'text-black');
+
+          const filter = this.getAttribute('data-filter');
+          document.querySelectorAll('#postGrid > div').forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-category') === filter) {
+              card.style.display = '';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    </script>
+    <script>
+      const POSTS_PER_PAGE = 9;
+
+      function getFilteredPosts() {
+        const filter = document.querySelector('.filter-btn.bg-black').getAttribute('data-filter');
+        const allPosts = Array.from(document.querySelectorAll('#postGrid > div'));
+        if (filter === 'all') return allPosts;
+        return allPosts.filter(card => card.getAttribute('data-category') === filter);
+      }
+
+      function showPage(page) {
+        const posts = getFilteredPosts();
+        const totalPages = Math.ceil(posts.length / POSTS_PER_PAGE);
+
+        // Hide all posts
+        document.querySelectorAll('#postGrid > div').forEach(card => card.style.display = 'none');
+
+        // Show posts for this page
+        const start = (page - 1) * POSTS_PER_PAGE;
+        const end = start + POSTS_PER_PAGE;
+        posts.slice(start, end).forEach(card => card.style.display = '');
+
+        // Render pagination
+        const pagination = document.getElementById('pagination');
+        pagination.innerHTML = '';
+        for (let i = 1; i <= totalPages; i++) {
+          const btn = document.createElement('span');
+          btn.textContent = i;
+          btn.className = `w-8 h-8 flex items-center justify-center rounded-full cursor-pointer ${i === page ? 'bg-gray-200 text-black' : 'text-black'}`;
+          btn.addEventListener('click', () => showPage(i));
+          pagination.appendChild(btn);
+        }
+        if (page < totalPages) {
+          const next = document.createElement('span');
+          next.innerHTML = '&gt;';
+          next.className = 'text-xl cursor-pointer';
+          next.addEventListener('click', () => showPage(page + 1));
+          pagination.appendChild(next);
+        }
+        if (page > 1) {
+          const prev = document.createElement('span');
+          prev.innerHTML = '&lt;';
+          prev.className = 'text-xl cursor-pointer';
+          prev.addEventListener('click', () => showPage(page - 1));
+          pagination.insertBefore(prev, pagination.firstChild);
+        }
+      }
+
+      // Filter button event
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', function() {
+          document.querySelectorAll('.filter-btn').forEach(b => {
+            b.classList.remove('bg-black', 'text-white');
+            b.classList.add('bg-white', 'text-black');
+          });
+          this.classList.add('bg-black', 'text-white');
+          this.classList.remove('bg-white', 'text-black');
+          showPage(1);
+        });
+      });
+
+      // Initial display
+      showPage(1);
       </script>
    </body>
 </html>
