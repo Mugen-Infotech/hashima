@@ -1116,7 +1116,7 @@ input[type="file"]::file-selector-button {
 .p-main-visual__title-text-desktop span:nth-child(12) {
   transition-delay: 0.5s;
 }
-.p-main-visual__title-text-desktop.is-visible span {
+/* .p-main-visual__title-text-desktop.is-visible span {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
 }
@@ -1134,6 +1134,21 @@ input[type="file"]::file-selector-button {
     -webkit-transform cubic-bezier(0.215, 0.61, 0.355, 1) 0.5s;
   -webkit-transform: translate(0, 105%);
   transform: translateY(105%);
+} */
+.p-main-visual__title-text-desktop span {
+  display: block;
+  width: fit-content;
+  height: fit-content;
+  opacity: 0;
+  transform: translateY(105%);
+  transition:
+    transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
+    opacity 0.8s ease;
+}
+
+.p-main-visual__title-text-desktop.is-visible span {
+  transform: translateY(0);
+  opacity: 1;
 }
 .p-main-visual__title-text br {
   display: none;
@@ -4503,5 +4518,4 @@ input[type="file"]::file-selector-button {
     opacity: 0;
     pointer-events: none;
   }
-  
 }
