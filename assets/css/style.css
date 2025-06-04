@@ -4467,7 +4467,7 @@ input[type="file"]::file-selector-button {
   }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 768px) {
   #intro-overlay {
     position: fixed;
     z-index: 9999;
