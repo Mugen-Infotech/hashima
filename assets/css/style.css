@@ -4025,10 +4025,11 @@ input[type="file"]::file-selector-button {
   .p-plan__main-title {
     padding-top: 17.4125rem;
     margin-left: 0.5625rem;
+    margin-right: 0.5625rem;
   }
   .p-plan__main-title-en {
     margin-inline: auto;
-    font-size: 49px;
+    font-size: 51px;
     line-height: 1.1368421053;
     letter-spacing: 0.03em;
   }
