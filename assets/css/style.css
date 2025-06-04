@@ -351,8 +351,8 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4.375rem;
-  line-height: 1.3285714286;
+  font-size: 77px;
+  line-height: 1;
   color: #000;
 }
 .l-footer__address {
@@ -360,7 +360,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 1.125rem;
+  font-size: 16px;
   line-height: 1.2222222222;
   color: #000;
 }
@@ -370,7 +370,7 @@ input[type="file"]::file-selector-button {
   margin-left: 0.1625rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-optical-sizing: auto;
   font-size: 0.75rem;
   line-height: 1.25;
@@ -412,7 +412,7 @@ input[type="file"]::file-selector-button {
   margin-top: 3.03125rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 0.75rem;
   line-height: 1.25;
@@ -864,7 +864,7 @@ input[type="file"]::file-selector-button {
   color: #000;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 600;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -1266,7 +1266,7 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__background {
   position: absolute;
-  top: 9.1625rem;
+  top: 14.1625rem;
   left: 0;
   z-index: -2;
   width: 100%;
@@ -3668,8 +3668,12 @@ input[type="file"]::file-selector-button {
     padding: 3.084375rem 1.8125rem 6.5rem;
   }
   .l-footer__name {
-    font-size: 5rem;
+    font-size: 47px;
     line-height: 1;
+  }
+  .l-footer__address{
+    font-weight: 600;
+    font-size: 9.5px;
   }
   .l-footer__copyright {
     position: absolute;
@@ -3678,6 +3682,7 @@ input[type="file"]::file-selector-button {
     margin-top: inherit;
     margin-left: inherit;
     font-size: 1.2rem;
+    font-weight: 500;
   }
   .l-footer__nav {
     position: relative;
@@ -3692,7 +3697,7 @@ input[type="file"]::file-selector-button {
     right: 1.73125rem;
   }
   .l-footer__sns-link {
-    font-size: 3.06875rem;
+    font-size: 28px;
     line-height: 1;
   }
   .l-footer__list {
@@ -3702,7 +3707,8 @@ input[type="file"]::file-selector-button {
     margin-top: 1.90625rem;
   }
   .l-footer__link {
-    font-size: 2.625rem;
+    font-size: 26px;
+    font-weight: 500;
     line-height: 1.2619047619;
   }
   .l-footer__policy {
@@ -3710,6 +3716,7 @@ input[type="file"]::file-selector-button {
     right: 0;
     bottom: -4.6875rem;
     font-size: 1.2rem;
+    font-weight: 600;
   }
   .l-global-menu-button {
     display: inherit;
@@ -3784,6 +3791,7 @@ input[type="file"]::file-selector-button {
   }
   .p-concept__paragraph {
     font-size: 3rem;
+    font-weight: 900;
     line-height: 1.2083333333;
   }
   .p-concept__paragraph span:not(:first-child) {
@@ -3820,10 +3828,13 @@ input[type="file"]::file-selector-button {
     margin-inline: auto;
     font-size: 9.375rem;
     line-height: 1;
+    letter-spacing: 3px;
   }
   .p-contact__title-ja {
-    margin-top: -1.5625rem;
+    margin-top: -4px;
+    font-weight: 500;
     margin-left: inherit;
+    font-size: 11.5px;
   }
   .p-contact__group {
     width: -webkit-fit-content;
@@ -3834,12 +3845,17 @@ input[type="file"]::file-selector-button {
     margin-right: auto;
   }
   .p-contact__tel {
-    font-size: 3.875rem;
+    font-size: 32px;
     line-height: 1.1129032258;
+    letter-spacing: 1.6px;
+  }
+  .p-contact__time{
+    margin-top: 2px;
   }
   .p-contact__button {
     margin-right: 0rem;
     margin-top: 2rem;
+    padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-facility-intro {
     margin-top: 5.984375rem;
@@ -3889,8 +3905,9 @@ input[type="file"]::file-selector-button {
     /* margin-inline: auto;
     margin-right: inherit;
     margin-left: inherit; */
-    font-size: 1.375rem;
+    font-size: 11px;
     line-height: 1.1818181818;
+    font-weight: 700;
   }
   .p-facility-intro__paragraph span:not(:first-child) {
     margin-top: 1.8125rem;
@@ -3910,13 +3927,16 @@ input[type="file"]::file-selector-button {
     padding-left: inherit;
   }
   .p-information__title {
-    font-size: 4.125rem;
+    font-size: 36px;
     line-height: 0.9090909091;
+    letter-spacing: 0.03em;
   }
   .p-information__button {
-    top: 43.375rem;
+    top: 40.375rem;
     left: 50%;
     translate: -50% 0;
+    font-weight: 900;
+    padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-information__object {
     top: -7.140625rem;
@@ -3936,7 +3956,8 @@ input[type="file"]::file-selector-button {
   }
   .p-information__news {
     padding-top: 1.21875rem;
-    font-size: 14px;
+    font-size: 11px;
+    font-weight: 600;
   }
   .p-main-visual {
     width: calc(100% - 3.625rem);
@@ -3968,6 +3989,9 @@ input[type="file"]::file-selector-button {
     -o-object-fit: cover;
     object-fit: cover;
   }
+  .p-main-visual__catch p{
+    font-weight: 800;
+  }
   .p-map {
     width: 43.25rem;
     padding-top: 8.296875rem;
@@ -3975,16 +3999,18 @@ input[type="file"]::file-selector-button {
   .p-map__title {
     top: 8.296875rem;
     left: 1.784375rem;
-    width: 19.125rem;
+    width: 178px;
+    font-size: 38px;
   }
   .p-map__title span:nth-child(13),
   .p-map__title span:nth-child(14),
   .p-map__title span:nth-child(15) {
-    font-size: 8.125rem;
+    font-size: 90px;
     line-height: 1.1538461538;
   }
   .p-map__map {
     width: 43.25rem;
+    padding-top: 50px;
   }
   .p-plan {
     margin-top: 11.3125rem;
@@ -4002,27 +4028,37 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__main-title-en {
     margin-inline: auto;
-    font-size: 5.9375rem;
+    font-size: 49px;
     line-height: 1.1368421053;
     letter-spacing: 0.03em;
   }
+  .p-plan__main-price-number{
+    font-size: 22px;
+  }
   .p-plan__main-title-ja {
     margin-top: 0.9375rem;
+    font-weight: 700;
   }
   .p-plan__main-price {
     top: 24.70625rem;
-    right: 2.35625rem;
+    right: 6px;
+    font-size: 11px;
+    font-weight: 500;
   }
   .p-plan__main-price-unit {
     margin-right: 0.25rem;
     margin-left: 0.271875rem;
+    font-size: 14px;
+    font-weight: 400;
   }
   .p-plan__main-description {
     width: 100%;
     margin-top: 2.6rem;
     margin-left: 0;
-    font-size: 1.5rem;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
   .p-plan__main-button {
     position: relative;
@@ -4033,6 +4069,8 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.528125rem;
+    font-weight: 900;
+    padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-plan__grid {
     grid-template-columns: 1fr;
@@ -4047,16 +4085,22 @@ input[type="file"]::file-selector-button {
     margin-left: 0.5625rem;
   }
   .p-plan__sub-title-en {
-    font-size: 5rem;
+    font-size: 42px;
     line-height: 1.0875;
   }
   .p-plan__sub-title-ja {
-    margin-top: 0.75rem;
+    margin-top: 6px;
+    font-weight: 500;
+  }
+  .p-plan__sub-price-number{
+    font-size: 22px;
   }
   .p-plan__sub-price {
     position: absolute;
     top: 23.575rem;
-    right: 0.54375rem;
+    right: 6px;
+    font-size: 11px;
+    font-weight: 400;
     margin-top: inherit;
     margin-right: inherit;
     margin-left: inherit;
@@ -4065,6 +4109,7 @@ input[type="file"]::file-selector-button {
     position: absolute;
     top: 28.99rem;
     right: 0.54375rem;
+    font-weight: 700;
     margin-top: inherit;
     margin-right: inherit;
     margin-left: inherit;
@@ -4073,12 +4118,16 @@ input[type="file"]::file-selector-button {
     margin-right: 0.25rem;
     margin-bottom: 0.3125rem;
     margin-left: 0.34375rem;
+    font-size: 14px;
+    font-weight: 400;
   }
   .p-plan__sub-description {
     width: 100%;
     margin-top: 2.4625rem;
-    font-size: 1.5rem;
-    line-height: 24px;
+    font-size: 10px;
+    line-height: 18px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
   .p-plan__sub-button {
     position: relative;
@@ -4089,6 +4138,15 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.4125rem;
+    font-weight: 900;
+    padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
+  }
+  .p-plan__sub-button:after, 
+  .p-plan__main-button:after, 
+  .p-information__button:after,
+  .p-contact__button:after{
+    width: 8px;
+    height: 9px;
   }
   .p-concept__img {
     margin-right: auto;
