@@ -449,3 +449,23 @@ document.addEventListener("DOMContentLoaded", () => {
     letter.classList.add("animate");
   });
 });
+
+document.addEventListener('DOMContentLoaded', () => {
+  const intro = document.getElementById('intro-overlay');
+  const title = document.getElementById('intro-title');
+  const spans = title.querySelectorAll('span');
+
+  spans.forEach((span, i) => {
+    setTimeout(() => {
+      span.style.transform = 'translateY(0)';
+    }, 80 * i);
+  });
+
+  setTimeout(() => {
+    title.classList.add('move-up');
+  }, 80 * spans.length + 400);
+
+  setTimeout(() => {
+    intro.classList.add('hide');
+  }, 80 * spans.length + 1400);
+});
