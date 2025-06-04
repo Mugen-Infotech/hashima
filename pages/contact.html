@@ -350,15 +350,15 @@
                 ここで入力された情報で個人情報にあたるものは、「プライバシーポリシー」に従って利用させていただきます。<br />
                 同意いただける方は「入力内容確認画面へ」と進んでください。
               </p>
-              <div>
-                <ul class="space-y-3 text-2xl md:text-3xl lg:text-lg font-medium">
-                  <li class="flex items-start gap-2">
-                      <span class="mt-2 w-4 h-4 md:w-6 md:h-6 lg:w-4 lg:h-4 flex items-center justify-center rounded-full border border-black">
-                        <span class="w-2 h-2 md:w-3 md:h-3 lg:w-2 lg:h-2 bg-black rounded-full"></span>
-                      </span>
-                      プライバシーポリシーに同意する
-                  </li>                  
-                </ul>
+              <div class="flex items-center">
+              <div
+               id="customRadio"
+               class="relative w-5 h-5 sm:w-4 sm:h-4 cursor-pointer"
+               onclick="toggleCircle(this)">
+                <div class="absolute inset-0 border border-black rounded-full"></div>
+                <div class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full inner-circle"></div>
+              </div>
+              <span class="text-[14px] md:text-[18px] lg:text-[20px] font-medium ml-2">プライバシーポリシーに同意する</span>
               </div>
             </div>
 
@@ -431,7 +431,12 @@
       document.addEventListener('DOMContentLoaded', function() {
         document.querySelector('form').addEventListener('submit', function(e) {
           e.preventDefault();
+          const selected = document.querySelector('.inner-circle.bg-black') !== null;
           // Collect form data
+          if (!selected) {
+            alert("プライバシーポリシーに同意してください。");
+            return;
+          }
           const data = {
             category: document.getElementById('category').value,
             company: document.getElementById('company').value,
@@ -440,7 +445,8 @@
             tel: document.getElementById('tel').value,
             email: document.getElementById('email').value,
             message: document.getElementById('message').value,
-            privacy: document.querySelector('input[name="privacy"]').checked
+            // privacy: document.querySelector('input[name="privacy"]').checked
+            privacy: selected,
           };
           // Save to localStorage
           localStorage.setItem('contactForm', JSON.stringify(data));
@@ -448,6 +454,11 @@
           window.location.href = 'contactDetails.html';
         });
       });
+
+      function toggleCircle(element) {
+      const inner = element.querySelector('.inner-circle');
+      inner.classList.toggle('bg-black'); // Add or remove background
+      }
     </script>
   </body>
 </html>
