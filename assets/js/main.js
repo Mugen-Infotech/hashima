@@ -450,39 +450,16 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-// document.addEventListener('DOMContentLoaded', () => {
-//   const intro = document.getElementById('intro-overlay');
-//   const title = document.getElementById('intro-title');
-//   const spans = title.querySelectorAll('span');
-
-//   spans.forEach((span, i) => {
-//     setTimeout(() => {
-//       span.style.transform = 'translateY(0)';
-//     }, 80 * i);
-//   });
-
-//   setTimeout(() => {
-//     title.classList.add('move-up');
-//   }, 80 * spans.length + 400);
-
-//   setTimeout(() => {
-//     intro.classList.add('hide');
-//   }, 80 * spans.length + 1400);
-// });
-
 document.addEventListener('DOMContentLoaded', () => {
   const intro = document.getElementById('intro-overlay');
   const title = document.getElementById('intro-title');
 
-  // Show animation
   title.classList.add('is-visible');
 
-  // Move text up
   setTimeout(() => {
     title.classList.add('move-up');
-  }, 1200); // Adjust timing as needed
+  }, 1200);
 
-  // Hide overlay
   setTimeout(() => {
     intro.classList.add('hide');
   }, 2000);
