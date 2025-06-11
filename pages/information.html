@@ -174,10 +174,28 @@
           </div>
           <!-- Blog/Event/News Grid Section -->
           <div class="w-full flex flex-col items-center bg-white pb-20">
-            <div class="flex gap-2 mb-20">
-              <button class="filter-btn px-6 py-2 !border border-black bg-black text-white font-bold tracking-widest" data-filter="all">ALL</button>
-              <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="event">EVENT</button>
-              <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="news">NEWS</button>
+            <div class="flex gap-6 mb-20">
+              <button
+               class="filter-btn px-8 pt-[2px] !border border-black bg-black text-white text-3xl tracking-widest title__font-family"
+               data-filter="all"
+              >
+                 ALL
+              </button>
+              <button
+               class="filter-btn px-4 pt-[2px] !border border-black bg-white text-black text-3xl tracking-widest title__font-family"
+               data-filter="event"
+              >
+                 EVENT
+              </button>
+              <button
+               class="filter-btn px-5 pt-[2px] !border border-black bg-white text-black text-3xl tracking-widest title__font-family"
+               data-filter="news"
+              >
+                 NEWS
+              </button>
+              <!-- <button class="filter-btn px-6 py-2 !border border-black bg-black text-white font-bold tracking-widest" data-filter="all">ALL</button>
+               <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="event">EVENT</button>
+              <button class="filter-btn px-6 py-2 !border border-black bg-white text-black font-bold tracking-widest" data-filter="news">NEWS</button> -->
             </div>
             <div class="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-[1200px] w-full px-4" id="postGrid">
               <div class="flex flex-col" data-category="event">
