@@ -50,7 +50,7 @@
   </head>
   <body class="l-body">
     <header class="l-header">
-      <p class="l-header__name">HASHIMA BASE</p>
+      <a class="l-header__name" href="/index.html">HASHIMA BASE</a>
       <nav class="l-header__nav">
         <ul class="l-header__list">
           <li class="l-header__item">
@@ -176,10 +176,20 @@
           alt=""
         />
       </div>
-      <div class="absolute top-28 right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[150px] lg:h-[150px] 2xl:w-[165px] 2xl:h-[165px] z-20">
-        <span class="text-white text-lg md:text-base title__font-family uppercase">TOTAL</span>
-        <span class="text-white text-[24px] md:text-[40px] lg:text-[76px] title__font-family leading-none">18</span>
-        <span class="text-white text-xl md:text-xl title__font-family uppercase">GARAGE</span>
+      <div
+        class="absolute top-28 right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[150px] lg:h-[150px] 2xl:w-[165px] 2xl:h-[165px] z-20"
+      >
+        <span
+          class="text-white text-lg md:text-base title__font-family uppercase"
+          >TOTAL</span
+        >
+        <span
+          class="text-white text-[24px] md:text-[40px] lg:text-[76px] title__font-family leading-none"
+          >18</span
+        >
+        <span class="text-white text-xl md:text-xl title__font-family uppercase"
+          >GARAGE</span
+        >
       </div>
     </div>
     <main class="l-main-content !pt-10">
@@ -692,16 +702,22 @@
             </p>
           </div>
         </div>
-        <div class="flex flex-col md:flex-row gap-6 md:gap-10 justify-center items-center mt-8 mb-16 px-4">
+        <div
+          class="flex flex-col md:flex-row gap-6 md:gap-10 justify-center items-center mt-8 mb-16 px-4"
+        >
           <!-- Contact Button -->
           <a
             href="/pages/contact.html"
             class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#0057FF] hover:bg-[#0046cc] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] h-[90px] md:h-[125px] shadow-md"
           >
-            <span class="text-[30px] sm:text-[36px] md:text-[70px] leading-tight tracking-widest">
+            <span
+              class="text-[30px] sm:text-[36px] md:text-[70px] leading-tight tracking-widest"
+            >
               CONTACT
             </span>
-            <span class="text-[14px] sm:text-[14px] md:text-[16px] font-semibold text-center whitespace-nowrap">
+            <span
+              class="text-[14px] sm:text-[14px] md:text-[16px] font-semibold text-center whitespace-nowrap"
+            >
               お問い合わせ／内覧お申込み／お申込み
             </span>
             <span
@@ -715,17 +731,18 @@
           <div
             class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#555] rounded-full w-full max-w-[350px] md:max-w-[550px] h-[90px] md:h-[125px] shadow-md text-center"
           >
-            <span class="text-[22px] sm:text-[30px] md:text-[60px] tracking-widest">
+            <span
+              class="text-[22px] sm:text-[30px] md:text-[60px] tracking-widest"
+            >
               TEL 090-4153-3258
             </span>
             <span
-              class="text-[10px] sm:text-[12px] md:text-[14px] font-medium mt-1 absolute  sm:left-6 md:left-10 bottom-4 md:bottom-4 text-center md:text-left"
+              class="text-[10px] sm:text-[12px] md:text-[14px] font-medium mt-1 absolute sm:left-6 md:left-10 bottom-4 md:bottom-4 text-center md:text-left"
             >
               営業時間 8:00〜18:00
             </span>
           </div>
         </div>
-
 
         <!-- Garage Status Table -->
         <div
@@ -867,7 +884,11 @@
                       </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-orange-500 text-[20px] text-white px-4 py-2">A-09</td>
+                      <td
+                        class="bg-orange-500 text-[20px] text-white px-4 py-2"
+                      >
+                        A-09
+                      </td>
                       <td
                         class="px-2 py-2 text-center text-[22px] bg-orange-100 text-orange-500"
                       >
@@ -994,7 +1015,9 @@
                       </td>
                     </tr>
                     <tr class="font-bold">
-                      <td class="bg-[#00B6F1] text-[20px] text-white px-4 py-2">B-09</td>
+                      <td class="bg-[#00B6F1] text-[20px] text-white px-4 py-2">
+                        B-09
+                      </td>
                       <td
                         class="bg-[#E6F7FD] text-[#00B6F1] px-2 py-2 text-center text-[22px]"
                       >
@@ -1287,7 +1310,7 @@
     <script>
       const lenis = new Lenis({
         duration: 1.2,
-        smooth: true
+        smooth: true,
       });
 
       function raf(time) {
