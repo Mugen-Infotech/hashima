@@ -783,9 +783,9 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-contact__button:after {
@@ -958,7 +958,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
@@ -1456,9 +1456,9 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-plan__main-button:after {
@@ -1678,7 +1678,7 @@ input[type="file"]::file-selector-button {
   border-radius: 3.75rem;
   font-family: Inter, sans-serif;
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.5rem;
   line-height: 1.2083333333;
