@@ -455,32 +455,32 @@ get_header();
             </a>
           </li>
         </ul> -->
-		<ul class="p-information__list">
-			<?php
-			$args = array(
-				'post_type' => 'post',
-				'posts_per_page' => 5,
-			);
+      <ul class="p-information__list">
+        <?php
+        $args = array(
+          'post_type' => 'post',
+          'posts_per_page' => 4,
+        );
 
-			$the_query = new WP_Query($args);
+        $the_query = new WP_Query($args);
 
-			if ($the_query->have_posts()) :
-				while ($the_query->have_posts()) : $the_query->the_post();
-				$post_date = get_the_date('Y.m.d');
-				$post_content = get_the_content();
-			?>
-				<li class="p-information__item">
-				<p class="p-information__date"><?php echo esc_html($post_date); ?></p>
-				<a class="p-information__link" href="#">
-					<p class="p-information__news"><?php echo wp_kses_post($post_content); ?></p>
-				</a>
-				</li>
-			<?php
-				endwhile;
-				wp_reset_postdata();
-			endif;
-			?>
-		</ul>
+        if ($the_query->have_posts()) :
+          while ($the_query->have_posts()) : $the_query->the_post();
+          $post_date = get_the_date('Y.m.d');
+          $post_title = get_the_title();
+        ?>
+          <li class="p-information__item">
+          <p class="p-information__date"><?php echo esc_html($post_date); ?></p>
+          <a class="p-information__link" href="#">
+            <p class="p-information__news"><?php echo esc_html($post_title); ?></p>
+          </a>
+          </li>
+        <?php
+          endwhile;
+          wp_reset_postdata();
+        endif;
+        ?>
+      </ul>
       </section>
 
       <iframe
