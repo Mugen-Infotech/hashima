@@ -817,3 +817,14 @@ function twentytwenty_get_elements_array() {
 	 */
 	return apply_filters( 'twentytwenty_get_elements_array', $elements );
 }
+
+function use_info_details_template_for_categories($template) {
+    if (is_single() && in_category(['event', 'news'])) {
+        $custom_template = get_template_directory() . '/InformationDetailsTemplate.php';
+        if (file_exists($custom_template)) {
+            return $custom_template;
+        }
+    }
+    return $template;
+}
+add_filter('single_template', 'use_info_details_template_for_categories');
