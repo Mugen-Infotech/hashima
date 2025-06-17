@@ -798,22 +798,22 @@
         </div>
 
         <!-- Garage Status Table -->
-         <div class="max-w-6xl mx-auto bg-white pt-32 items-start">
+        <div class="max-w-6xl mx-auto bg-white pt-32 items-start">
           <div class="text-left">
             <h2 class="text-[50px] md:text-[68px] mb-2 title__font-family">
-                GARAGE AVAILABILITY
-              </h2>
-              <div
-                class="text-[24px] md:text-[24px] lg:text-[28px] font-bold mb-2"
-              >
-                ガレージ空き状況
-              </div>
-              <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-1">
-                現在のバイクガレージの空き状況です。
-              </div>
-              <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-4">
-                〇 空き ／ ✕ 契約済み
-              </div>
+              GARAGE AVAILABILITY
+            </h2>
+            <div
+              class="text-[24px] md:text-[24px] lg:text-[28px] font-bold mb-2"
+            >
+              ガレージ空き状況
+            </div>
+            <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-1">
+              現在のバイクガレージの空き状況です。
+            </div>
+            <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-4">
+              〇 空き ／ ✕ 契約済み
+            </div>
           </div>
         </div>
         <div
@@ -1214,32 +1214,34 @@
             </div>
           </div>
           <div
-            class="max-w-full mx-auto flex flex-row items-start justify-between gap-4 w-full"
+            class="max-w-full mx-auto flex flex-col md:flex-row items-start justify-between gap-4 w-full"
           >
-            <div class="flex flex-col items-center w-1/4">
+            <div class="flex flex-col items-center w-full md:w-1/4">
               <img
-                src="/assets/images/p-plan/flow1.png"
+                src="/assets/images/p-plan/contact.png"
                 alt="お問い合わせ"
-                class="w-[150px] h-[150px] mb-4"
+                class="w-[180px] h-[150px] mb-6 md:mb-8"
               />
               <span
-                class="bg-black text-white rounded-full px-8 text-center py-2 text-[22px] font-normal mb-2"
+                class="bg-black text-white rounded-full px-4 lg:px-8 text-center py-1 text-[22px] font-bold mb-2 min-w-[195px] md:min-w-0 lg:min-w-[195px]"
                 >お問い合わせ</span
               >
             </div>
-            <div class="flex items-center justify-center w-[40px] h-[120px]">
+            <div
+              class="hidden md:flex items-center justify-center w-[40px] h-[170px]"
+            >
               <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
                 <polygon points="0,0 32,16 0,32" fill="#ccc" />
               </svg>
             </div>
-            <div class="flex flex-col items-center w-1/4">
+            <div class="flex flex-col items-center w-full md:w-1/4">
               <img
-                src="/assets/images/p-plan/flow2.png"
+                src="/assets/images/p-plan/preview.png"
                 alt="内覧"
-                class="w-[150px] h-[150px] mb-4"
+                class="w-[160px] h-[150px] mb-6 md:mb-8"
               />
               <span
-                class="bg-black text-white rounded-full px-8 text-center py-2 text-[22px] font-normal mb-2"
+                class="bg-black text-white rounded-full px-4 lg:px-8 text-center py-1 text-[22px] font-bold mb-2 min-w-[195px]"
                 >内 覧</span
               >
               <span
@@ -1247,35 +1249,39 @@
                 >※内覧は無しでも<br />大丈夫です。</span
               >
             </div>
-            <div class="flex items-center justify-center w-[40px] h-[120px]">
+            <div
+              class="hidden md:flex items-center justify-center w-[40px] h-[170px]"
+            >
               <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
                 <polygon points="0,0 32,16 0,32" fill="#ccc" />
               </svg>
             </div>
-            <div class="flex flex-col items-center w-1/4">
+            <div class="flex flex-col items-center w-full md:w-1/4">
               <img
-                src="/assets/images/p-plan/flow3.png"
+                src="/assets/images/p-plan/apply.png"
                 alt="お申込み"
-                class="w-[150px] h-[150px] mb-4"
+                class="w-[160px] h-[150px] mb-6 md:mb-8"
               />
               <span
-                class="bg-black text-white rounded-full px-8 text-center py-2 text-[22px] font-normal mb-2"
+                class="bg-black text-white rounded-full px-8 text-center py-1 text-[22px] font-bold mb-2 min-w-[195px]"
                 >お申込み</span
               >
             </div>
-            <div class="flex items-center justify-center w-[40px] h-[120px]">
+            <div
+              class="hidden md:flex items-center justify-center w-[40px] h-[170px]"
+            >
               <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
                 <polygon points="0,0 32,16 0,32" fill="#ccc" />
               </svg>
             </div>
-            <div class="flex flex-col items-center w-1/4">
+            <div class="flex flex-col items-center w-full md:w-1/4">
               <img
-                src="/assets/images/p-plan/flow4.png"
+                src="/assets/images/p-plan/bike-icon.png"
                 alt="契約"
-                class="w-[150px] h-[150px] mb-4"
+                class="w-[240px] h-[150px] mb-6 md:mb-8"
               />
               <span
-                class="bg-black text-white rounded-full px-8 text-center py-2 text-[22px] font-normal mb-2"
+                class="bg-black text-white rounded-full px-8 text-center py-1 text-[22px] font-bold mb-2 min-w-[195px]"
                 >契 約</span
               >
             </div>
