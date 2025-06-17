@@ -371,7 +371,7 @@ input[type="file"]::file-selector-button {
   margin-left: 0.1625rem;
   font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 0.75rem;
   line-height: 1.25;
@@ -606,7 +606,7 @@ input[type="file"]::file-selector-button {
 .p-concept__paragraph {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-optical-sizing: auto;
   font-size: 2.75rem;
   line-height: 1.2045454545;
@@ -865,7 +865,7 @@ input[type="file"]::file-selector-button {
   color: #000;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -952,7 +952,7 @@ input[type="file"]::file-selector-button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.375rem 3.625rem 1.375rem 3.09375rem;
+  padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   margin-top: 0.4rem;
   color: #000;
   border: 1px solid #000;
@@ -1002,7 +1002,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 16px;
   line-height: 1.3125;
   color: #a9a9aa;
 }
@@ -1013,7 +1013,7 @@ input[type="file"]::file-selector-button {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 18px;
   line-height: 1.2222222222;
   color: #000;
 }
@@ -1424,7 +1424,7 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__main-price-unit {
   margin-right: 0.6875rem;
-  margin-left: 1.39375rem;
+  margin-left: 0.39375rem;
   color: #fff;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
@@ -1438,7 +1438,7 @@ input[type="file"]::file-selector-button {
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
@@ -1509,7 +1509,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4.75rem;
+  font-size: 66px;
   line-height: 1;
   letter-spacing: 0.01em;
   color: #fff;
@@ -1594,10 +1594,10 @@ input[type="file"]::file-selector-button {
   transform: translate(0);
 }
 .p-plan__sub-title-ja {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-optical-sizing: auto;
   font-size: 2.125rem;
   line-height: 1.2058823529;
@@ -1645,7 +1645,7 @@ input[type="file"]::file-selector-button {
 .p-plan__sub-price-unit {
   margin-right: 0.68125rem;
   margin-bottom: 0.1875rem;
-  margin-left: 1.28125rem;
+  margin-left: 0.28125rem;
   color: #fff;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
@@ -1656,12 +1656,12 @@ input[type="file"]::file-selector-button {
 .p-plan__sub-description {
   width: 29.54375rem;
   margin-inline: auto;
-  margin-top: 2.0875rem;
+  margin-top: 1.10rem;
   color: #fff;
   text-align: justify;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
@@ -2087,7 +2087,7 @@ input[type="file"]::file-selector-button {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 1050px;
+  min-height: 1000px;
   overflow: hidden;
 }
 
@@ -4061,7 +4061,7 @@ input[type="file"]::file-selector-button {
     font-weight: 700;
   }
   .p-plan__main-price {
-    top: 24.70625rem;
+    top: 25.70625rem;
     right: 6px;
     font-size: 11px;
     font-weight: 500;
@@ -4112,6 +4112,7 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-title-ja {
     margin-top: 6px;
     font-weight: 500;
+    font-size: 16px;
   }
   .p-plan__sub-price-number {
     font-size: 22px;
@@ -4129,6 +4130,7 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-price2 {
     position: absolute;
     top: 28.99rem;
+    font-size: 16px;
     right: 0.54375rem;
     font-weight: 700;
     margin-top: inherit;
