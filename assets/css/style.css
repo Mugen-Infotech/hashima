@@ -1408,7 +1408,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 300;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
   color: #fff;
 }
@@ -1417,7 +1417,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.2rem;
+  font-size: 36px;
   line-height: 1.3333333333;
   color: #fff;
 }
@@ -1428,7 +1428,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 1.3181818182;
 }
 .p-plan__main-description {
@@ -1614,7 +1614,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
 }
 .p-plan__sub-price2 {
@@ -1629,7 +1629,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
 }
 .p-plan__sub-price-number {
@@ -1649,7 +1649,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 1.3181818182;
 }
 .p-plan__sub-description {
