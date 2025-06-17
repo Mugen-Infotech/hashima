@@ -1406,7 +1406,7 @@ input[type="file"]::file-selector-button {
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 1.2;
@@ -1612,7 +1612,7 @@ input[type="file"]::file-selector-button {
   color: #fff;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 1.2;
@@ -1627,7 +1627,7 @@ input[type="file"]::file-selector-button {
   color: #fff;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-optical-sizing: auto;
   font-size: 20px;
   line-height: 1.2;
