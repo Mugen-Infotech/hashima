@@ -961,7 +961,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-information__button:after {
@@ -1458,7 +1458,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-plan__main-button:after {
@@ -1680,7 +1680,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-plan__sub-button:after {
