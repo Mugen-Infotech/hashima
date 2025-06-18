@@ -352,7 +352,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 77px;
   line-height: 1;
   color: #000;
 }
@@ -361,7 +361,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-optical-sizing: auto;
-  font-size: 18px;
+  font-size: 16px;
   line-height: 1.2222222222;
   color: #000;
 }
@@ -757,7 +757,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-size: 4.375rem;
-  line-height: 1.5148148148;
+  line-height: 1.5;
   color: #fff;
 }
 .p-contact__time {
@@ -809,7 +809,7 @@ input[type="file"]::file-selector-button {
 }
 .p-facility-intro {
   position: relative;
-  margin-top: 7.15625rem;
+  margin-top: 3.15625rem;
 }
 .p-facility-intro__wrapper {
   position: relative;
@@ -2122,7 +2122,7 @@ input[type="file"]::file-selector-button {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -2445,7 +2445,7 @@ input[type="file"]::file-selector-button {
     bottom: 5.3125rem;
   }
   .l-main-content {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
   .u-md-dn {
     display: none !important;
@@ -3737,7 +3737,7 @@ input[type="file"]::file-selector-button {
     right: 0;
     bottom: -4.6875rem;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
   }
   .l-global-menu-button {
     display: inherit;
@@ -4006,7 +4006,7 @@ input[type="file"]::file-selector-button {
     left: 1.55625rem;
   }
   .p-main-visual__image {
-    height: 64.0875rem;
+    /* height: 64.0875rem; */
     -o-object-fit: cover;
     object-fit: cover;
   }
@@ -4090,7 +4090,7 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.528125rem;
-    font-weight: 900;
+    font-weight: 500;
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-plan__grid {
@@ -4130,7 +4130,7 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-price2 {
     position: absolute;
     top: 28.99rem;
-    font-size: 16px;
+    font-size: 11px;
     right: 0.54375rem;
     font-weight: 700;
     margin-top: inherit;
@@ -4161,7 +4161,7 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.4125rem;
-    font-weight: 900;
+    font-weight: 500;
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-plan__sub-button:after,
@@ -4182,9 +4182,6 @@ input[type="file"]::file-selector-button {
   }
 }
 @media screen and (max-width: 767px) {
-  .p-main-visual__carousel {
-    min-height: 500px;
-  }
   .p-main-visual__title-text {
     display: block;
   }
@@ -4476,15 +4473,80 @@ input[type="file"]::file-selector-button {
 }
 /* Space End */
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .p-plan__main-title-en {
-    font-size: 56px;
-  }
+[class*="p-concept__img"],
+[class*="p-facility-intro__img"],
+[class*="p-plan__"] img {
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.l-main-content__section {
+  overflow: hidden;
+  position: relative;
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
   .p-plan__main-title-en {
     font-size: 58px;
+  }
+  .p-main-visual__image{
+    min-height: 500px;
+  }
+  .p-main-visual__carousel {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .p-plan__main-title-en {
+    font-size: 56px;
+  }
+  .p-main-visual__image{
+    min-height: 500px;
+  }
+  .p-main-visual__carousel {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .l-header__link{
+    font-size: 16px;
+  }
+  .p-main-visual__image{
+    min-height: 600px;
+  }
+  .p-main-visual__carousel {
+    min-height: 600px;
+  }
+  .l-main-content{
+    padding-top: 7rem;
+  }
+  .p-plan__main-price{
+    top: 29.9rem;
+    font-size: 14px;
+  }
+  .p-plan__sub-title-en{
+    font-size: 50px;
+  }
+  .p-information__news{
+    font-size: 16px;
+  }
+  .p-plan__sub-price,
+  .p-plan__sub-price2,
+  .l-footer__link,
+  .p-information__date{
+    font-size: 14px;
+  }
+  .l-footer__copyright,
+  .l-footer__policy{
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .p-main-visual__carousel{
+    min-height: 800px;
   }
 }
 
@@ -4524,16 +4586,4 @@ input[type="file"]::file-selector-button {
     pointer-events: none;
     transition: opacity 0.6s cubic-bezier(0.77, 0, 0.18, 1);
   }
-}
-
-[class*="p-concept__img"],
-[class*="p-facility-intro__img"],
-[class*="p-plan__"] img {
-  will-change: transform;
-  transform-style: preserve-3d;
-}
-
-.l-main-content__section {
-  overflow: hidden;
-  position: relative;
 }
