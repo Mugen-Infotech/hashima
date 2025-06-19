@@ -661,7 +661,7 @@
         </div>
       </div>
     </main>
-    <footer class="l-footer">
+    <footer id="footer-section" class="l-footer">
       <div class="l-footer__group">
         <a href="/index.html">
           <img
@@ -746,5 +746,30 @@
         }, 10);
       });
     </script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        const follow = document.querySelector(".l-header__follow");
+        const contact = document.getElementById("footer-section");
+
+        const observer = new IntersectionObserver(
+          ([entry]) => {
+            if (entry.isIntersecting) {
+              follow.classList.add("is-hidden");
+            } else {
+              follow.classList.remove("is-hidden");
+            }
+          },
+          {
+            root: null,
+            threshold: 0,
+          }
+        );
+
+        if (contact && follow) {
+          observer.observe(contact);
+        }
+      });
+    </script>
+
   </body>
 </html>
