@@ -132,7 +132,6 @@ function M() {
         t.classList.add(n);
       },
       rootMargin: "0px 0px -10% 0px",
-      threshold: 0.1,
     }).start();
   });
 }
