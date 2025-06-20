@@ -4134,7 +4134,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-price2 {
     position: absolute;
-    top: 28.99rem;
+    top: 28.8rem;
     font-size: 11px;
     right: 0.54375rem;
     font-weight: 700;
@@ -4488,6 +4488,18 @@ input[type="file"]::file-selector-button {
 .l-main-content__section {
   overflow: hidden;
   position: relative;
+}
+
+@media (min-width: 376px) and (max-width: 480px) {
+  .p-plan__main-price{
+    top: 25.2rem;
+  }
+  .p-plan__sub-price{
+    top: 22.5rem;
+  }
+  .p-plan__sub-price2{
+    top: 27.7rem;
+  }
 }
 
 @media (min-width: 320px) and (max-width: 480px) {
