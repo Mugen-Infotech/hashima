@@ -4490,6 +4490,13 @@ input[type="file"]::file-selector-button {
   position: relative;
 }
 
+@media (max-width: 425px) {
+  .p-facility-intro__paragraph{
+    width: 100%;
+    padding-left: 40px;
+  }
+}
+
 @media (min-width: 376px) and (max-width: 480px) {
   .p-plan__main-price{
     top: 25.2rem;
