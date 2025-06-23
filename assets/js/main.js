@@ -471,9 +471,8 @@ function isSmallScreen() {
 
 document.querySelectorAll(".l-header__name").forEach((link) => {
   link.addEventListener("click", function (e) {
-    // Apply restriction only on small screens
     if (isSmallScreen() && !this.classList.contains("is-visible")) {
-      e.preventDefault(); // Prevent redirect if not visible
+      e.preventDefault();
     }
   });
 });
