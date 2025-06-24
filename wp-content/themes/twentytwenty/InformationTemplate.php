@@ -30,7 +30,6 @@ get_header();
                 <span>N</span>
             </h2>
         </div>
-        <!-- Blog/Event/News Grid Section -->
         <div class="w-full flex flex-col items-center bg-white pb-20">
             <div class="flex gap-6 mb-20">
                 <button
@@ -66,8 +65,6 @@ get_header();
                     while ($query->have_posts()) : $query->the_post();
 
                         $categories = get_the_category();
-
-                        // Skip if none of the categories are event or news
                         $show = false;
                         foreach ($categories as $cat) {
                             if (in_array($cat->slug, ['event', 'news'])) {
@@ -104,13 +101,6 @@ get_header();
                     endif;
                 ?>
             </div>
-            <!-- <div class="flex items-center gap-4 mt-12" id="pagination">
-                <span class="text-xl cursor-pointer" onclick="showPage(1)">&lt;</span>
-                <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer bg-gray-200 text-black" onclick="showPage(1)">1</span>
-                <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer text-black" onclick="showPage(2)">2</span>
-                <span class="w-8 h-8 flex items-center justify-center rounded-full cursor-pointer text-black" onclick="showPage(3)">3</span>
-                <span class="text-xl cursor-pointer" onclick="showPage(2)">&gt;</span>
-            </div> -->
             <div class="flex items-center gap-2 mt-12" id="pagination">
                 <?php
                 $pagination_links = paginate_links(array(
@@ -132,27 +122,6 @@ get_header();
             </div>
 
     </section>
-    <!-- <div class="p-contact">
-        <hgroup class="p-contact__title">
-            <h2 class="p-contact__title-en js-title leading-[1.11]">
-                <span>C</span>
-                <span>O</span>
-                <span>N</span>
-                <span>T</span>
-                <span>A</span>
-                <span>C</span>
-                <span>T</span>
-            </h2>
-            <p class="p-contact__title-ja">
-                お問い合わせ／内覧お申込み／お申込み
-            </p>
-        </hgroup>
-        <div class="p-contact__group">
-            <p class="p-contact__tel">TEL 090-4153-3258</p>
-            <p class="p-contact__time">営業時間 8:00〜18:00</p>
-            <a class="p-contact__button" href="#">CONTACT</a>
-        </div>
-    </div> -->
 </main>
 
 <script>
