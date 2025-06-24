@@ -14,6 +14,7 @@ html {
 }
 body {
   margin: 0;
+  font-family: Noto Sans JP, sans-serif;
 }
 main {
   display: block;
@@ -368,9 +369,9 @@ input[type="file"]::file-selector-button {
   display: block;
   margin-top: 9.375rem;
   margin-left: 0.1625rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 0.75rem;
   line-height: 1.25;
@@ -379,7 +380,7 @@ input[type="file"]::file-selector-button {
 .l-footer__nav {
   position: absolute;
   top: 2.9125rem;
-  right: 1.85rem;
+  right: 3.85rem;
 }
 .l-footer__sns {
   display: flex;
@@ -410,7 +411,7 @@ input[type="file"]::file-selector-button {
 }
 .l-footer__policy {
   margin-top: 3.03125rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -497,7 +498,7 @@ input[type="file"]::file-selector-button {
 }
 .l-global-menu__group {
   display: flex;
-  margin-top: 16.875rem;
+  margin-top: 6.875rem;
 }
 .l-global-menu__logo {
   width: 14.75625rem;
@@ -557,11 +558,16 @@ input[type="file"]::file-selector-button {
   font-size: 1.6625rem;
   line-height: 1;
 }
+.l-header__follow.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
 .l-header__follow {
   position: fixed;
   top: 22.6125rem;
   right: 0;
   z-index: 50;
+  transition: opacity 0.3s ease;
 }
 .l-header__follow-link {
   position: relative;
@@ -605,7 +611,7 @@ input[type="file"]::file-selector-button {
 .p-concept__paragraph {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-optical-sizing: auto;
   font-size: 2.75rem;
   line-height: 1.2045454545;
@@ -756,7 +762,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-size: 4.375rem;
-  line-height: 1.5148148148;
+  line-height: 1.5;
   color: #fff;
 }
 .p-contact__time {
@@ -781,9 +787,9 @@ input[type="file"]::file-selector-button {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 3.75rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 24px;
   line-height: 1.2083333333;
@@ -808,7 +814,7 @@ input[type="file"]::file-selector-button {
 }
 .p-facility-intro {
   position: relative;
-  margin-top: 7.15625rem;
+  margin-top: 3.15625rem;
 }
 .p-facility-intro__wrapper {
   position: relative;
@@ -864,7 +870,7 @@ input[type="file"]::file-selector-button {
   color: #000;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 600;
+  font-weight: 400;
   font-optical-sizing: auto;
   font-size: 1.25rem;
   line-height: 1.2;
@@ -951,16 +957,16 @@ input[type="file"]::file-selector-button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  padding: 1.375rem 3.625rem 1.375rem 3.09375rem;
-  margin-top: 1.4rem;
+  padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
+  margin-top: 0.4rem;
   color: #000;
   border: 1px solid #000;
   border-radius: 3.75rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-information__button:after {
@@ -1001,7 +1007,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.3rem;
+  font-size: 16px;
   line-height: 1.3125;
   color: #a9a9aa;
 }
@@ -1012,7 +1018,7 @@ input[type="file"]::file-selector-button {
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
   font-optical-sizing: auto;
-  font-size: 1.3rem;
+  font-size: 18px;
   line-height: 1.2222222222;
   color: #000;
 }
@@ -1087,37 +1093,37 @@ input[type="file"]::file-selector-button {
   transition-delay: 0.05s;
 }
 .p-main-visual__title-text-desktop span:nth-child(2) {
-  transition-delay: 0.10s;
+  transition-delay: 0.1s;
 }
 .p-main-visual__title-text-desktop span:nth-child(3) {
   transition-delay: 0.15s;
 }
 .p-main-visual__title-text-desktop span:nth-child(4) {
-  transition-delay: 0.20s;
+  transition-delay: 0.2s;
 }
 .p-main-visual__title-text-desktop span:nth-child(5) {
   transition-delay: 0.25s;
 }
 .p-main-visual__title-text-desktop span:nth-child(6) {
-  transition-delay: 0.30s;
+  transition-delay: 0.3s;
 }
 .p-main-visual__title-text-desktop span:nth-child(7) {
   transition-delay: 0.35s;
 }
 .p-main-visual__title-text-desktop span:nth-child(8) {
-  transition-delay: 0.40s;
+  transition-delay: 0.4s;
 }
 .p-main-visual__title-text-desktop span:nth-child(9) {
   transition-delay: 0.45s;
 }
 .p-main-visual__title-text-desktop span:nth-child(10) {
-  transition-delay: 0.50s;
+  transition-delay: 0.5s;
 }
 .p-main-visual__title-text-desktop span:nth-child(11) {
   transition-delay: 0.55s;
 }
 .p-main-visual__title-text-desktop span:nth-child(12) {
-  transition-delay: 0.60s;
+  transition-delay: 0.6s;
 }
 /* .p-main-visual__title-text-desktop.is-visible span {
   -webkit-transform: translate(0, 0);
@@ -1144,8 +1150,7 @@ input[type="file"]::file-selector-button {
   height: fit-content;
   opacity: 0;
   transform: translateY(105%);
-  transition:
-    transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
+  transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
     opacity 0.8s ease;
 }
 
@@ -1407,9 +1412,9 @@ input[type="file"]::file-selector-button {
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 300;
+  font-weight: 700;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
   color: #fff;
 }
@@ -1418,18 +1423,18 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.25rem;
+  font-size: 36px;
   line-height: 1.3333333333;
   color: #fff;
 }
 .p-plan__main-price-unit {
   margin-right: 0.6875rem;
-  margin-left: 1.39375rem;
+  margin-left: 0.39375rem;
   color: #fff;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 1.3181818182;
 }
 .p-plan__main-description {
@@ -1438,7 +1443,7 @@ input[type="file"]::file-selector-button {
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
@@ -1454,9 +1459,9 @@ input[type="file"]::file-selector-button {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 3.75rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 24px;
   line-height: 1.2083333333;
@@ -1509,7 +1514,7 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 4.75rem;
+  font-size: 66px;
   line-height: 1;
   letter-spacing: 0.01em;
   color: #fff;
@@ -1594,10 +1599,10 @@ input[type="file"]::file-selector-button {
   transform: translate(0);
 }
 .p-plan__sub-title-ja {
-  margin-top: 1rem;
+  margin-top: 0.5rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: bold;
   font-optical-sizing: auto;
   font-size: 2.125rem;
   line-height: 1.2058823529;
@@ -1613,9 +1618,9 @@ input[type="file"]::file-selector-button {
   color: #fff;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
 }
 .p-plan__sub-price2 {
@@ -1628,9 +1633,9 @@ input[type="file"]::file-selector-button {
   color: #fff;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 700;
   font-optical-sizing: auto;
-  font-size: 1.25rem;
+  font-size: 20px;
   line-height: 1.2;
 }
 .p-plan__sub-price-number {
@@ -1638,30 +1643,30 @@ input[type="file"]::file-selector-button {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 2.25rem;
+  font-size: 36px;
   line-height: 1.3333333333;
   color: #fff;
 }
 .p-plan__sub-price-unit {
   margin-right: 0.68125rem;
   margin-bottom: 0.1875rem;
-  margin-left: 1.28125rem;
+  margin-left: 0.28125rem;
   color: #fff;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.375rem;
+  font-size: 22px;
   line-height: 1.3181818182;
 }
 .p-plan__sub-description {
   width: 29.54375rem;
   margin-inline: auto;
-  margin-top: 2.0875rem;
+  margin-top: 1.1rem;
   color: #fff;
   text-align: justify;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
   font-size: 1.125rem;
   line-height: 1.6666666667;
@@ -1676,11 +1681,11 @@ input[type="file"]::file-selector-button {
   color: #fff;
   border: 1px solid #fff;
   border-radius: 3.75rem;
-  font-family: Inter, sans-serif;
+  font-family: Oswald, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 500;
   font-optical-sizing: auto;
-  font-size: 1.5rem;
+  font-size: 24px;
   line-height: 1.2083333333;
 }
 .p-plan__sub-button:after {
@@ -2087,7 +2092,7 @@ input[type="file"]::file-selector-button {
   position: relative;
   width: 100%;
   height: auto;
-  min-height: 1050px;
+  min-height: 1000px;
   overflow: hidden;
 }
 
@@ -2122,7 +2127,7 @@ input[type="file"]::file-selector-button {
   font-family: "Noto Sans JP", sans-serif;
   font-size: 2.5rem;
   line-height: 1.2;
-  font-weight: 500;
+  font-weight: bold;
   margin: 0;
 }
 
@@ -2131,6 +2136,9 @@ input[type="file"]::file-selector-button {
 }
 .line-break-lg {
   display: none;
+}
+.tracking-11 {
+  letter-spacing: 0.011em;
 }
 @media (min-width: 640px) {
   .u-sm-dn {
@@ -2441,8 +2449,11 @@ input[type="file"]::file-selector-button {
   }
 }
 @media (min-width: 768px) {
+  .p-plan__main-button {
+    bottom: 5.3125rem;
+  }
   .l-main-content {
-    padding-top: 4rem;
+    padding-top: 3rem;
   }
   .u-md-dn {
     display: none !important;
@@ -3689,7 +3700,7 @@ input[type="file"]::file-selector-button {
     font-size: 47px;
     line-height: 1;
   }
-  .l-footer__address{
+  .l-footer__address {
     font-weight: 600;
     font-size: 9.5px;
   }
@@ -3734,7 +3745,7 @@ input[type="file"]::file-selector-button {
     right: 0;
     bottom: -4.6875rem;
     font-size: 1.2rem;
-    font-weight: 600;
+    font-weight: 500;
   }
   .l-global-menu-button {
     display: inherit;
@@ -3867,7 +3878,7 @@ input[type="file"]::file-selector-button {
     line-height: 1.1129032258;
     letter-spacing: 1.6px;
   }
-  .p-contact__time{
+  .p-contact__time {
     margin-top: 2px;
   }
   .p-contact__button {
@@ -3953,7 +3964,7 @@ input[type="file"]::file-selector-button {
     top: 40.375rem;
     left: 50%;
     translate: -50% 0;
-    font-weight: 900;
+    font-weight: 500;
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-information__object {
@@ -4003,11 +4014,11 @@ input[type="file"]::file-selector-button {
     left: 1.55625rem;
   }
   .p-main-visual__image {
-    height: 64.0875rem;
+    /* height: 64.0875rem; */
     -o-object-fit: cover;
     object-fit: cover;
   }
-  .p-main-visual__catch p{
+  .p-main-visual__catch p {
     font-weight: 800;
   }
   .p-map {
@@ -4050,7 +4061,7 @@ input[type="file"]::file-selector-button {
     line-height: 1.1368421053;
     letter-spacing: 0.03em;
   }
-  .p-plan__main-price-number{
+  .p-plan__main-price-number {
     font-size: 22px;
   }
   .p-plan__main-title-ja {
@@ -4058,7 +4069,7 @@ input[type="file"]::file-selector-button {
     font-weight: 700;
   }
   .p-plan__main-price {
-    top: 24.70625rem;
+    top: 25.70625rem;
     right: 6px;
     font-size: 11px;
     font-weight: 500;
@@ -4087,7 +4098,7 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.528125rem;
-    font-weight: 900;
+    font-weight: 500;
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-plan__grid {
@@ -4109,8 +4120,9 @@ input[type="file"]::file-selector-button {
   .p-plan__sub-title-ja {
     margin-top: 6px;
     font-weight: 500;
+    font-size: 16px;
   }
-  .p-plan__sub-price-number{
+  .p-plan__sub-price-number {
     font-size: 22px;
   }
   .p-plan__sub-price {
@@ -4125,7 +4137,8 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-price2 {
     position: absolute;
-    top: 28.99rem;
+    top: 28.8rem;
+    font-size: 11px;
     right: 0.54375rem;
     font-weight: 700;
     margin-top: inherit;
@@ -4156,13 +4169,13 @@ input[type="file"]::file-selector-button {
     width: fit-content;
     margin-inline: auto;
     margin-top: 5.4125rem;
-    font-weight: 900;
+    font-weight: 500;
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
-  .p-plan__sub-button:after, 
-  .p-plan__main-button:after, 
+  .p-plan__sub-button:after,
+  .p-plan__main-button:after,
   .p-information__button:after,
-  .p-contact__button:after{
+  .p-contact__button:after {
     width: 8px;
     height: 9px;
   }
@@ -4177,16 +4190,13 @@ input[type="file"]::file-selector-button {
   }
 }
 @media screen and (max-width: 767px) {
-  .p-main-visual__carousel {
-    min-height: 500px;
-  }
   .p-main-visual__title-text {
     display: block;
   }
   .p-main-visual__title-text-desktop {
     display: none;
   }
-  .p-about__title{
+  .p-about__title {
     justify-content: center;
   }
 }
@@ -4197,7 +4207,6 @@ input[type="file"]::file-selector-button {
 .title__font-family {
   font-family: Bebas Neue, sans-serif;
 }
-
 
 /* Pages Css */
 /* About */
@@ -4266,7 +4275,7 @@ input[type="file"]::file-selector-button {
   transform: translateY(105%);
 }
 .l-main-content__contact-title-en span:nth-child(1) {
-  transition-delay: 0.0s;
+  transition-delay: 0s;
 }
 .l-main-content__contact-title-en span:nth-child(2) {
   transition-delay: 0.09s;
@@ -4315,7 +4324,7 @@ input[type="file"]::file-selector-button {
   transform: translateY(105%);
 }
 .l-main-content__space-title-en span:nth-child(1) {
-  transition-delay: 0.0s;
+  transition-delay: 0s;
 }
 .l-main-content__space-title-en span:nth-child(2) {
   transition-delay: 0.09s;
@@ -4404,7 +4413,7 @@ input[type="file"]::file-selector-button {
   transform: translateY(105%);
 }
 .l-main-content__trailer-title-en span:nth-child(1) {
-  transition-delay: 0.0s;
+  transition-delay: 0s;
 }
 .l-main-content__trailer-title-en span:nth-child(2) {
   transition-delay: 0.09s;
@@ -4472,16 +4481,99 @@ input[type="file"]::file-selector-button {
 }
 /* Space End */
 
-@media (min-width: 481px) and (max-width: 767px) {
-  .p-plan__main-title-en {
-    font-size: 56px;
+[class*="p-concept__img"],
+[class*="p-facility-intro__img"],
+[class*="p-plan__"] img {
+  will-change: transform;
+  transform-style: preserve-3d;
+}
+
+.l-main-content__section {
+  overflow: hidden;
+  position: relative;
+}
+
+@media (max-width: 425px) {
+  .p-facility-intro__paragraph {
+    width: 100%;
+    padding-left: 40px;
   }
 }
 
+@media (min-width: 376px) and (max-width: 480px) {
+  .p-plan__main-price {
+    top: 25.2rem;
+  }
+  .p-plan__sub-price {
+    top: 22.5rem;
+  }
+  .p-plan__sub-price2 {
+    top: 27.7rem;
+  }
+}
 
 @media (min-width: 320px) and (max-width: 480px) {
   .p-plan__main-title-en {
     font-size: 58px;
+  }
+  .p-main-visual__image {
+    min-height: 500px;
+  }
+  .p-main-visual__carousel {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+  .p-plan__main-title-en {
+    font-size: 56px;
+  }
+  .p-main-visual__image {
+    min-height: 500px;
+  }
+  .p-main-visual__carousel {
+    min-height: 500px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .l-header__link {
+    font-size: 16px;
+  }
+  .p-main-visual__image {
+    min-height: 600px;
+  }
+  .p-main-visual__carousel {
+    min-height: 600px;
+  }
+  .l-main-content {
+    padding-top: 7rem;
+  }
+  .p-plan__main-price {
+    top: 29.9rem;
+    font-size: 14px;
+  }
+  .p-plan__sub-title-en {
+    font-size: 50px;
+  }
+  .p-information__news {
+    font-size: 16px;
+  }
+  .p-plan__sub-price,
+  .p-plan__sub-price2,
+  .l-footer__link,
+  .p-information__date {
+    font-size: 14px;
+  }
+  .l-footer__copyright,
+  .l-footer__policy {
+    font-size: 10px;
+  }
+}
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  .p-main-visual__carousel {
+    min-height: 800px;
   }
 }
 
@@ -4494,7 +4586,7 @@ input[type="file"]::file-selector-button {
     display: flex;
     align-items: flex-end;
     justify-content: center;
-    transition: opacity 0.4s cubic-bezier(.77,0,.18,1);
+    transition: opacity 0.4s cubic-bezier(0.77, 0, 0.18, 1);
     pointer-events: auto;
   }
 
@@ -4509,29 +4601,16 @@ input[type="file"]::file-selector-button {
   #intro-title.move-up {
     left: 19vw;
     bottom: 40vh;
-    transition:
-      font-size 0.8s cubic-bezier(.77,0,.18,1),
-      left 0.8s cubic-bezier(.77,0,.18,1),
-      bottom 0.8s cubic-bezier(.77,0,.18,1),
-      transform 0.8s cubic-bezier(.77,0,.18,1),
-      opacity 0.8s cubic-bezier(.77,0,.18,1);
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
   }
 
   #intro-overlay.hide {
     opacity: 0;
     pointer-events: none;
-    transition: opacity 0.6s cubic-bezier(.77,0,.18,1);
+    transition: opacity 0.6s cubic-bezier(0.77, 0, 0.18, 1);
   }
-}
-
-[class*="p-concept__img"],
-[class*="p-facility-intro__img"],
-[class*="p-plan__"] img {
-  will-change: transform;
-  transform-style: preserve-3d;
-}
-
-.l-main-content__section {
-  overflow: hidden;
-  position: relative;
 }
