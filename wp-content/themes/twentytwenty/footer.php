@@ -71,7 +71,7 @@
         <a class="l-footer__link" href="<?php echo home_url('contact') ?>"> CONTACT </a>
       </li>
     </ul>
-    <p class="l-footer__policy">PRIVACY POLICY &nbsp;&nbsp; SITEMAP</p>
+    <p class="l-footer__policy"><a href="<?php echo home_url('privacy-policy') ?>">PRIVACY POLICY</a> &nbsp;&nbsp; <a href="#">SITEMAP</a></p>
   </nav>
 </footer>
 <!-- Include GSAP and ScrollTrigger -->
