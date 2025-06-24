@@ -4599,8 +4599,10 @@ input[type="file"]::file-selector-button {
   }
 
   #intro-title.move-up {
-    left: 19vw;
-    bottom: 40vh;
+    /* left: 19vw;
+    bottom: 40vh; */
+    left: 18.9vw;
+    bottom: 40.9vh;
     transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
