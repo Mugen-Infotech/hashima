@@ -545,17 +545,56 @@ get_header();
               <span
                 class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#F56512] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] title__font-family leading-none">7</span>
             </div>
+            <?php
+            get_header();
+
+            $table_a = [
+              'A-01' => 'a-01',
+              'A-02' => 'a-02',
+              'A-03' => 'a-03',
+              'A-04' => 'a-04',
+              'A-05' => 'a-05',
+              'A-06' => 'a-06',
+              'A-07' => 'a-07',
+              'A-08' => 'a-08',
+              'A-09' => 'a-09',
+            ];
+
+            $table_b = [
+              'B-01' => 'b-01',
+              'B-02' => 'b-02',
+              'B-03' => 'b-03',
+              'B-04' => 'b-04',
+              'B-05' => 'b-05',
+              'B-06' => 'b-06',
+              'B-07' => 'b-07',
+              'B-08' => 'b-08',
+              'B-09' => 'b-09',
+            ];
+            ?>
             <table
               class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
               <tbody>
-                <tr class="font-normal">
+                <?php foreach ($table_a as $label => $field_name):
+                  $available = get_field($field_name);
+                ?>
+                  <tr class="font-normal">
+                    <td class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                      <?= esc_html($label); ?>
+                    </td>
+                    <td class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                      <?= $available ? '〇' : '✕'; ?>
+                    </td>
+                  </tr>
+                <?php endforeach; ?>
+                <!-- <tr class="font-normal">
                   <td
                     class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
                     A-01
                   </td>
                   <td
                     class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    <?php echo get_field('a_01') ? '〇' : '✕'; ?>
+                    ✕
                   </td>
                 </tr>
                 <tr class="font-normal">
@@ -575,7 +614,7 @@ get_header();
                   </td>
                   <td
                     class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    <?php echo get_field('a_03') ? '〇' : '✕'; ?>
+                    〇
                   </td>
                 </tr>
                 <tr class="font-normal">
@@ -636,7 +675,7 @@ get_header();
                   <td
                     class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512]">
                     〇
-                  </td>
+                  </td> -->
                 </tr>
               </tbody>
             </table>
@@ -654,7 +693,19 @@ get_header();
             <table
               class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
               <tbody>
-                <tr class="font-normal">
+                <?php foreach ($table_b as $label => $field_name):
+                  $available = get_field($field_name);
+                ?>
+                  <tr class="font-normal">
+                    <td class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                      <?= esc_html($label); ?>
+                    </td>
+                    <td class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                      <?= $available ? '〇' : '✕'; ?>
+                    </td>
+                  </tr>
+                <?php endforeach; ?>
+                <!-- <tr class="font-normal">
                   <td
                     class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
                     B-01
@@ -743,7 +794,7 @@ get_header();
                     class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black">
                     〇
                   </td>
-                </tr>
+                </tr> -->
               </tbody>
             </table>
           </div>
