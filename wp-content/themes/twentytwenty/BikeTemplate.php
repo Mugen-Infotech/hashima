@@ -12,7 +12,953 @@
 get_header();
 ?>
 
+<div class="p-main-visual">
+  <span class="p-main-visual__background js-main-visual-background"></span>
+  <div class="p-main-visual__group">
+    <img
+      class="w-full h-auto block"
+      src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage.webp"
+      width="1326"
+      height="920"
+      alt="" />
+  </div>
+  <div
+    class="absolute top-28 right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
+    <span
+      class="text-white text-[8px] md:text-[10px] lg:text-[14px] title__font-family uppercase leading-none tracking-[0.011em]">TOTAL</span>
+    <div class="flex flex-col justify-start items-center">
+      <span
+        class="text-white text-[24px] md:text-[40px] lg:text-[74px] title__font-family leading-none tracking-[0.011em]">18</span>
+      <span
+        class="text-white text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] title__font-family uppercase leading-none -mt-[3px] md:-mt-[5px] lg:-mt-[8px] xl:-mt-[8px] tracking-[0.011em]">GARAGE</span>
+    </div>
+  </div>
+</div>
 
+<main class="l-main-content pt-1">
+  <!-- Bike Area Start -->
+  <section class="w-full bg-white">
+    <div class="max-w-6xl mx-auto px-4">
+      <h2
+        class="text-[50px] md:text-[80px] lg:text-[158px] justify-center leading-none l-main-content__space-title-en js-title">
+        <span>R</span>
+        <span>E</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>L</span>
+        <span>&nbsp;</span>
+        <span>B</span>
+        <span>I</span>
+        <span>K</span>
+        <span>E</span>
+        <span>&nbsp;</span>
+        <span>G</span>
+        <span>A</span>
+        <span>R</span>
+        <span>A</span>
+        <span>G</span>
+        <span>E</span>
+      </h2>
+      <p
+        class="text-center text-[18px] md:text-[20px] lg:text-[40px] font-bold mb-20">
+        レンタルバイクガレージ
+      </p>
+      <p
+        class="text-left text-[15px] md:text-[16px] lg:text-[20px] max-w-3xl mx-auto font-normal pb-20 !leading-[24px] sm:!leading-[24px] md:!leading-[40px] lg:!leading-[50px]">
+        バイクの駐車場でのご利用はもちろん、メンテナンスやカスタマイズ、DIYもで
+        きるプライベートな空間。
+        仲間とシェアして借りれば、バイクを囲みながら語り
+        合う時間もつくれます。 ここは、 「バイクを大切にしたい」
+        「作業する場所が欲し い」という思いを実現するバイクガレージです。
+      </p>
+      <p
+        class="text-center text-[18px] md:text-[20px] lg:text-[22px] font-bold mb-8">
+        こんな方におすすめです!
+      </p>
+      <div
+        class="max-w-6xl mx-auto flex flex-wrap justify-center gap-4 mb-24">
+        <span
+          class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-medium">
+          <span
+            class="relative flex items-center justify-center w-8 h-8 rounded-full bg-white mr-3 overflow-visible">
+            <i
+              class="fa-solid fa-check text-black text-4xl md:text-4xl lg:text-4xl absolute -top-[3px] md:-top-[4px] lg:-top-[5px] 2xl:-top-[10px] left-[3px] 2xl:left-[5px]"></i>
+          </span>
+          <span class="text-[14px] md:text-[23px]">バイク置き場にお困りの方</span>
+        </span>
+        <span
+          class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-medium">
+          <span
+            class="relative flex items-center justify-center w-8 h-8 rounded-full bg-white mr-3 overflow-visible">
+            <i
+              class="fa-solid fa-check text-black text-4xl md:text-4xl lg:text-4xl absolute -top-[3px] md:-top-[4px] lg:-top-[5px] 2xl:-top-[10px] left-[3px] 2xl:left-[5px]"></i>
+          </span>
+          <span class="text-[14px] md:text-[23px]">バイクを大切に保管したい方</span>
+        </span>
+        <span
+          class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-medium"><span
+            class="relative flex items-center justify-center w-8 h-8 rounded-full bg-white mr-3 overflow-visible">
+            <i
+              class="fa-solid fa-check text-black text-4xl md:text-4xl lg:text-4xl absolute -top-[3px] md:-top-[4px] lg:-top-[5px] 2xl:-top-[10px] left-[3px] 2xl:left-[5px]"></i>
+          </span>
+          <span class="text-[14px] md:text-[23px]">作業する場所が欲しい方</span>
+        </span>
+        <span
+          class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-medium"><span
+            class="relative flex items-center justify-center w-8 h-8 rounded-full bg-white mr-3 overflow-visible">
+            <i
+              class="fa-solid fa-check text-black text-4xl md:text-4xl lg:text-4xl absolute -top-[3px] md:-top-[4px] lg:-top-[5px] 2xl:-top-[10px] left-[3px] 2xl:left-[5px]"></i>
+          </span>
+          <span class="text-[14px] md:text-[23px]">秘密基地が欲しい方</span></span>
+        <span
+          class="flex items-center bg-gray-200 rounded-full px-6 md:px-6 py-5 md:py-6 text-2xl md:text-xl font-medium"><span
+            class="relative flex items-center justify-center w-8 h-8 rounded-full bg-white mr-3 overflow-visible">
+            <i
+              class="fa-solid fa-check text-black text-4xl md:text-4xl lg:text-4xl absolute -top-[3px] md:-top-[4px] lg:-top-[5px] 2xl:-top-[10px] left-[3px] 2xl:left-[5px]"></i>
+          </span>
+          <span class="text-[14px] md:text-[23px]">バイク仲間が欲しい方</span></span>
+        <span class="flex items-center font-medium text-2xl md:text-[23px]">など</span>
+      </div>
+      <div class="flex justify-center">
+        <div class="relative z-20 -mb-[74px]">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg"
+            alt="HASHIMA BASE"
+            class="object-contain" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="relative bg-black z-10 w-full flex items-center pt-44 pb-12">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-14 lg:px-0">
+        <div class="md:col-span-4">
+          <div class="w-full flex justify-center mb-8 md:mb-0">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage1.webp"
+              alt="Rental Space"
+              class="w-full h-auto object-cover max-w-full lg:max-w-full" />
+          </div>
+        </div>
+        <div class="md:col-span-3">
+          <div
+            class="w-full flex flex-col justify-center px-0 lg:px-10 text-white">
+            <h2
+              class="title__font-family text-[42px] md:text-[48px] lg:text-[62px] mb-6 leading-none">
+              RENTAL<br />BIKE GARAGE
+            </h2>
+            <div
+              class="flex items-center gap-24 md:gap-10 mt-[12px] lg:mt-0">
+              <div>
+                <span
+                  class="text-[#F56512] title__font-family text-[100px] md:text-[100px] lg:text-[158px] leading-none">A</span>
+                <span
+                  class="text-[#F56512] title__font-family text-[26px] md:text-[28px] lg:text-[45px] ml-1">TYPE</span>
+              </div>
+              <div class="flex-shrink-0">
+                <div
+                  class="rounded-full border-2 bg-[#F56512] border-[#F56512] w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[130px] lg:h-[130px] flex flex-col items-center justify-center -mt-[16px] md:-mt-[10px]">
+                  <span
+                    class="title__font-family text-black text-[12px] md:text-[14px] font-normal leading-none tracking-[0.011em]">A-TYPE</span>
+                  <span
+                    class="title__font-family text-[35px] md:text-[40px] lg:text-[74px] text-black font-normal leading-none tracking-[0.011em] lg:-mb-[6px]">9</span>
+                  <span
+                    class="title__font-family text-black text-[14px] md:text-[16px] lg:text-[20px] leading-none tracking-[0.011em]">GARAGE</span>
+                </div>
+              </div>
+            </div>
+            <h3
+              class="text-[20px] md:text-[26px] lg:text-[36px] font-bold tracking-tight mb-2 lg:mb-0">
+              駐車場なしコンテナ
+            </h3>
+            <p class="text-[15px] md:text-[17px] lg:text-[20px] mb-6">
+              (フェンス外駐車場OK)
+            </p>
+            <div class="space-y-3 mb-[16px] mt-[16px] lg:mt-0">
+              <div class="flex items-baseline px-2 md:px-6">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] font-bold content__font-family">月額／</span>
+                <span
+                  class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family leading-10 pl-1 mb-[5px] md:mb-0">39,000</span>
+                <span
+                  class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family leading-none ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] font-medium content__font-family">（税別）</span>
+              </div>
+            </div>
+            <div class="text-[14px] md:text-[16px] font-medium">
+              コンテナサイズ: L6,058 x W2,438 x H2,591(mm)<br />
+              ※2年契約以上 (短期契約は要相談)
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="relative bg-black z-10 w-full flex items-center pt-44 md:pt-16 pb-12">
+      <div
+        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-14 lg:px-0">
+        <div class="md:col-span-3 order-2 lg:order-1">
+          <div
+            class="w-full flex flex-col justify-center px-0 lg:px-8 xl:px-10 text-white">
+            <h2
+              class="title__font-family text-[42px] md:text-[48px] lg:text-[62px] mb-6 leading-none">
+              RENTAL<br />BIKE GARAGE
+            </h2>
+            <div class="flex items-center mb-2 gap-24 md:gap-10">
+              <div>
+                <span
+                  class="text-[#00B5FF] title__font-family text-[100px] md:text-[100px] lg:text-[158px] leading-none">B</span>
+                <span
+                  class="text-[#00B5FF] title__font-family text-[26px] md:text-[28px] lg:text-[45px] ml-1">TYPE</span>
+              </div>
+              <div class="flex-shrink-0">
+                <div
+                  class="rounded-full border-2 bg-[#00B5FF] border-[#00B5FF] w-[80px] h-[80px] md:w-[90px] md:h-[90px] lg:w-[130px] lg:h-[130px] flex flex-col items-center justify-center">
+                  <span
+                    class="title__font-family text-black text-[12px] md:text-[14px] font-normal leading-none tracking-[0.011em]">B-TYPE</span>
+                  <span
+                    class="title__font-family text-[35px] md:text-[40px] lg:text-[74px] text-black font-normal leading-none tracking-[0.011em] lg:-mb-[6px]">9</span>
+                  <span
+                    class="title__font-family text-black text-[14px] md:text-[16px] lg:text-[20px] leading-none tracking-[0.011em]">GARAGE</span>
+                </div>
+              </div>
+            </div>
+            <h3
+              class="text-[22px] md:text-[28px] lg:text-[36px] pb-8 font-bold tracking-tight">
+              駐車場1台併設コンテナ
+            </h3>
+            <div class="space-y-3 my-[16px]">
+              <div class="flex items-baseline px-2 md:px-6">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] font-bold content__font-family">月額／</span>
+                <span
+                  class="text-[38px] md:text-[48px] lg:text-[52px] text-white title__font-family leading-10">45,000</span>
+                <span
+                  class="text-[22px] lg:text-[30px] title__font-family ml-1 leading-none">YEN</span>
+                <span
+                  class="text-[16px] lg:text-[18px] ml-2 font-medium content__font-family">（税別）</span>
+              </div>
+            </div>
+            <div class="text-[14px] md:text-[16px] font-medium">
+              コンテナサイズ: L6,058 x W2,438 ×H2,591(mm)<br />
+              ※2年契約以上 (短期契約は要相談)
+            </div>
+          </div>
+        </div>
+        <div class="md:col-span-4 order-1 lg:order-2">
+          <div class="w-full flex justify-center mb-8 md:mb-0">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage2.webp"
+              alt="Rental Space"
+              class="w-full h-auto object-cover max-w-full lg:max-w-full" />
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-8xl mx-auto bg-black pb-0 py-16">
+      <div class="grid grid-cols-5 grid-rows-2 gap-2">
+        <div class="col-span-2 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage3.webp"
+            alt="Gallery 1"
+            class="w-full h-full object-inherit" />
+        </div>
+        <div class="col-span-2 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage4.webp"
+            alt="Gallery 2"
+            class="w-full h-full object-inherit" />
+        </div>
+        <div class="col-span-1 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage5.webp"
+            alt="Gallery 3"
+            class="w-full h-full object-inherit" />
+        </div>
+        <div class="col-span-1 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage6.webp"
+            alt="Gallery 5"
+            class="w-full h-full object-inherit" />
+        </div>
+        <div class="col-span-2 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage7.webp"
+            alt="Gallery 6"
+            class="w-full h-full object-inherit" />
+        </div>
+        <div class="col-span-2 row-span-1">
+          <img
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage8.webp"
+            alt="Gallery 7"
+            class="w-full h-full object-inherit" />
+        </div>
+      </div>
+    </div>
+    <div class="max-w-[1180px] mx-auto px-8 md:px-4 py-16 !pt-36 pb-40">
+      <div class="mb-20">
+        <div class="text-4xl md:text-[22px] font-bold mb-4 text-left">
+          共通設備類
+        </div>
+        <div class="overflow-x-auto -translate-x-1">
+          <table
+            class="w-full min-w-[600px] xl:min-w-[650px] table-fixed border-separate border-spacing-x-2">
+            <tbody>
+              <tr class="odd:bg-gray-200 even:bg-gray-100">
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  防犯カメラあり
+                </td>
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  警備会社契約済み
+                </td>
+              </tr>
+              <tr class="odd:bg-gray-200 even:bg-gray-100">
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  外灯あり
+                </td>
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  24時間365日出し入れOK
+                </td>
+              </tr>
+              <tr class="odd:bg-gray-200 even:bg-gray-100">
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  ガレージ共同トイレあり
+                </td>
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  フェンス用カードキー1枚
+                </td>
+              </tr>
+              <tr class="odd:bg-gray-200 even:bg-gray-100">
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  エアコン、電灯なし<br class="md:hidden" />
+                  <span class="text-14 md:text-[16px]">(設置費用、電気代等自己負担で設置可能)</span>
+                </td>
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  洗車スペース設置予定
+                </td>
+              </tr>
+              <tr class="odd:bg-gray-200 even:bg-gray-100">
+                <td
+                  class="px-6 py-4 text-2xl md:text-[16px] lg:text-[20px] text-left">
+                  ガレージ内コンセントあり
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+
+      <div>
+        <div
+          class="font-bold border-b border-black text-4xl md:text-[20px] lg:text-[22px] pb-1 mb-8">
+          使用についての注意事項
+        </div>
+        <ul class="space-y-3 text-2xl md:text-[16px] lg:text-[18px]">
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            BASEでのイベント時にはフェンスを解放して会員専用地内を自由に散策できます。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            イベントのない場合はフェンスは閉じています。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            ペットはペットケース・バギーなど、体全体が外に出ていないようにしてください。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            コンテナは複数人で使用しても良いが契約者は代表者1人が責任を持って管理すること。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            また貸し禁止。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            コンテナ内及びBASE敷地内での宿泊禁止。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            バイクの空ふかし禁止。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            ゴミは各自持ち帰ること。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            コンテナ内でのたばこは禁止 (電子タバコを含む)。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            バイクコンテナ契約者のレンタルシェアスペース使用は有料とする
+            (割引あり)
+          </li>
+        </ul>
+        <p class="text-2xl md:text-[18px] mt-8">
+          ※契約者の紹介割引あり (契約者が知人、友人をご紹介した場合)
+        </p>
+      </div>
+    </div>
+    <div
+      class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-6 px-4 md:px-0">
+      <a
+        href="/pages/contact.html"
+        class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#0057FF] hover:bg-[#0046cc] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md">
+        <span
+          class="text-[30px] sm:text-[36px] md:text-[70px] lg:text-[75px] leading-none tracking-wide">
+          CONTACT
+        </span>
+        <span
+          class="text-[14px] sm:text-[14px] md:text-[20px] font-bold text-center whitespace-nowrap content__font-family">
+          お問い合わせ／内覧お申込み／お申込み
+        </span>
+        <span
+          class="absolute right-[20px] sm:right-6 md:right-[32px] xl:right-12 bottom-4 top-[30px] md:top-[48px] xl:top-[58px] text-[24px] md:text-[30px]">
+          &#9654;
+        </span>
+      </a>
+
+      <div
+        class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#555] rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md text-center">
+        <div class="flex flex-col justify-start">
+          <span
+            class="text-[30px] md:text-[54px] leading-[30px] md:leading-[56px] tracking-wider">
+            TEL 090-4153-3258
+          </span>
+          <span
+            class="text-[14px] md:text-[16px] content__font-family text-left">
+            営業時間 8:00〜18:00
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="max-w-6xl mx-auto bg-white pt-32 items-start px-4 md:px-0">
+      <div
+        class="text-left mb-[20px] md:mb-[26px] lg:mb-[32px] xl:mb-[40px]">
+        <h2 class="text-[50px] md:text-[68px] title__font-family">
+          GARAGE AVAILABILITY
+        </h2>
+        <div
+          class="text-[22px] md:text-[24px] lg:text-[28px] font-bold mb-2">
+          ガレージ空き状況
+        </div>
+        <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-1">
+          現在のバイクガレージの空き状況です。
+        </div>
+        <div class="text-[16px] md:text-[16px] lg:text-[18px] mb-4">
+          〇 空き ／ ✕ 契約済み
+        </div>
+      </div>
+    </div>
+    <div
+      class="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-center gap-12 px-4 md:px-0">
+      <div class="flex flex-col pb-32 gap-6 min-w-[340px] mx-auto">
+        <div class="flex flex-row gap-10">
+          <div>
+            <div class="flex items-end gap-2 mb-2">
+              <span
+                class="text-[38px] md:text-[48px] lg:text-[69px] xl:text-[76px] title__font-family text-[#F56512] leading-none">A</span>
+              <span
+                class="text-[20px] md:text-[28px] lg:text-[28px] xl:text-[38px] title__font-family text-[#F56512]">type</span>
+              <span
+                class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#F56512] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] title__font-family leading-none">7</span>
+            </div>
+            <table
+              class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
+              <tbody>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                    A-01
+                  </td>
+                  <td
+                    class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    ✕
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-02
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    ✕
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-03
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-04
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-05
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-06
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-07
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    A-08
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1">
+                    A-09
+                  </td>
+                  <td
+                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512]">
+                    〇
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <div>
+            <div class="flex items-end gap-2 mb-2">
+              <span
+                class="text-[38px] md:text-[48px] lg:text-[69px] xl:text-[76px] title__font-family text-[#00B5FF] leading-none">B</span>
+              <span
+                class="text-[20px] md:text-[28px] lg:text-[28px] xl:text-[38px] title__font-family text-[#00B5FF]">type</span>
+              <span
+                class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#00B5FF] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] leading-none">7</span>
+            </div>
+            <table
+              class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
+              <tbody>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                    B-01
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black border-b border-black">
+                    ✕
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-02
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black border-b border-black">
+                    ✕
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-03
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-04
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-05
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-06
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-07
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
+                    B-08
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
+                    〇
+                  </td>
+                </tr>
+                <tr class="font-normal">
+                  <td
+                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1">
+                    B-09
+                  </td>
+                  <td
+                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black">
+                    〇
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+
+      <div class="flex-1 flex justify-center items-center">
+        <img
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-map/map.webp"
+          alt="Garage Map"
+          class="max-w-[432px] w-full h-auto" />
+      </div>
+    </div>
+
+    <div class="w-full">
+      <div class="bg-black relative overflow-hidden py-20 px-4">
+        <div
+          class="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-start gap-10">
+          <div class="flex-1 flex flex-col justify-center items-start">
+            <h2
+              class="text-white text-[64px] md:text-[94px] leading-none mb-4 title__font-family">
+              DIY
+            </h2>
+            <div
+              class="text-white text-[22px] md:text-[28px] font-bold mb-2">
+              DIYの改造事例
+            </div>
+            <div
+              class="text-white text-[16px] md:text-[18px] leading-relaxed">
+              工具の貸し出しもしています。<br />
+              （インパクト・丸ノコなど）
+            </div>
+          </div>
+          <div class="flex-2 flex justify-center pb-7">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/garage9.webp"
+              alt="DIY事例"
+              class="w-full max-w-[720px] object-cover z-10" />
+          </div>
+        </div>
+
+        <div
+          class="absolute inset-0 flex items-end justify-center pointer-events-none select-none z-0">
+          <span
+            class="w-full text-center text-[55px] md:text-[120px] lg:text-[158px] xl:text-[200px] text-white/10 leading-none title__font-family">
+            RENTAL BIKE GARAGE
+          </span>
+        </div>
+      </div>
+
+      <div class="bg-white py-20 px-4">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
+          <div class="flex-1 flex flex-col items-start">
+            <h2
+              class="text-[64px] md:text-[94px] leading-none title__font-family">
+              VOICE
+            </h2>
+            <div
+              class="text-[22px] md:text-[28px] content__font-family font-bold mb-2">
+              利用者の声
+            </div>
+          </div>
+
+          <div class="flex-[2] flex flex-col gap-12">
+            <div class="flex flex-col md:flex-row items-center gap-8">
+              <img
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/user1.webp"
+                alt="利用者1"
+                class="max-w-lg rounded-full -mt-0 md:-mt-[128px] lg:-mt-[30px] xl:-mt-[0px]" />
+              <div>
+                <div
+                  class="text-black text-[22px] md:text-[26px] font-bold pb-8 pt-0 md:pt-2 2xl:pt-0">
+                  50代男性 利用者
+                </div>
+                <div
+                  class="text-black text-[16px] md:text-[18px] font-normal leading-[31px]">
+                  「2台バイクと、バイク用品・車用品などを保管しています。通路が広く、コンテナの前まで車両を乗り入れられるので、積み下ろしがとてもスムーズです。使い勝手の良さに満足しています。」
+                </div>
+              </div>
+            </div>
+            <div class="flex flex-col md:flex-row items-center gap-8">
+              <img
+                src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/user2.webp"
+                alt="利用者2"
+                class="max-w-lg rounded-full -mt-0 md:-mt-[147px] lg:-mt-[46px] xl:-mt-[0px]" />
+              <div>
+                <div
+                  class="text-black text-[22px] md:text-[26px] font-bold pb-8 pt-0 md:pt-2 2xl:pt-0">
+                  共同利用
+                </div>
+                <div
+                  class="text-black text-[16px] md:text-[18px] font-normal leading-[31px]">
+                  「夫婦でコンテナを借りています。バイクの保管はもちろん、趣味のアイテムも一緒に収納。セキュリティ体制がしっかりしているので、大切なものを安心して預けられます。休日にゆっくり訪れるのが楽しみです。」
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="bg-[#f5f5f6]">
+      <div class="max-w-6xl mx-auto w-full py-24 px-4">
+        <div
+          class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
+          <h2
+            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-4">
+            FLOW
+          </h2>
+          <div class="text-black text-[22px] md:text-[28px] font-bold mb-2">
+            契約までの流れ
+          </div>
+        </div>
+        <div
+          class="max-w-full mx-auto flex flex-col lg:flex-row items-start justify-between gap-x-4 gap-y-14 lg:gap-y-4 w-full">
+          <div class="flex flex-col items-center w-full lg:w-1/4">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/contact.png"
+              alt="お問い合わせ"
+              class="w-[130px] h-[100px] md:w-[190px] md:h-[140px] mb-6 lg:mb-12 xl:mb-[44px] 2xl:mb-[48px]" />
+            <span
+              class="bg-black text-white rounded-full px-4 lg:px-4 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px] lg:min-w-[195px]">お問い合わせ</span>
+          </div>
+          <div
+            class="hidden lg:flex items-center justify-center w-[40px] h-[170px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 32,16 0,32" fill="#ccc" />
+            </svg>
+          </div>
+          <div
+            class="lg:hidden flex items-center self-center justify-center w-[40px] h-[100px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 16,32 32,0" fill="#ccc" />
+            </svg>
+          </div>
+          <div class="flex flex-col items-center w-full lg:w-1/4">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/preview.png"
+              alt="内覧"
+              class="w-[100px] h-[100px] md:w-[140px] md:h-[150px] mb-6 md:mb-8" />
+            <span
+              class="bg-black text-white rounded-full px-4 lg:px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">内 覧</span>
+            <span
+              class="text-black text-[16px] md:text-[18px] mt-2 text-center leading-tight">※内覧は無しでも<br />大丈夫です。</span>
+          </div>
+          <div
+            class="hidden lg:flex items-center justify-center w-[40px] h-[170px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 32,16 0,32" fill="#ccc" />
+            </svg>
+          </div>
+          <div
+            class="lg:hidden flex items-center self-center justify-center w-[40px] h-[100px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 16,32 32,0" fill="#ccc" />
+            </svg>
+          </div>
+          <div class="flex flex-col items-center w-full lg:w-1/4">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/apply.png"
+              alt="お申込み"
+              class="w-[100px] h-[100px] md:w-[160px] md:h-[150px] mb-6 md:mb-8" />
+            <span
+              class="bg-black text-white rounded-full px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">お申込み</span>
+          </div>
+          <div
+            class="hidden lg:flex items-center justify-center w-[40px] h-[170px] lg:mr-[14px] xl:mr-[25px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 32,16 0,32" fill="#ccc" />
+            </svg>
+          </div>
+          <div
+            class="lg:hidden flex items-center self-center justify-center w-[40px] h-[100px]">
+            <svg width="32" height="32" viewBox="0 0 32 32" class="mx-auto">
+              <polygon points="0,0 16,32 32,0" fill="#ccc" />
+            </svg>
+          </div>
+          <div class="flex flex-col items-center w-full lg:w-1/4">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/bike-icon.png"
+              alt="契約"
+              class="w-[130px] h-[100px] md:w-[240px] md:h-[150px] mb-6 md:mb-8" />
+            <span
+              class="bg-black text-white rounded-full px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">契 約</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Bike Area End -->
+
+  <div class="p-contact">
+    <hgroup class="p-contact__title">
+      <h2 class="p-contact__title-en js-title leading-[1.11]">
+        <span>C</span>
+        <span>O</span>
+        <span>N</span>
+        <span>T</span>
+        <span>A</span>
+        <span>C</span>
+        <span>T</span>
+      </h2>
+      <p class="p-contact__title-ja">
+        お問い合わせ／内覧お申込み／お申込み
+      </p>
+    </hgroup>
+    <div class="p-contact__group">
+      <p class="p-contact__tel">TEL 090-4153-3258</p>
+      <p class="p-contact__time">営業時間 8:00〜18:00</p>
+      <a class="p-contact__button" href="/pages/contact.html">CONTACT</a>
+    </div>
+  </div>
+</main>
 
 <?php
 get_footer();

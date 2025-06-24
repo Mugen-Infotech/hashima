@@ -31,8 +31,8 @@ get_header();
         お問い合わせ／内覧お申込み／お申込み
       </p>
       <p
-        class="text-center font-medium text-[14px] md:text-[18px] lg:text-[20px] mb-10 md:mb-10">
-        メールフォームにてお気軽にお問い合わせください。
+        class="text-center font-medium text-[14px] md:text-[18px] lg:text-[20px] mb-8 md:mb-10">
+        お問い合わせ内容をご確認ください。
       </p>
 
       <form class="w-full">
@@ -44,29 +44,14 @@ get_header();
                 class="w-[200px] md:w-[236px] 2xl:w-[250px] 2xl:md:w-[240px] px-2 md:px-4 py-2 md:py-3 text-[14px] md:text-[18px] font-bold text-black"
                 for="category">お問い合わせカテゴリー</label>
               <span
-                class="text-[12px] md:text-[14px] lg:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8 font-medium">必 須</span>
+                class="text-[12px] md:text-[14px] lg:text-sm text-white bg-[#8e8e8e] px-4 md:px-2 py-[2px] ml-2 mr-4 md:mr-8">必 須</span>
             </div>
-            <select
+            <input
               id="category"
+              type="text"
               required
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]">
-              <option value="">以下から選択してください</option>
-              <option value="レンタルバイクガレージについて">
-                レンタルバイクガレージについて
-              </option>
-              <option value="レンタルバイクガレージ内覧について">
-                レンタルバイクガレージ内覧について
-              </option>
-              <option value="レンタルバイクガレージ申し込みについて">
-                レンタルバイクガレージ申し込みについて
-              </option>
-              <option value="レンタルスペースについて">
-                レンタルスペースについて
-              </option>
-              <option value="レンタルキッチントレーラーについて">
-                レンタルキッチントレーラーについて
-              </option>
-            </select>
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px] font-medium"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#ededed] border-b border-black">
@@ -80,7 +65,8 @@ get_header();
             <input
               id="company"
               type="text"
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#ededed] border-b border-black">
@@ -95,7 +81,8 @@ get_header();
               id="name"
               type="text"
               required
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#ededed] border-b border-black">
@@ -110,7 +97,8 @@ get_header();
               id="furigana"
               type="text"
               required
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#ededed] border-b border-black">
@@ -125,7 +113,8 @@ get_header();
               id="tel"
               type="tel"
               required
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#ededed] border-b border-black">
@@ -140,7 +129,8 @@ get_header();
               id="email"
               type="email"
               required
-              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
+              class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]"
+              readonly />
           </div>
           <div
             class="flex flex-col md:flex-row items-start p-3 md:p-4 md:pr-10 bg-[#ededed]">
@@ -154,43 +144,43 @@ get_header();
             <textarea
               id="message"
               required
+              readonly
               rows="7"
               class="w-full md:flex-1 px-3 py-2 mt-0 md:mt-3 bg-white border-none outline-none text-[14px] md:text-[18px] resize-none"></textarea>
-          </div>
-        </div>
-        <div class="mt-20 pr-8 md:mt-8">
-          <p
-            class="text-[16px] md:text-[18px] lg:text-[18px] font-bold mb-6 md:mb-4">
-            個人情報保護
-          </p>
-          <p
-            class="text-[14px] md:text-[18px] font-normal mb-10 md:mb-16 lg:mb-3">
-            ここで入力された情報で個人情報にあたるものは、「プライバシーポリシー」に従って利用させていただきます。<br />
-            同意いただける方は「入力内容確認画面へ」と進んでください。
-          </p>
-          <div class="flex items-center">
-            <div
-              id="customRadio"
-              class="relative w-6 h-6 md:w-6 md:h-6 lg:w-4 lg:h-4 cursor-pointer"
-              onclick="toggleCircle(this)">
-              <div
-                class="absolute inset-0 border border-black rounded-full"></div>
-              <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full inner-circle"></div>
-            </div>
-            <span
-              class="text-[14px] md:text-[18px] lg:text-[18px] font-normal ml-2">プライバシーポリシーに同意する</span>
           </div>
         </div>
 
         <div class="flex justify-center mt-28 md:mt-32 lg:mt-20">
           <button
             type="submit"
-            id="submit-button"
-            class="w-[250px] md:w-[320px] 2xl:w-[400px] h-25 md:h-25 bg-[#595757] text-white text-[16px] md:text-3xl lg:text-lg font-medium rounded-full flex items-center text-center justify-between px-8 hover:bg-[#0041FF] transition">
-            <span class="mx-auto block w-full text-center">入力内容確認画面</span>
-            <span class="text-lg md:text-3xl lg:text-xl">&#9654;</span>
+            class="w-[250px] md:w-[350px] 2xl:w-[400px] h-25 md:h-25 bg-[#0041FF] text-white text-[16px] md:text-[20px] lg:text-[20px] font-medium rounded-full flex items-center justify-between px-8 hover:bg-blue-800 transition">
+            <span class="mx-auto block w-full text-center">送 信</span>
+
+            <span class="text-lg md:text-xl lg:text-xl">&#9654;</span>
           </button>
+          <div
+            id="toast"
+            class="hidden fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded shadow-lg z-50 flex items-center gap-4">
+            <!-- Spinner -->
+            <svg
+              class="animate-spin h-6 w-6 text-white"
+              xmlns="http://www.w3.org/2000/svg"
+              fill="none"
+              viewBox="0 0 24 24">
+              <circle
+                class="opacity-25"
+                cx="12"
+                cy="12"
+                r="10"
+                stroke="currentColor"
+                stroke-width="4"></circle>
+              <path
+                class="opacity-75"
+                fill="currentColor"
+                d="M4 12a8 8 0 018-8v4a4 4 0 00-4 4H4z"></path>
+            </svg>
+            <span>送信が完了しました！</span>
+          </div>
         </div>
       </form>
     </div>
@@ -199,70 +189,51 @@ get_header();
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.24/bundled/lenis.min.js"></script>
-    <script>
-      const lenis = new Lenis({
-        duration: 1.2,
-        smooth: true,
+<script>
+  const lenis = new Lenis({
+    duration: 1.2,
+    smooth: true,
+  });
+
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+</script>
+<script>
+  window.addEventListener("DOMContentLoaded", () => {
+    // Load data from localStorage
+    const data = JSON.parse(localStorage.getItem("contactForm") || "{}");
+    if (data) {
+      document.getElementById("category").value = data.category || "";
+      document.getElementById("company").value = data.company || "";
+      document.getElementById("name").value = data.name || "";
+      document.getElementById("furigana").value = data.furigana || "";
+      document.getElementById("tel").value = data.tel || "";
+      document.getElementById("email").value = data.email || "";
+      document.getElementById("message").value = data.message || "";
+    }
+    // Make all input fields black text
+    document
+      .querySelectorAll("input[readonly], textarea[readonly], textarea")
+      .forEach((el) => {
+        el.classList.add("text-black");
       });
+  });
 
-      function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
-      }
-
-      requestAnimationFrame(raf);
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelector("form").addEventListener("submit", function (e) {
-          e.preventDefault();
-          const selected =
-            document.querySelector(".inner-circle.bg-black") !== null;
-          // Collect form data
-          if (!selected) {
-            alert("プライバシーポリシーに同意してください。");
-            return;
-          }
-          const data = {
-            category: document.getElementById("category").value,
-            company: document.getElementById("company").value,
-            name: document.getElementById("name").value,
-            furigana: document.getElementById("furigana").value,
-            tel: document.getElementById("tel").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value,
-            privacy: selected,
-          };
-          // Save to localStorage
-          localStorage.setItem("contactForm", JSON.stringify(data));
-          // Redirect
-          window.location.href = "contactDetails.html";
-        });
-      });
-
-      function toggleCircle(element) {
-        const inner = element.querySelector(".inner-circle");
-        inner.classList.toggle("bg-black"); // Add or remove background
-      }
-    </script>
-    <script>
-      let isScrolling;
-      const submitButton = document.querySelector("#submit-button");
-
-      window.addEventListener("scroll", () => {
-        if (submitButton) {
-          submitButton.disabled = true;
-        }
-
-        clearTimeout(isScrolling);
-
-        isScrolling = setTimeout(() => {
-          if (submitButton) {
-            submitButton.disabled = false;
-          }
-        }, 200);
-      });
-    </script>
+  // Show toast on submit, then redirect to contact.html after 2s
+  document.querySelector("form").addEventListener("submit", function(e) {
+    e.preventDefault();
+    const toast = document.getElementById("toast");
+    toast.classList.remove("hidden");
+    setTimeout(() => {
+      toast.classList.add("hidden");
+      window.location.href = "contact";
+    }, 3000);
+  });
+</script>
 
 <?php
 get_footer();
