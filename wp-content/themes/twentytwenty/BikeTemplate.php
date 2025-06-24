@@ -26,12 +26,10 @@ get_header();
     class="absolute top-28 right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
     <span
       class="text-white text-[8px] md:text-[10px] lg:text-[14px] title__font-family uppercase leading-none tracking-[0.011em]">TOTAL</span>
-    <div class="flex flex-col justify-start items-center">
-      <span
-        class="text-white text-[24px] md:text-[40px] lg:text-[74px] title__font-family leading-none tracking-[0.011em]">18</span>
-      <span
-        class="text-white text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] title__font-family uppercase leading-none -mt-[3px] md:-mt-[5px] lg:-mt-[8px] xl:-mt-[8px] tracking-[0.011em]">GARAGE</span>
-    </div>
+    <span
+      class="text-white text-[24px] md:text-[40px] lg:text-[74px] title__font-family leading-none tracking-[0.011em]">18</span>
+    <span
+      class="text-white text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] title__font-family uppercase leading-none -mt-[3px] md:-mt-[5px] lg:-mt-[8px] xl:-mt-[8px] tracking-[0.060em] pl-[8px]">GARAGE</span>
   </div>
 </div>
 
@@ -557,7 +555,7 @@ get_header();
                   </td>
                   <td
                     class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    ✕
+                    <?php echo get_field('a_01') ? '〇' : '✕'; ?>
                   </td>
                 </tr>
                 <tr class="font-normal">
@@ -577,7 +575,7 @@ get_header();
                   </td>
                   <td
                     class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
+                    <?php echo get_field('a_03') ? '〇' : '✕'; ?>
                   </td>
                 </tr>
                 <tr class="font-normal">
