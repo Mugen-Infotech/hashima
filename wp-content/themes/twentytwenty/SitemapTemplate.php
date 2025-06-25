@@ -33,6 +33,9 @@ get_header();
                 $pages = get_pages();
                 $first = true;
                 foreach ($pages as $page) {
+                    if (strtoupper($page->post_title) === 'CONTACT DETAILS') {
+                        continue;
+                    }
                     $borderClass = $first ? 'border-t border-dotted border-gray-300' : '';
                     echo '<li class="flex items-start lg:items-center py-3 px-2 ' . $borderClass . '">
                             <span class="inline-block w-5 h-5 lg:w-3 lg:h-3 border border-gray-400 mr-4 rounded-sm mt-[8px] lg:mt-0 flex-shrink-0"></span>
