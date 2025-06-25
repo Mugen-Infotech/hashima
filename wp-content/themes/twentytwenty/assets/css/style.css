@@ -4066,10 +4066,10 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__main-title-ja {
     margin-top: 0.9375rem;
-    font-weight: 700;
+    font-weight: 900;
   }
   .p-plan__main-price {
-    top: 25.70625rem;
+    top: 208px;
     right: 6px;
     font-size: 11px;
     font-weight: 500;
@@ -4119,7 +4119,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-title-ja {
     margin-top: 6px;
-    font-weight: 500;
+    font-weight: 900;
     font-size: 16px;
   }
   .p-plan__sub-price-number {
@@ -4137,7 +4137,7 @@ input[type="file"]::file-selector-button {
   }
   .p-plan__sub-price2 {
     position: absolute;
-    top: 28.8rem;
+    top: 233px;
     font-size: 11px;
     right: 0.54375rem;
     font-weight: 700;
@@ -4502,10 +4502,10 @@ input[type="file"]::file-selector-button {
 
 @media (min-width: 376px) and (max-width: 480px) {
   .p-plan__main-price {
-    top: 25.2rem;
+    top: 229px;
   }
   .p-plan__sub-price {
-    top: 22.5rem;
+    top: 206px;
   }
   .p-plan__sub-price2 {
     top: 27.7rem;
