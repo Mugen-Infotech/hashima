@@ -546,31 +546,25 @@ get_header();
                 class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#F56512] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] title__font-family leading-none">7</span>
             </div>
             <?php
-            get_header();
+              get_header();
 
-            $table_a = [
-              'A-01' => 'a-01',
-              'A-02' => 'a-02',
-              'A-03' => 'a-03',
-              'A-04' => 'a-04',
-              'A-05' => 'a-05',
-              'A-06' => 'a-06',
-              'A-07' => 'a-07',
-              'A-08' => 'a-08',
-              'A-09' => 'a-09',
-            ];
+              $field_objects = get_field_objects();
 
-            $table_b = [
-              'B-01' => 'b-01',
-              'B-02' => 'b-02',
-              'B-03' => 'b-03',
-              'B-04' => 'b-04',
-              'B-05' => 'b-05',
-              'B-06' => 'b-06',
-              'B-07' => 'b-07',
-              'B-08' => 'b-08',
-              'B-09' => 'b-09',
-            ];
+              $table_a = [];
+              $table_b = [];
+
+              if ($field_objects) {
+                foreach ($field_objects as $field) {
+                  $name = $field['name'];
+                  $label = $field['label'];
+
+                  if (strpos($name, 'a-') === 0) {
+                    $table_a[$label] = $name;
+                  } elseif (strpos($name, 'b-') === 0) {
+                    $table_b[$label] = $name;
+                  }
+                }
+              }
             ?>
             <table
               class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
@@ -579,7 +573,7 @@ get_header();
                   $available = get_field($field_name);
                 ?>
                   <tr class="font-normal">
-                    <td class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                    <td class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black align-middle">
                       <?= esc_html($label); ?>
                     </td>
                     <td class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
@@ -697,7 +691,7 @@ get_header();
                   $available = get_field($field_name);
                 ?>
                   <tr class="font-normal">
-                    <td class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
+                    <td class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black align-middle">
                       <?= esc_html($label); ?>
                     </td>
                     <td class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
