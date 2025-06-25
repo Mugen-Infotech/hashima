@@ -17,28 +17,25 @@ get_header();
   <section class="w-full pb-[50px] md:pb-[100px]">
     <div class="max-w-6xl mx-auto px-4">
       <h2
-        class="text-[50px] md:text-[80px] lg:text-[102px] title__font-family leading-none text-center l-main-content__trailer-title-en js-title">
-        <div
-          class="flex flex-wrap justify-center mb-[20px] md:mb-[30px] mt-[20px] md:mt-[30px] xl:mt-[48px]">
-          <span>P</span>
-          <span>R</span>
-          <span>I</span>
-          <span>V</span>
-          <span>A</span>
-          <span>C</span>
-          <span>Y</span>
-          <span>&nbsp;</span>
-          <span>P</span>
-          <span>O</span>
-          <span>L</span>
-          <span>I</span>
-          <span>C</span>
-          <span>Y</span>
-        </div>
+        class="text-[50px] md:text-[80px] lg:text-[102px] justify-center leading-none l-main-content__space-title-en js-title mb-[20px] md:mb-[30px] mt-[20px] md:mt-[30px] xl:mt-[48px]">
+        <span>P</span>
+        <span>R</span>
+        <span>I</span>
+        <span>V</span>
+        <span>A</span>
+        <span>C</span>
+        <span>Y</span>
+        <span>&nbsp;</span>
+        <span>P</span>
+        <span>O</span>
+        <span>L</span>
+        <span>I</span>
+        <span>C</span>
+        <span>Y</span>
       </h2>
     </div>
     <div
-      class="max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-[12px]">
+      class="md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1250px] 2xl:max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-[12px]">
       <div
         class="w-full px-[12px] md:px-[4px] space-y-[20px] md:space-y-[30px] mt-[25px] md:mt-[32px] lg:mt-[48px]">
         <p>
