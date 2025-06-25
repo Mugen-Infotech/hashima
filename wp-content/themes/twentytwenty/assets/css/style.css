@@ -468,7 +468,7 @@ input[type="file"]::file-selector-button {
 .l-global-menu__inner {
   width: 100%;
   height: 100%;
-  padding: 10.60625rem 1.775rem 2.1125rem 2.51875rem;
+  padding: 50px 1.775rem 2.1125rem 2.51875rem;
   overflow: scroll;
 }
 .l-global-menu__sns {
@@ -482,11 +482,11 @@ input[type="file"]::file-selector-button {
   color: #231815;
 }
 .l-global-menu__list {
-  margin-top: 5.203125rem;
+  margin-top: 30px;
   margin-left: 3.01875rem;
 }
 .l-global-menu__item:not(:first-child) {
-  margin-top: 2.1875rem;
+  margin-top: 14px;
 }
 .l-global-menu__link {
   font-family: Bebas Neue, sans-serif;
@@ -498,7 +498,7 @@ input[type="file"]::file-selector-button {
 }
 .l-global-menu__group {
   display: flex;
-  margin-top: 6.875rem;
+  margin-top: 40px;
 }
 .l-global-menu__logo {
   width: 14.75625rem;
