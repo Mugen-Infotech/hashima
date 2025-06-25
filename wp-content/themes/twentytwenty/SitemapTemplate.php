@@ -27,7 +27,7 @@ get_header();
                 <span>P</span>
             </h2>
         </div>
-        <div class="w-full flex flex-col items-center bg-white pb-20 px-10 md:px-16 lg:px-20">
+        <div class="w-full flex flex-col items-center bg-white pb-20 px-10 md:px-16 lg:px-[80px] xl:px-[100px]">
             <ul class="w-full divide-y divide-dotted divide-gray-300">
                 <?php
                 $pages = get_pages();
@@ -36,7 +36,7 @@ get_header();
                     $borderClass = $first ? 'border-t border-dotted border-gray-300' : '';
                     echo '<li class="flex items-start lg:items-center py-3 px-2 ' . $borderClass . '">
                             <span class="inline-block w-5 h-5 lg:w-3 lg:h-3 border border-gray-400 mr-4 rounded-sm mt-[8px] lg:mt-0 flex-shrink-0"></span>
-                            <a href="' . get_permalink($page->ID) . '" class="text-[16px] lg:text-[20px] text-gray-800 uppercase">' . esc_html($page->post_title) . '</a>
+                            <a href="' . get_permalink($page->ID) . '" class="text-[16px] text-gray-800 uppercase">' . esc_html($page->post_title) . '</a>
                         </li>';
                         $first = false;
                 }
@@ -49,7 +49,7 @@ get_header();
                 foreach ($posts as $post) {
                     echo '<li class="flex items-start lg:items-center py-3 px-2">
                             <span class="inline-block w-5 h-5 lg:w-3 lg:h-3 border border-gray-400 mr-4 rounded-sm mt-[8px] lg:mt-0 flex-shrink-0"></span>
-                            <a href="' . get_permalink($post) . '" class="text-[16px] lg:text-[20px] text-gray-800">' . esc_html($post->post_title) . '</a>
+                            <a href="' . get_permalink($post) . '" class="text-[16px] text-gray-800">' . esc_html($post->post_title) . '</a>
                         </li>';
                 }
                 ?>
