@@ -1,7 +1,7 @@
 <?php
 
 /**
- * Template Name: Contact Template
+ * Template Name: Contact Details Template
  * Template Post Type: post, page
  *
  * @package WordPress
@@ -160,8 +160,8 @@ get_header();
           </button>
           <div
             id="toast"
-            class="hidden fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded shadow-lg z-50 flex items-center gap-4">
-            <!-- Spinner -->
+            class="hidden fixed top-4 right-4 bg-green-500 text-white px-6 py-3 rounded shadow-lg flex items-center gap-4 z-1001">
+
             <svg
               class="animate-spin h-6 w-6 text-white"
               xmlns="http://www.w3.org/2000/svg"

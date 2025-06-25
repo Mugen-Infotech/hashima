@@ -199,70 +199,70 @@ get_header();
 </main>
 
 <script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.24/bundled/lenis.min.js"></script>
-    <script>
-      const lenis = new Lenis({
-        duration: 1.2,
-        smooth: true,
-      });
+<script>
+  const lenis = new Lenis({
+    duration: 1.2,
+    smooth: true,
+  });
 
-      function raf(time) {
-        lenis.raf(time);
-        requestAnimationFrame(raf);
+  function raf(time) {
+    lenis.raf(time);
+    requestAnimationFrame(raf);
+  }
+
+  requestAnimationFrame(raf);
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", function() {
+    document.querySelector("form").addEventListener("submit", function(e) {
+      e.preventDefault();
+      const selected =
+        document.querySelector(".inner-circle.bg-black") !== null;
+      // Collect form data
+      if (!selected) {
+        alert("プライバシーポリシーに同意してください。");
+        return;
       }
+      const data = {
+        category: document.getElementById("category").value,
+        company: document.getElementById("company").value,
+        name: document.getElementById("name").value,
+        furigana: document.getElementById("furigana").value,
+        tel: document.getElementById("tel").value,
+        email: document.getElementById("email").value,
+        message: document.getElementById("message").value,
+        privacy: selected,
+      };
+      // Save to localStorage
+      localStorage.setItem("contactForm", JSON.stringify(data));
+      // Redirect
+      window.location.href = "contact-details";
+    });
+  });
 
-      requestAnimationFrame(raf);
-    </script>
-    <script>
-      document.addEventListener("DOMContentLoaded", function () {
-        document.querySelector("form").addEventListener("submit", function (e) {
-          e.preventDefault();
-          const selected =
-            document.querySelector(".inner-circle.bg-black") !== null;
-          // Collect form data
-          if (!selected) {
-            alert("プライバシーポリシーに同意してください。");
-            return;
-          }
-          const data = {
-            category: document.getElementById("category").value,
-            company: document.getElementById("company").value,
-            name: document.getElementById("name").value,
-            furigana: document.getElementById("furigana").value,
-            tel: document.getElementById("tel").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value,
-            privacy: selected,
-          };
-          // Save to localStorage
-          localStorage.setItem("contactForm", JSON.stringify(data));
-          // Redirect
-          window.location.href = "contactDetails.html";
-        });
-      });
+  function toggleCircle(element) {
+    const inner = element.querySelector(".inner-circle");
+    inner.classList.toggle("bg-black"); // Add or remove background
+  }
+</script>
+<script>
+  let isScrolling;
+  const submitButton = document.querySelector("#submit-button");
 
-      function toggleCircle(element) {
-        const inner = element.querySelector(".inner-circle");
-        inner.classList.toggle("bg-black"); // Add or remove background
+  window.addEventListener("scroll", () => {
+    if (submitButton) {
+      submitButton.disabled = true;
+    }
+
+    clearTimeout(isScrolling);
+
+    isScrolling = setTimeout(() => {
+      if (submitButton) {
+        submitButton.disabled = false;
       }
-    </script>
-    <script>
-      let isScrolling;
-      const submitButton = document.querySelector("#submit-button");
-
-      window.addEventListener("scroll", () => {
-        if (submitButton) {
-          submitButton.disabled = true;
-        }
-
-        clearTimeout(isScrolling);
-
-        isScrolling = setTimeout(() => {
-          if (submitButton) {
-            submitButton.disabled = false;
-          }
-        }, 200);
-      });
-    </script>
+    }, 200);
+  });
+</script>
 
 <?php
 get_footer();
