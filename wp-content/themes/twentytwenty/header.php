@@ -113,12 +113,10 @@
         </a>
       </div>
     </nav>
-    <?php if (is_front_page()) : ?>
-      <div class="l-header__follow">
-        <a class="l-header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
-        <a class="l-header__follow-link" href="#">TEL</a>
-      </div>
-    <?php endif; ?>
+    <div class="l-header__follow">
+      <a class="l-header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
+      <a class="l-header__follow-link" href="#">TEL</a>
+    </div>
   </header>
   <button
     class="l-global-menu-button js-global-menu-button"
@@ -187,6 +185,10 @@
             alt="ロゴ" />
         </a>
         <p class="l-global-menu__name">HASHIMA<br />BASE</p>
+      </div>
+      <div class="header__follow">
+        <a class="header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
+        <a class="header__follow-link" href="#">TEL</a>
       </div>
     </div>
   </div>

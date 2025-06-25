@@ -4493,6 +4493,32 @@ input[type="file"]::file-selector-button {
   position: relative;
 }
 
+.header__follow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 10px;
+  margin-top: 24px;
+  padding: 0 16px;
+}
+
+.header__follow-link {
+  flex: 1;
+  text-align: center;
+  padding: 10px 0;
+  width: 3.375rem;
+  color: #fff;
+  background-color: #0041ff;
+  border-radius: 0.9375rem;
+  font-family: Bebas Neue, sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 2.3rem;
+}
+
+.header__follow-link:last-child {
+  background-color: #595757;
+}
 @media (max-width: 425px) {
   .p-facility-intro__paragraph {
     width: 100%;
