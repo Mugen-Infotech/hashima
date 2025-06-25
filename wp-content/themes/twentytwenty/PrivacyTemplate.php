@@ -17,24 +17,21 @@ get_header();
   <section class="w-full pb-[50px] md:pb-[100px]">
     <div class="max-w-6xl mx-auto px-4">
       <h2
-        class="text-[50px] md:text-[80px] lg:text-[102px] title__font-family leading-none text-center l-main-content__trailer-title-en js-title">
-        <div
-          class="flex flex-wrap justify-center mb-[20px] md:mb-[30px] mt-[20px] md:mt-[30px] xl:mt-[48px]">
-          <span>P</span>
-          <span>R</span>
-          <span>I</span>
-          <span>V</span>
-          <span>A</span>
-          <span>C</span>
-          <span>Y</span>
-          <span>&nbsp;</span>
-          <span>P</span>
-          <span>O</span>
-          <span>L</span>
-          <span>I</span>
-          <span>C</span>
-          <span>Y</span>
-        </div>
+        class="text-[50px] md:text-[80px] lg:text-[102px] justify-center leading-none l-main-content__space-title-en js-title mb-[20px] md:mb-[30px] mt-[20px] md:mt-[30px] xl:mt-[48px]">
+        <span>P</span>
+        <span>R</span>
+        <span>I</span>
+        <span>V</span>
+        <span>A</span>
+        <span>C</span>
+        <span>Y</span>
+        <span>&nbsp;</span>
+        <span>P</span>
+        <span>O</span>
+        <span>L</span>
+        <span>I</span>
+        <span>C</span>
+        <span>Y</span>
       </h2>
     </div>
     <div
