@@ -150,7 +150,7 @@
           <a class="l-global-menu__link" href="<?php echo home_url('about') ?>"> ABOUT </a>
         </li>
         <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('about') ?>">
+          <a class="l-global-menu__link" href="<?php echo home_url('bike') ?>">
             RENTAL BIKE GARAGE
           </a>
         </li>
