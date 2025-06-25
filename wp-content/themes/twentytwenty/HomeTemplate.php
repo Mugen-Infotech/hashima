@@ -415,5 +415,22 @@ get_header();
 <?php // get_template_part( 'template-parts/footer-menus-widgets' ); 
 ?>
 
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+  const intro = document.getElementById("intro-overlay");
+  const title = document.getElementById("intro-title");
+
+  title.classList.add("is-visible");
+
+  setTimeout(() => {
+    title.classList.add("move-up");
+  }, 1200);
+
+  setTimeout(() => {
+    intro.classList.add("hide");
+  }, 2000);
+});
+</script>
+
 <?php
 get_footer();

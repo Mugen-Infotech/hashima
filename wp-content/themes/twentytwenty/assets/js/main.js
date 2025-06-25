@@ -450,21 +450,6 @@ document.addEventListener("DOMContentLoaded", () => {
   });
 });
 
-document.addEventListener("DOMContentLoaded", () => {
-  const intro = document.getElementById("intro-overlay");
-  const title = document.getElementById("intro-title");
-
-  title.classList.add("is-visible");
-
-  setTimeout(() => {
-    title.classList.add("move-up");
-  }, 1200);
-
-  setTimeout(() => {
-    intro.classList.add("hide");
-  }, 2000);
-});
-
 function isSmallScreen() {
   return window.innerWidth < 750;
 }
