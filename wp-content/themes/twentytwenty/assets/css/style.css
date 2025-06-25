@@ -3968,7 +3968,7 @@ input[type="file"]::file-selector-button {
     padding: 1.375rem 4.625rem 1.375rem 4.09375rem;
   }
   .p-information__object {
-    top: -7.140625rem;
+    top: -65px;
     right: 0;
     bottom: inherit;
     left: inherit;
