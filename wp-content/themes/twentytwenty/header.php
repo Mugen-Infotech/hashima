@@ -105,10 +105,10 @@
         </li>
       </ul>
       <div class="l-header__sns">
-        <a class="l-header__sns-link" href="https://www.instagram.com/hashimabase39/?hl=ja">
+        <a class="l-header__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a class="l-header__sns-link" href="https://www.facebook.com/profile.php?id=100095356001962">
+        <a class="l-header__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
           <i class="fa-brands fa-facebook"></i>
         </a>
       </div>
@@ -138,10 +138,10 @@
     aria-hidden="true">
     <div class="l-global-menu__inner">
       <div class="l-global-menu__sns">
-        <a class="l-global-menu__sns-link" href="https://www.instagram.com/hashimabase39/?hl=ja">
+        <a class="l-global-menu__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
           <i class="fa-brands fa-instagram"></i>
         </a>
-        <a class="l-global-menu__sns-link" href="https://www.facebook.com/profile.php?id=100095356001962">
+        <a class="l-global-menu__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
           <i class="fa-brands fa-facebook"></i>
         </a>
       </div>

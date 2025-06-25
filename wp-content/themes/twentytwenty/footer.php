@@ -36,10 +36,10 @@
 
   <nav class="l-footer__nav">
     <div class="l-footer__sns">
-      <a class="l-footer__sns-link" href="https://www.instagram.com/hashimabase39/?hl=ja">
+      <a class="l-footer__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
         <i class="fa-brands fa-instagram"></i>
       </a>
-      <a class="l-footer__sns-link" href="https://www.facebook.com/profile.php?id=100095356001962">
+      <a class="l-footer__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
         <i class="fa-brands fa-facebook"></i>
       </a>
     </div>
