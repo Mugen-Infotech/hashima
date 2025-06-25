@@ -4015,8 +4015,8 @@ input[type="file"]::file-selector-button {
   }
   .p-main-visual__image {
     /* height: 64.0875rem; */
-    -o-object-fit: cover;
-    object-fit: cover;
+    /* -o-object-fit: cover;
+    object-fit: cover; */
   }
   .p-main-visual__catch p {
     font-weight: 800;
