@@ -519,7 +519,8 @@ input[type="file"]::file-selector-button {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 2.2875rem 1.84375rem;
+  padding: 1.4875rem 1.84375rem;
+  /* padding: 2.2875rem 1.84375rem; */
 }
 .l-header__name {
   font-family: Bebas Neue, sans-serif;
@@ -2492,7 +2493,7 @@ input[type="file"]::file-selector-button {
   .p-plan__main-button {
     /* bottom: 5.3125rem; */
   }
-  .plan__main-description{
+  .plan__main-description {
     display: flex;
     flex-direction: column;
     gap: 1rem;
