@@ -546,25 +546,25 @@ get_header();
                 class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#F56512] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] title__font-family leading-none">7</span>
             </div>
             <?php
-              get_header();
+            get_header();
 
-              $field_objects = get_field_objects();
+            $field_objects = get_field_objects();
 
-              $table_a = [];
-              $table_b = [];
+            $table_a = [];
+            $table_b = [];
 
-              if ($field_objects) {
-                foreach ($field_objects as $field) {
-                  $name = $field['name'];
-                  $label = $field['label'];
+            if ($field_objects) {
+              foreach ($field_objects as $field) {
+                $name = $field['name'];
+                $label = $field['label'];
 
-                  if (strpos($name, 'a-') === 0) {
-                    $table_a[$label] = $name;
-                  } elseif (strpos($name, 'b-') === 0) {
-                    $table_b[$label] = $name;
-                  }
+                if (strpos($name, 'a-') === 0) {
+                  $table_a[$label] = $name;
+                } elseif (strpos($name, 'b-') === 0) {
+                  $table_b[$label] = $name;
                 }
               }
+            }
             ?>
             <table
               class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
