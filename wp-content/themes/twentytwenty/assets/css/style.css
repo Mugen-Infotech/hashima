@@ -891,6 +891,7 @@ input[type="file"]::file-selector-button {
   position: relative;
   padding-bottom: 17.375rem;
   padding-left: 6.3rem;
+  margin-top: -2px;
 }
 .p-information__title {
   display: flex;
@@ -899,7 +900,7 @@ input[type="file"]::file-selector-button {
   font-style: normal;
   font-weight: 400;
   font-size: 5.5rem;
-  line-height: 1.3214285714;
+  line-height: 1;
   color: #000;
 }
 .p-information__title span {
