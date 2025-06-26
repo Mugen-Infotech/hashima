@@ -1440,7 +1440,7 @@ input[type="file"]::file-selector-button {
   margin-top: -0.625rem;
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
-  font-weight: 400;
+  font-weight: bold;
   font-size: 2.375rem;
   line-height: 1.2105263158;
   color: #fff;
@@ -1478,7 +1478,8 @@ input[type="file"]::file-selector-button {
 }
 .p-plan__main-description {
   width: 43.25rem;
-  margin-top: 2.59375rem;
+  /* margin-top: 2.59375rem; */
+  margin-top: -9px;
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
@@ -1492,7 +1493,7 @@ input[type="file"]::file-selector-button {
 .p-plan__main-button {
   position: absolute;
   right: 3.4625rem;
-  bottom: 2.3125rem;
+  /* bottom: 2.3125rem; */
   display: block;
   padding: 1.375rem 3.625rem 1.375rem 3.09375rem;
   color: #fff;
@@ -2489,7 +2490,14 @@ input[type="file"]::file-selector-button {
 }
 @media (min-width: 768px) {
   .p-plan__main-button {
-    bottom: 5.3125rem;
+    /* bottom: 5.3125rem; */
+  }
+  .plan__main-description{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: flex-start;
+    margin-top: 2.59375rem;
   }
   .l-main-content {
     padding-top: 3rem;

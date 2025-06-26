@@ -204,18 +204,20 @@ get_header();
         <p class="p-plan__main-price">
           月額／<span class="p-plan__main-price-number">39,000</span><span class="p-plan__main-price-unit">YEN</span>～
         </p>
-        <p class="p-plan__main-description">
-          バイク好きのための夢のスペースで、
-          新たな楽しみ方を見つけませんか?こ
-          のガレージは、駐車場でのご利用はもちろん、
-          バイクのメンテナンスやカス タマイズ、
-          DIYもできるプライベートな空間です。 仲間とシェアして借りれば、
-          バイクを囲みながら語り合う時間もつくれます。
-          「バイクを大切にしたい」 「作業する場所が欲しい」
-          という思いを実現する場所、 それがHASHIMA
-          BASEのバイクガレージです。
-        </p>
-        <a class="p-plan__main-button" href="#">View more</a>
+        <div class="plan__main-description">
+          <p class="p-plan__main-description">
+            バイク好きのための夢のスペースで、
+            新たな楽しみ方を見つけませんか?こ
+            のガレージは、駐車場でのご利用はもちろん、
+            バイクのメンテナンスやカス タマイズ、
+            DIYもできるプライベートな空間です。 仲間とシェアして借りれば、
+            バイクを囲みながら語り合う時間もつくれます。
+            「バイクを大切にしたい」 「作業する場所が欲しい」
+            という思いを実現する場所、 それがHASHIMA
+            BASEのバイクガレージです。
+          </p>
+          <a class="p-plan__main-button" href="#">View more</a>
+        </div>
       </div>
       <div class="p-plan__grid">
         <div class="p-plan__sub">
