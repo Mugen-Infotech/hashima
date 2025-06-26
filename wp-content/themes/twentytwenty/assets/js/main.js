@@ -429,7 +429,15 @@ setInterval(() => {
 const headerName = document.querySelector(".l-header__name");
 
 function handleScrollForMobile() {
-  headerName.classList.add("is-visible");
+  if (window.innerWidth <= 768) {
+    if (window.scrollY > 50) {
+      headerName.classList.add("is-visible");
+    } else {
+      headerName.classList.remove("is-visible");
+    }
+  } else {
+    headerName.classList.remove("is-visible");
+  }
 }
 
 window.addEventListener("scroll", handleScrollForMobile);
