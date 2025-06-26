@@ -4476,65 +4476,66 @@ input[type="file"]::file-selector-button {
   transition-delay: 0s;
 }
 .l-main-content__trailer-title-en span:nth-child(2) {
-  transition-delay: 0.09s;
+  transition-delay: 0.045s;
 }
 .l-main-content__trailer-title-en span:nth-child(3) {
-  transition-delay: 0.18s;
+  transition-delay: 0.09s;
 }
 .l-main-content__trailer-title-en span:nth-child(4) {
-  transition-delay: 0.27s;
+  transition-delay: 0.135s;
 }
 .l-main-content__trailer-title-en span:nth-child(5) {
-  transition-delay: 0.36s;
+  transition-delay: 0.18s;
 }
 .l-main-content__trailer-title-en span:nth-child(6) {
-  transition-delay: 0.45s;
+  transition-delay: 0.225s;
 }
 .l-main-content__trailer-title-en span:nth-child(7) {
-  transition-delay: 0.54s;
+  transition-delay: 0.27s;
 }
 .l-main-content__trailer-title-en span:nth-child(8) {
-  transition-delay: 0.63s;
+  transition-delay: 0.315s;
 }
 .l-main-content__trailer-title-en span:nth-child(9) {
-  transition-delay: 0.72s;
+  transition-delay: 0.36s;
 }
 .l-main-content__trailer-title-en span:nth-child(10) {
-  transition-delay: 0.81s;
+  transition-delay: 0.405s;
 }
 .l-main-content__trailer-title-en span:nth-child(11) {
-  transition-delay: 0.9s;
+  transition-delay: 0.45s;
 }
 .l-main-content__trailer-title-en span:nth-child(12) {
-  transition-delay: 0.99s;
+  transition-delay: 0.495s;
 }
 .l-main-content__trailer-title-en span:nth-child(13) {
-  transition-delay: 1.08s;
+  transition-delay: 0.54s;
 }
 .l-main-content__trailer-title-en span:nth-child(14) {
-  transition-delay: 1.17s;
+  transition-delay: 0.585s;
 }
 .l-main-content__trailer-title-en span:nth-child(15) {
-  transition-delay: 1.26s;
+  transition-delay: 0.63s;
 }
 .l-main-content__trailer-title-en span:nth-child(16) {
-  transition-delay: 1.35s;
+  transition-delay: 0.675s;
 }
 .l-main-content__trailer-title-en span:nth-child(17) {
-  transition-delay: 1.44s;
+  transition-delay: 0.72s;
 }
 .l-main-content__trailer-title-en span:nth-child(18) {
-  transition-delay: 1.53s;
+  transition-delay: 0.765s;
 }
 .l-main-content__trailer-title-en span:nth-child(19) {
-  transition-delay: 1.62s;
+  transition-delay: 0.81s;
 }
 .l-main-content__trailer-title-en span:nth-child(20) {
-  transition-delay: 1.71s;
+  transition-delay: 0.855s;
 }
 .l-main-content__trailer-title-en span:nth-child(21) {
-  transition-delay: 1.8s;
+  transition-delay: 0.9s;
 }
+
 .l-main-content__trailer-title-en.is-visible span {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
