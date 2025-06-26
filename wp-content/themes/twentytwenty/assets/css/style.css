@@ -1479,7 +1479,6 @@ input[type="file"]::file-selector-button {
 .p-plan__main-description {
   width: 43.25rem;
   /* margin-top: 2.59375rem; */
-  margin-top: -9px;
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
@@ -4476,65 +4475,66 @@ input[type="file"]::file-selector-button {
   transition-delay: 0s;
 }
 .l-main-content__trailer-title-en span:nth-child(2) {
-  transition-delay: 0.09s;
+  transition-delay: 0.045s;
 }
 .l-main-content__trailer-title-en span:nth-child(3) {
-  transition-delay: 0.18s;
+  transition-delay: 0.09s;
 }
 .l-main-content__trailer-title-en span:nth-child(4) {
-  transition-delay: 0.27s;
+  transition-delay: 0.135s;
 }
 .l-main-content__trailer-title-en span:nth-child(5) {
-  transition-delay: 0.36s;
+  transition-delay: 0.18s;
 }
 .l-main-content__trailer-title-en span:nth-child(6) {
-  transition-delay: 0.45s;
+  transition-delay: 0.225s;
 }
 .l-main-content__trailer-title-en span:nth-child(7) {
-  transition-delay: 0.54s;
+  transition-delay: 0.27s;
 }
 .l-main-content__trailer-title-en span:nth-child(8) {
-  transition-delay: 0.63s;
+  transition-delay: 0.315s;
 }
 .l-main-content__trailer-title-en span:nth-child(9) {
-  transition-delay: 0.72s;
+  transition-delay: 0.36s;
 }
 .l-main-content__trailer-title-en span:nth-child(10) {
-  transition-delay: 0.81s;
+  transition-delay: 0.405s;
 }
 .l-main-content__trailer-title-en span:nth-child(11) {
-  transition-delay: 0.9s;
+  transition-delay: 0.45s;
 }
 .l-main-content__trailer-title-en span:nth-child(12) {
-  transition-delay: 0.99s;
+  transition-delay: 0.495s;
 }
 .l-main-content__trailer-title-en span:nth-child(13) {
-  transition-delay: 1.08s;
+  transition-delay: 0.54s;
 }
 .l-main-content__trailer-title-en span:nth-child(14) {
-  transition-delay: 1.17s;
+  transition-delay: 0.585s;
 }
 .l-main-content__trailer-title-en span:nth-child(15) {
-  transition-delay: 1.26s;
+  transition-delay: 0.63s;
 }
 .l-main-content__trailer-title-en span:nth-child(16) {
-  transition-delay: 1.35s;
+  transition-delay: 0.675s;
 }
 .l-main-content__trailer-title-en span:nth-child(17) {
-  transition-delay: 1.44s;
+  transition-delay: 0.72s;
 }
 .l-main-content__trailer-title-en span:nth-child(18) {
-  transition-delay: 1.53s;
+  transition-delay: 0.765s;
 }
 .l-main-content__trailer-title-en span:nth-child(19) {
-  transition-delay: 1.62s;
+  transition-delay: 0.81s;
 }
 .l-main-content__trailer-title-en span:nth-child(20) {
-  transition-delay: 1.71s;
+  transition-delay: 0.855s;
 }
 .l-main-content__trailer-title-en span:nth-child(21) {
-  transition-delay: 1.8s;
+  transition-delay: 0.9s;
 }
+
 .l-main-content__trailer-title-en.is-visible span {
   -webkit-transform: translate(0, 0);
   transform: translate(0);
@@ -4618,6 +4618,31 @@ input[type="file"]::file-selector-button {
   .p-map {
     padding-bottom: 120px;
   }
+  .p-visual-width{
+    width: calc(100% - 3.625rem);
+  }
+  .header__follow-link{
+    font-size: 46px;
+    flex: 1;
+    text-align: center;
+    color: #fff;
+    background-color: #0041ff;
+    border-radius: 0.9375rem;
+    font-family: Bebas Neue, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding: 0;
+  }
+
+  .header__follow {
+    display: flex;
+    padding: 0;
+    gap: 0px;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 24px;
+  }
+
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
@@ -4678,6 +4703,9 @@ input[type="file"]::file-selector-button {
   .p-main-visual__carousel {
     min-height: 800px;
   }
+  .p-plan__main-description {
+    margin-top: -9px;
+  }
 }
 
 @media screen and (min-width: 768px) {
@@ -4719,18 +4747,3 @@ input[type="file"]::file-selector-button {
     transition: opacity 0.6s cubic-bezier(0.77, 0, 0.18, 1);
   }
 }
-
-/* .l-header__name {
-  opacity: 1;
-  transform: translateY(0);
-  transition: opacity 0.3s ease, transform 0.3s ease;
-  position: fixed;
-  top: 10px;
-  left: 0px;
-  right: 0;
-  text-align: center;
-  background-color: white;
-  z-index: 1000;
-  padding: 0.5rem 0.5rem 0.5rem 14px;
-  text-align: left;
-} */

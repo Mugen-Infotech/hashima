@@ -15,7 +15,7 @@ get_header();
 <main class="pt-2">
   <!-- privacy Area Start -->
   <section class="w-full pb-[50px] md:pb-[100px]">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-7 md:px-4">
       <h2
         class="text-[50px] md:text-[80px] lg:text-[102px] justify-center leading-none l-main-content__space-title-en js-title mb-[20px] md:mb-[30px] mt-[20px] md:mt-[30px] xl:mt-[48px]">
         <span>P</span>
@@ -35,9 +35,9 @@ get_header();
       </h2>
     </div>
     <div
-      class="md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1250px] 2xl:max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-[12px]">
+      class="md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1250px] 2xl:max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-7 md:px-[12px]">
       <div
-        class="w-full px-[12px] md:px-[4px] space-y-[20px] md:space-y-[30px] mt-[25px] md:mt-[32px] lg:mt-[48px]">
+        class="w-full space-y-[20px] md:space-y-[30px] mt-[25px] md:mt-[32px] lg:mt-[48px]">
         <p>
           HASHIMA
           BASEは，本ウェブサイト上で提供するサービス（以下,「本サービス」といいます。）における，ユーザーの個人情報の取扱いについて，以下のとおりプライバシーポリシー（以下，「本ポリシー」といいます。）を定めます。

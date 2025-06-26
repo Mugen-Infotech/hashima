@@ -36,7 +36,7 @@ get_header();
 <main class="l-main-content pt-1">
   <!-- Bike Area Start -->
   <section class="w-full bg-white">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-7">
       <h2
         class="text-[50px] md:text-[80px] lg:text-[140px] xl:text-[158px] justify-center leading-none l-main-content__space-title-en js-title tracking-11">
         <span>R</span>
@@ -131,7 +131,7 @@ get_header();
     <div
       class="relative bg-black z-10 w-full flex items-center pt-44 pb-12">
       <div
-        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-14 lg:px-0">
+        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-7 lg:px-0">
         <div class="md:col-span-4">
           <div class="w-full flex justify-center mb-8 md:mb-0">
             <img
@@ -197,7 +197,7 @@ get_header();
     <div
       class="relative bg-black z-10 w-full flex items-center pt-44 md:pt-16 pb-12">
       <div
-        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-14 lg:px-0">
+        class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-7 lg:px-0">
         <div class="md:col-span-3 order-2 lg:order-1">
           <div
             class="w-full flex flex-col justify-center px-0 lg:px-8 xl:px-10 text-white">
@@ -297,7 +297,7 @@ get_header();
         </div>
       </div>
     </div>
-    <div class="max-w-[1180px] mx-auto px-8 md:px-4 py-16 !pt-36 pb-40">
+    <div class="max-w-[1180px] mx-auto px-7 md:px-4 py-16 !pt-36 pb-40">
       <div class="mb-20">
         <div class="text-4xl md:text-[22px] font-bold mb-4 text-left">
           共通設備類
@@ -481,7 +481,7 @@ get_header();
       </div>
     </div>
     <div
-      class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-6 px-4 md:px-0">
+      class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-6 px-7 md:px-0">
       <a
         href="/pages/contact.html"
         class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#0057FF] hover:bg-[#0046cc] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md">
@@ -514,7 +514,7 @@ get_header();
       </div>
     </div>
 
-    <div class="max-w-6xl mx-auto bg-white pt-32 items-start px-4 md:px-0">
+    <div class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
       <div
         class="text-left mb-[20px] md:mb-[26px] lg:mb-[32px] xl:mb-[40px]">
         <h2 class="text-[50px] md:text-[68px] title__font-family">
@@ -532,8 +532,8 @@ get_header();
         </div>
       </div>
     </div>
-    <div
-      class="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-center gap-12 px-4 md:px-0">
+    <div id="garage-availability-section"
+      class="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-center gap-12 px-7 md:px-0">
       <div class="flex flex-col pb-32 gap-6 min-w-[340px] mx-auto">
         <div class="flex flex-row gap-10">
           <div>
@@ -567,7 +567,7 @@ get_header();
             }
             ?>
             <table
-              class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
+              class="w-[162px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
               <tbody>
                 <?php foreach ($table_a as $label => $field_name):
                   $available = get_field($field_name);
@@ -581,95 +581,6 @@ get_header();
                     </td>
                   </tr>
                 <?php endforeach; ?>
-                <!-- <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
-                    A-01
-                  </td>
-                  <td
-                    class="px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    ✕
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-02
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    ✕
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-03
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-04
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-05
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-06
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-07
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    A-08
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512] border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#F56512] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1">
-                    A-09
-                  </td>
-                  <td
-                    class="px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black bg-orange-100 text-[#F56512]">
-                    〇
-                  </td> -->
                 </tr>
               </tbody>
             </table>
@@ -685,7 +596,7 @@ get_header();
                 class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#00B5FF] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] leading-none">7</span>
             </div>
             <table
-              class="w-[170px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
+              class="w-[162px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
               <tbody>
                 <?php foreach ($table_b as $label => $field_name):
                   $available = get_field($field_name);
@@ -699,96 +610,6 @@ get_header();
                     </td>
                   </tr>
                 <?php endforeach; ?>
-                <!-- <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 w-1/3 border-b border-black">
-                    B-01
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 w-1/3 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black border-b border-black">
-                    ✕
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-02
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[34px] content__font-family font-black border-b border-black">
-                    ✕
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-03
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-04
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-05
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-06
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-07
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1 border-b border-black">
-                    B-08
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black border-b border-black">
-                    〇
-                  </td>
-                </tr>
-                <tr class="font-normal">
-                  <td
-                    class="bg-[#00B5FF] text-[20px] lg:text-[25px] xl:text-[30px] title__font-family text-white text-center px-4 py-1">
-                    B-09
-                  </td>
-                  <td
-                    class="bg-[#E6F7FD] text-[#00B5FF] px-2 py-1 text-center text-[22px] lg:text-[28px] xl:text-[30px] content__font-family font-black">
-                    〇
-                  </td>
-                </tr> -->
               </tbody>
             </table>
           </div>
@@ -804,7 +625,7 @@ get_header();
     </div>
 
     <div class="w-full">
-      <div class="bg-black relative overflow-hidden py-20 px-4">
+      <div class="bg-black relative overflow-hidden py-20 px-7 md:px-4">
         <div
           class="max-w-6xl mx-auto flex flex-col md:flex-row items-start md:items-start gap-10">
           <div class="flex-1 flex flex-col justify-center items-start">
@@ -839,7 +660,7 @@ get_header();
         </div>
       </div>
 
-      <div class="bg-white py-20 px-4">
+      <div class="bg-white py-20 px-7 md:px-4">
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
           <div class="flex-1 flex flex-col items-start">
             <h2
@@ -891,7 +712,7 @@ get_header();
     </div>
 
     <div class="bg-[#f5f5f6]">
-      <div class="max-w-6xl mx-auto w-full py-24 px-4">
+      <div class="max-w-6xl mx-auto w-full py-24 px-7 md:px-4">
         <div
           class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
           <h2
@@ -1002,6 +823,27 @@ get_header();
     </div>
   </div>
 </main>
+
+<script>
+  document.addEventListener('DOMContentLoaded', function () {
+    if (window.location.hash === '#garage-availability-section') {
+      const el = document.getElementById('garage-availability-section');
+      if (el) {
+        setTimeout(function() {
+          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          setTimeout(function() {
+            const rect = el.getBoundingClientRect();
+            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+            window.scrollTo({
+              top: rect.top + scrollTop - 20,
+              behavior: 'smooth'
+            });
+          }, 400);
+        }, 300);
+      }
+    }
+  });
+</script>
 
 <?php
 get_footer();

@@ -15,7 +15,7 @@ get_header();
 
 <main class="l-main-content !pt-10">
     <section class="flex flex-col items-center w-full py-8 md:py-16 bg-white">
-        <div class="w-full px-4 md:px-0 max-w-[980px] pb-20">
+        <div class="w-full px-7 md:px-0 max-w-[980px] pb-20">
             <h2
                 class="text-[50px] md:text-[80px] lg:text-[102px] justify-center mb-2 leading-none l-main-content__space-title-en js-title">
                 <span>S</span>
@@ -27,7 +27,7 @@ get_header();
                 <span>P</span>
             </h2>
         </div>
-        <div class="w-full flex flex-col items-center bg-white pb-20 px-10 md:px-16 lg:px-[80px] xl:px-[100px]">
+        <div class="w-full flex flex-col items-center bg-white pb-20 px-7 md:px-16 lg:px-[80px] xl:px-[100px]">
             <ul class="w-full divide-y divide-dotted divide-gray-300">
                 <?php
                 $pages = get_pages();

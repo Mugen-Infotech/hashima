@@ -315,7 +315,7 @@ get_header();
       <span class="map__title_size">A</span>
       <span class="map__title_size">P</span>
     </h2>
-    <a class="p-map__button" href="#">View more</a>
+    <a class="p-map__button" href="<?php echo home_url('bike'); ?>#garage-availability-section">View more</a>
     <img
       class="p-map__map"
       src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-map/map.webp"
