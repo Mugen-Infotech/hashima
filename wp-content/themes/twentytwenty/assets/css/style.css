@@ -865,7 +865,7 @@ input[type="file"]::file-selector-button {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-right: 2.225rem;
+  margin-right: 3.225rem;
   margin-left: auto;
   color: #000;
   font-family: Noto Sans JP, sans-serif;
