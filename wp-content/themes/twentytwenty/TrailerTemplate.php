@@ -25,7 +25,7 @@ get_header();
 <main class="pt-2">
   <!-- Trailer Area Start -->
   <section class="w-full bg-white">
-    <div class="max-w-6xl mx-auto px-4">
+    <div class="max-w-6xl mx-auto px-7">
       <h2
         class="text-[50px] md:text-[120px] lg:text-[158px] title__font-family leading-none text-center l-main-content__trailer-title-en js-title">
         <div class="flex flex-wrap justify-center">
@@ -124,7 +124,7 @@ get_header();
     <div
       class="relative bg-black z-10 w-full flex items-center pt-44 pb-12">
       <div
-        class="grid grid-cols-1 lg:grid-cols-7 gap-4 mx-auto px-14 lg:px-0">
+        class="grid grid-cols-1 lg:grid-cols-7 gap-4 mx-auto px-7 lg:px-0">
         <div class="md:col-span-4">
           <div class="w-full flex justify-center mb-8 md:mb-0">
             <img
@@ -216,17 +216,17 @@ get_header();
     </div>
 
     <div class="bg-black text-white py-20">
-      <div class="max-w-7xl mx-auto px-4">
+      <div class="max-w-7xl mx-auto px-7 md:px-4">
         <div class="mb-8 border-b pb-2">
           <span class="text-[14px] md:text-[22px] font-bold">セットで借りるとお得！</span>
         </div>
         <div class="flex">
           <div class="text-center">
             <h2
-              class="text-[22px] md:text-[57px] lg:text-[58px] xl:text-[62px] mb-4 title__font-family">
+              class="text-[21px] md:text-[57px] lg:text-[58px] xl:text-[62px] mb-4 title__font-family">
               <span>SET RENTAL</span>
               <span
-                class="text-[12px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-4 align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
+                class="text-[12px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-[6px] align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
             </h2>
           </div>
         </div>
@@ -317,7 +317,7 @@ get_header();
       </div>
     </div>
 
-    <div class="max-w-[1090px] mx-auto px-8 md:px-4 py-16 !pt-30 pb-40">
+    <div class="max-w-[1090px] mx-auto px-7 md:px-4 py-16 !pt-30 pb-40">
       <div class="mb-20">
         <div class="text-4xl md:text-[22px] mb-2 md:mb-6 lg:mb-2 font-bold">
           駐車場

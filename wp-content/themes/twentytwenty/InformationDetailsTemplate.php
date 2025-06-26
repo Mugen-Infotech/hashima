@@ -14,7 +14,7 @@ get_header();
 
 <main class="l-main-content !pt-10">
     <section class="flex flex-col items-center w-full py-8 md:py-16 bg-white">
-        <div class="w-full px-4 md:px-0 max-w-[980px] pb-20">
+        <div class="w-full px-7 md:px-0 max-w-[980px] pb-20">
             <h2
                 class="text-[50px] md:text-[80px] lg:text-[92px] justify-center mb-2 leading-none l-main-content__space-title-en js-title">
                 <span>I</span>
@@ -58,11 +58,11 @@ get_header();
                 <span
                     class="text-[16px] text-[#A9A9AA] block mb-2 title__font-family"><?php echo get_the_date('Y.m.d'); ?></span>
                 <h1
-                    class="text-[30px] font-medium mb-4 md:mb-8 content__font-family">
+                    class="text-[22px] lg:text-[30px] font-medium mb-4 md:mb-8 content__font-family">
                     <?php the_title(); ?>
                 </h1>
                 <div
-                    class="text-xl md:text-[18px] leading-[32px] text-black mb-32 md:mb-36">
+                    class="text-[16px] md:text-[18px] leading-[32px] text-black mb-32 md:mb-36">
                     <?php the_content(); ?>
                 </div>
                 <div class="flex justify-center">

@@ -50,7 +50,7 @@ get_header();
                     NEWS
                 </button>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full px-12" id="postGrid">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8 w-full px-7 md:px-12" id="postGrid">
                 <?php
                 $paged = (get_query_var('paged')) ? get_query_var('paged') : 1;
 

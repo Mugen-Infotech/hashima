@@ -15,7 +15,7 @@ get_header();
 <main class="l-main-content pt-10 pb-10">
   <!-- Contact Area Start -->
   <section class="flex flex-col items-center w-full py-8 md:py-16 bg-white">
-    <div class="w-full px-4 md:px-8 lg:px-0 max-w-[980px]">
+    <div class="w-full px-7 md:px-8 lg:px-0 max-w-[980px]">
       <h2
         class="text-[50px] md:text-[80px] lg:text-[102px] justify-center mb-2 leading-none l-main-content__contact-title-en js-title">
         <span>C</span>
