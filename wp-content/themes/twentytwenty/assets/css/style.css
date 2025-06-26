@@ -1479,7 +1479,6 @@ input[type="file"]::file-selector-button {
 .p-plan__main-description {
   width: 43.25rem;
   /* margin-top: 2.59375rem; */
-  margin-top: -9px;
   margin-left: 2.915625rem;
   font-family: Noto Sans JP, sans-serif;
   font-style: normal;
@@ -4703,6 +4702,9 @@ input[type="file"]::file-selector-button {
 @media (min-width: 1025px) and (max-width: 1280px) {
   .p-main-visual__carousel {
     min-height: 800px;
+  }
+  .p-plan__main-description {
+    margin-top: -9px;
   }
 }
 
