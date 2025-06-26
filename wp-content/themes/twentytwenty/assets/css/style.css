@@ -519,7 +519,8 @@ input[type="file"]::file-selector-button {
   display: flex;
   justify-content: space-between;
   width: 100%;
-  padding: 2.2875rem 1.84375rem;
+  /* padding: 2.2875rem 1.84375rem; */
+  padding: 1.4875rem 1.84375rem;
 }
 .l-header__name {
   font-family: Bebas Neue, sans-serif;
