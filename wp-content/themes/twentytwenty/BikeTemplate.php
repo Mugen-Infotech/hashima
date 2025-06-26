@@ -843,7 +843,7 @@ get_header();
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
           <div class="flex-1 flex flex-col items-start">
             <h2
-              class="text-[64px] md:text-[94px] leading-none title__font-family">
+              class="text-[64px] md:text-[94px] leading-none title__font-family mb-[4px]">
               VOICE
             </h2>
             <div
@@ -895,7 +895,7 @@ get_header();
         <div
           class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
           <h2
-            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-4">
+            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-[8px]">
             FLOW
           </h2>
           <div class="text-black text-[22px] md:text-[28px] font-bold mb-2">
