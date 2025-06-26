@@ -41,7 +41,7 @@ get_header();
                             <span class="inline-block w-5 h-5 lg:w-3 lg:h-3 border border-gray-400 mr-4 rounded-sm mt-[8px] lg:mt-0 flex-shrink-0"></span>
                             <a href="' . get_permalink($page->ID) . '" class="text-[16px] text-gray-800 uppercase">' . esc_html($page->post_title) . '</a>
                         </li>';
-                        $first = false;
+                    $first = false;
                 }
                 ?>
             </ul>
@@ -77,7 +77,8 @@ get_header();
         <div class="p-contact__group">
             <p class="p-contact__tel">TEL 090-4153-3258</p>
             <p class="p-contact__time">営業時間 8:00〜18:00</p>
-            <a class="p-contact__button" href="<?php echo home_url('contact') ?>">CONTACT</a>
+            <a class="p-contact__button px-[40px] xl:px-[73px] 2xl:px-[80px] ml-auto lg:ml-[160px] xl:ml-[225px] 2xl:ml-[240px]" href="<?php echo home_url('contact') ?>">CONTACT</a>
+            <!-- <a class="p-contact__button ml-auto md:ml-[96px] lg:ml-[241px]" href="<?php echo home_url('contact') ?>">CONTACT</a> -->
         </div>
     </div>
 </main>
