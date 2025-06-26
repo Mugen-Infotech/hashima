@@ -2491,7 +2491,7 @@ input[type="file"]::file-selector-button {
   .p-plan__main-button {
     /* bottom: 5.3125rem; */
   }
-  .plan__main-description{
+  .plan__main-description {
     display: flex;
     flex-direction: column;
     gap: 1rem;
@@ -4618,10 +4618,10 @@ input[type="file"]::file-selector-button {
   .p-map {
     padding-bottom: 120px;
   }
-  .p-visual-width{
+  .p-visual-width {
     width: calc(100% - 3.625rem);
   }
-  .header__follow-link{
+  .header__follow-link {
     font-size: 46px;
     flex: 1;
     text-align: center;
@@ -4642,7 +4642,6 @@ input[type="file"]::file-selector-button {
     align-items: center;
     margin-top: 24px;
   }
-
 }
 
 @media (min-width: 481px) and (max-width: 767px) {
