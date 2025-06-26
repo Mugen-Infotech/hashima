@@ -313,6 +313,7 @@ get_header();
       <span class="map__title_size">A</span>
       <span class="map__title_size">P</span>
     </h2>
+    <a class="p-map__button" href="#">View more</a>
     <img
       class="p-map__map"
       src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-map/map.webp"
@@ -337,7 +338,7 @@ get_header();
         <span>O</span>
         <span>N</span>
       </h2>
-      <a class="p-information__button" href="#">View more</a>
+      <a class="p-information__button" href="<?php echo home_url('information') ?>">View more</a>
       <picture class="p-information__object">
         <source
           srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-information/bike-sp.webp"
