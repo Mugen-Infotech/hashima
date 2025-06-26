@@ -26,7 +26,7 @@ get_header();
   <section class="w-full bg-white">
     <div class="max-w-6xl mx-auto px-7">
       <h2
-        class="text-[50px] md:text-[120px] lg:text-[170px] xl:text-[158px] title__font-family justify-center leading-none l-main-content__space-title-en js-title">
+        class="text-[50px] md:text-[120px] lg:text-[170px] xl:text-[158px] title__font-family justify-center leading-none l-main-content__space-title-en js-title tracking-11">
         <span>R</span>
         <span>E</span>
         <span>N</span>

@@ -38,7 +38,7 @@ get_header();
   <section class="w-full bg-white">
     <div class="max-w-6xl mx-auto px-7">
       <h2
-        class="text-[50px] md:text-[80px] lg:text-[158px] justify-center leading-none l-main-content__space-title-en js-title">
+        class="text-[50px] md:text-[80px] lg:text-[140px] xl:text-[158px] justify-center leading-none l-main-content__space-title-en js-title tracking-11">
         <span>R</span>
         <span>E</span>
         <span>N</span>
@@ -546,25 +546,25 @@ get_header();
                 class="text-[38px] md:text-[48px] lg:text-[66px] xl:text-[76px] text-[#F56512] title__font-family ml-[67px] md:ml-[45px] lg:ml-[55px] xl:ml-[90px] title__font-family leading-none">7</span>
             </div>
             <?php
-              get_header();
+            get_header();
 
-              $field_objects = get_field_objects();
+            $field_objects = get_field_objects();
 
-              $table_a = [];
-              $table_b = [];
+            $table_a = [];
+            $table_b = [];
 
-              if ($field_objects) {
-                foreach ($field_objects as $field) {
-                  $name = $field['name'];
-                  $label = $field['label'];
+            if ($field_objects) {
+              foreach ($field_objects as $field) {
+                $name = $field['name'];
+                $label = $field['label'];
 
-                  if (strpos($name, 'a-') === 0) {
-                    $table_a[$label] = $name;
-                  } elseif (strpos($name, 'b-') === 0) {
-                    $table_b[$label] = $name;
-                  }
+                if (strpos($name, 'a-') === 0) {
+                  $table_a[$label] = $name;
+                } elseif (strpos($name, 'b-') === 0) {
+                  $table_b[$label] = $name;
                 }
               }
+            }
             ?>
             <table
               class="w-[162px] md:w-[165px] lg:w-[200px] xl:w-[274px] text-left border-separate border-spacing-0 border-y border-black">
@@ -843,7 +843,7 @@ get_header();
         <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
           <div class="flex-1 flex flex-col items-start">
             <h2
-              class="text-[64px] md:text-[94px] leading-none title__font-family">
+              class="text-[64px] md:text-[94px] leading-none title__font-family mb-[4px]">
               VOICE
             </h2>
             <div
@@ -895,7 +895,7 @@ get_header();
         <div
           class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
           <h2
-            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-4">
+            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-[8px]">
             FLOW
           </h2>
           <div class="text-black text-[22px] md:text-[28px] font-bold mb-2">
