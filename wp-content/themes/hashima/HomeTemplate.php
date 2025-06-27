@@ -46,7 +46,7 @@ get_header();
         <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/main-visual.webp">
         <img
           class="p-main-visual__image"
-          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/banner-1.webp"
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/main-visual.webp"
           alt="Responsive Slide 1" />
       </picture>
       <div class="p-main-visual__catch">
