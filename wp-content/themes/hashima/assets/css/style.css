@@ -369,7 +369,8 @@ input[type="file"]::file-selector-button {
   display: block;
   margin-top: 9.375rem;
   margin-left: 0.1625rem;
-  font-family:"ヒラギノ角ゴ W4", "Hiragino Kaku Gothic",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "ヒラギノ角ゴ W4", "Hiragino Kaku Gothic", Osaka, "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -411,7 +412,8 @@ input[type="file"]::file-selector-button {
 }
 .l-footer__policy {
   margin-top: 3.03125rem;
-  font-family:"ヒラギノ角ゴ W4", "Hiragino Kaku Gothic",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+  font-family: "ヒラギノ角ゴ W4", "Hiragino Kaku Gothic", Osaka, "メイリオ",
+    Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -628,7 +630,7 @@ input[type="file"]::file-selector-button {
   width: 30rem;
   margin-right: 9.5625rem;
 }
-.leading-line-h{
+.leading-line-h {
   line-height: 1.11;
 }
 .flex-col-items-end {
@@ -636,7 +638,7 @@ input[type="file"]::file-selector-button {
   flex-direction: column;
   align-items: flex-end;
 }
-.p-contact__info{
+.p-contact__info {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
@@ -778,7 +780,7 @@ input[type="file"]::file-selector-button {
   font-size: 4.375rem;
   line-height: 1.5;
   color: #fff;
-  letter-spacing: 0.020em;
+  letter-spacing: 0.02em;
 }
 .p-contact__time {
   margin-top: -0.625rem;
@@ -4331,10 +4333,10 @@ input[type="file"]::file-selector-button {
     align-items: center;
     gap: 0;
     padding: 0;
-    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+    box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.08);
     height: auto;
   }
-.l-header__follow-link {
+  .l-header__follow-link {
     writing-mode: horizontal-tb;
     -webkit-writing-mode: horizontal-tb;
     -ms-writing-mode: lr-tb;
@@ -4850,8 +4852,8 @@ input[type="file"]::file-selector-button {
   }
 }
 
-@media (min-width: 500px) and (max-width: 640px)  {
-  .small-image-h{
+@media (min-width: 500px) and (max-width: 640px) {
+  .small-image-h {
     height: 400px !important;
   }
 }
