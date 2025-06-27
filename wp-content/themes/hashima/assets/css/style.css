@@ -4700,7 +4700,7 @@ input[type="file"]::file-selector-button {
   } */
   .p-main-visual__carousel {
     /* min-height: 600px; */
-    min-height: 270px;
+    min-height: 30.124444rem;
   }
   .l-main-content {
     padding-top: 6.71875rem;
@@ -4749,7 +4749,7 @@ input[type="file"]::file-selector-button {
   } */
   .p-main-visual__carousel {
     /* min-height: 600px; */
-    min-height: 348px;
+    min-height: 31.124444rem;
   }
   .l-main-content {
     padding-top: 6.71875rem;
