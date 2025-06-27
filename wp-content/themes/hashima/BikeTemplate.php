@@ -528,10 +528,10 @@ get_header();
       </div>
     </div>
 
-    <div id="garage-availability-section" class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
+    <div id="garage-availability-mobile" class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
       <div
         class="text-left mb-[20px] md:mb-[26px] lg:mb-[32px] xl:mb-[40px]">
-        <h2 class="text-[50px] md:text-[68px] title__font-family">
+        <h2 id="garage-availability-section" class="text-[50px] md:text-[68px] title__font-family">
           GARAGE AVAILABILITY
         </h2>
         <div
@@ -839,28 +839,32 @@ get_header();
 </main>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function() {
-    if (window.location.hash === '#garage-availability-section') {
-      const el = document.getElementById('garage-availability-section');
+  window.addEventListener('load', function () {
+    const isMobile = window.innerWidth <= 768;
+    const mobileId = 'garage-availability-mobile';
+    const desktopId = 'garage-availability-section';
+    const targetId = isMobile ? mobileId : desktopId;
+    const expectedHash = `#${targetId}`;
+
+    if (window.location.hash === expectedHash) {
+      const el = document.getElementById(targetId);
       if (el) {
-        setTimeout(function() {
-          el.scrollIntoView({
-            behavior: 'smooth',
-            block: 'start'
+        setTimeout(function () {
+          const rect = el.getBoundingClientRect();
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+
+          window.scrollTo({
+            top: rect.top + scrollTop - 20, // Adjust offset as needed
+            behavior: 'smooth'
           });
-          setTimeout(function() {
-            const rect = el.getBoundingClientRect();
-            const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
-            window.scrollTo({
-              top: rect.top + scrollTop - 20,
-              behavior: 'smooth'
-            });
-          }, 400);
         }, 300);
       }
     }
   });
 </script>
+
+
+
 
 <?php
 get_footer();

@@ -315,7 +315,10 @@ get_header();
       <span class="map__title_size">A</span>
       <span class="map__title_size">P</span>
     </h2>
-    <a class="p-map__button" href="<?php echo home_url('bike'); ?>#garage-availability-section">View more</a>
+    <a class="p-map__button garage-link" 
+    data-mobile-target="garage-availability-mobile" 
+    data-desktop-target="garage-availability-section" 
+    href="<?php echo home_url('bike'); ?>#garage-availability-section">View more</a>
     <img
       class="p-map__map"
       src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-map/map.webp"
@@ -436,7 +439,25 @@ get_header();
     intro.classList.add("hide");
   }, 2000);
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const garageLink = document.querySelector(".garage-link");
+
+  if (!garageLink) return;
+
+  const isMobile = window.innerWidth <= 768;
+  const baseUrl = garageLink.href.split("#")[0]; // Remove current anchor
+
+  const targetId = isMobile
+    ? garageLink.dataset.mobileTarget
+    : garageLink.dataset.desktopTarget;
+
+  garageLink.href = `${baseUrl}#${targetId}`;
+});
+
 </script>
+
+
 
 <?php
 get_footer();
