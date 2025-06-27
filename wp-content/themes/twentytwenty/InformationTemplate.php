@@ -164,8 +164,14 @@ get_header();
                 }
             });
 
-            filterButtons.forEach(b => b.classList.remove("bg-black", "text-white"));
-            btn.classList.add("bg-black", "text-white");
+            // Update button states
+            filterButtons.forEach(b => {
+                b.classList.remove("bg-black", "text-white", "bg-white", "text-black");
+                b.classList.add("bg-white", "text-black"); // Reset to default
+            });
+
+            btn.classList.remove("bg-white", "text-black");
+            btn.classList.add("bg-black", "text-white"); // Active state
         });
     });
 </script>
