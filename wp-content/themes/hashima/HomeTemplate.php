@@ -315,10 +315,10 @@ get_header();
       <span class="map__title_size">A</span>
       <span class="map__title_size">P</span>
     </h2>
-    <a class="p-map__button garage-link" 
-    data-mobile-target="garage-availability-mobile" 
-    data-desktop-target="garage-availability-section" 
-    href="<?php echo home_url('bike'); ?>#garage-availability-section">View more</a>
+    <a class="p-map__button garage-link"
+      data-mobile-target="garage-availability-mobile"
+      data-desktop-target="garage-availability-section"
+      href="<?php echo home_url('bike'); ?>#garage-availability-section">View more</a>
     <img
       class="p-map__map"
       src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-map/map.webp"
@@ -398,27 +398,6 @@ get_header();
     referrerpolicy="no-referrer-when-downgrade"
     title="羽島基地"></iframe>
 
-  <!-- <div class="p-contact">
-    <hgroup class="p-contact__title">
-      <h2 class="p-contact__title-en js-title">
-        <span>C</span>
-        <span>O</span>
-        <span>N</span>
-        <span>T</span>
-        <span>A</span>
-        <span>C</span>
-        <span>T</span>
-      </h2>
-      <p class="p-contact__title-ja">
-        お問い合わせ／内覧お申込み／お申込み
-      </p>
-    </hgroup>
-    <div class="p-contact__group">
-      <p class="p-contact__tel">TEL 090-4153-3258</p>
-      <p class="p-contact__time">営業時間 8:00〜18:00</p>
-      <a class="p-contact__button" href="<?php echo home_url('contact') ?>">CONTACT</a>
-    </div>
-  </div> -->
   <div class="p-contact">
     <hgroup class="p-contact__title">
       <h2 class="p-contact__title-en js-title leading-line-h">
@@ -451,35 +430,34 @@ get_header();
 
 <script>
   document.addEventListener("DOMContentLoaded", () => {
-  const intro = document.getElementById("intro-overlay");
-  const title = document.getElementById("intro-title");
+    const intro = document.getElementById("intro-overlay");
+    const title = document.getElementById("intro-title");
 
-  title.classList.add("is-visible");
+    title.classList.add("is-visible");
 
-  setTimeout(() => {
-    title.classList.add("move-up");
-  }, 1200);
+    setTimeout(() => {
+      title.classList.add("move-up");
+    }, 1200);
 
-  setTimeout(() => {
-    intro.classList.add("hide");
-  }, 2000);
-});
+    setTimeout(() => {
+      intro.classList.add("hide");
+    }, 2000);
+  });
 
-document.addEventListener("DOMContentLoaded", function () {
-  const garageLink = document.querySelector(".garage-link");
+  document.addEventListener("DOMContentLoaded", function() {
+    const garageLink = document.querySelector(".garage-link");
 
-  if (!garageLink) return;
+    if (!garageLink) return;
 
-  const isMobile = window.innerWidth <= 768;
-  const baseUrl = garageLink.href.split("#")[0]; // Remove current anchor
+    const isMobile = window.innerWidth <= 768;
+    const baseUrl = garageLink.href.split("#")[0]; // Remove current anchor
 
-  const targetId = isMobile
-    ? garageLink.dataset.mobileTarget
-    : garageLink.dataset.desktopTarget;
+    const targetId = isMobile ?
+      garageLink.dataset.mobileTarget :
+      garageLink.dataset.desktopTarget;
 
-  garageLink.href = `${baseUrl}#${targetId}`;
-});
-
+    garageLink.href = `${baseUrl}#${targetId}`;
+  });
 </script>
 
 

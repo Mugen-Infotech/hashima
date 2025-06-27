@@ -843,7 +843,7 @@ get_header();
 </main>
 
 <script>
-  window.addEventListener('load', function () {
+  window.addEventListener('load', function() {
     const isMobile = window.innerWidth <= 768;
     const mobileId = 'garage-availability-mobile';
     const desktopId = 'garage-availability-section';
@@ -853,7 +853,7 @@ get_header();
     if (window.location.hash === expectedHash) {
       const el = document.getElementById(targetId);
       if (el) {
-        setTimeout(function () {
+        setTimeout(function() {
           const rect = el.getBoundingClientRect();
           const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
 
