@@ -474,6 +474,20 @@ get_header();
             バイクコンテナ契約者のレンタルシェアスペース使用は有料とする
             (割引あり)
           </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            HASHIMA BASEでの撮影をご希望の方へ<br />
+            HASHIMA BASEでは、撮影場所としてスペースの貸し出しを行っております。
+            施設全体のご利用が可能で、貸し出し時間は【1時間から】承っております。
+            ご希望の方は、お気軽に[CONTACT]ページよりお問い合わせください。
+          </li>
         </ul>
         <p class="text-2xl md:text-[18px] mt-8">
           ※契約者の紹介割引あり (契約者が知人、友人をご紹介した場合)
