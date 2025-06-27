@@ -90,7 +90,7 @@ get_header();
 
                         <div class="flex flex-col" data-category="<?php echo esc_attr($category_slug); ?>">
                             <a href="<?php echo esc_url($permalink); ?>">
-                                <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="w-full h-[200px] md:h-[200px] xl:h-[300px] object-cover bg-white border border-gray-200" />
+                                <img src="<?php echo esc_url($image_url); ?>" alt="<?php echo esc_attr($title); ?>" class="w-full h-[200px] md:h-[200px] xl:h-[300px] 2xl:h-[400px] object-cover bg-white border border-gray-200" />
                             </a>
                             <div class="flex items-center gap-2 mt-2">
                                 <span class="border-2 border-black text-black text-[12px] md:text-[14px] xl:text-[16px] px-3 pt-1 md:pt-[2px] !leading-[20px] tracking-wider title__font-family"><?php echo esc_html(strtoupper($category_name)); ?></span>
