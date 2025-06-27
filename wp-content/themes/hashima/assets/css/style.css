@@ -4566,7 +4566,6 @@ input[type="file"]::file-selector-button {
 .header__follow-link {
   flex: 1;
   text-align: center;
-  padding: 10px 0;
   width: 3.375rem;
   color: #fff;
   background-color: #0041ff;
@@ -4627,7 +4626,6 @@ input[type="file"]::file-selector-button {
     text-align: center;
     color: #fff;
     background-color: #0041ff;
-    border-radius: 0.9375rem;
     font-family: Bebas Neue, sans-serif;
     font-style: normal;
     font-weight: 400;
