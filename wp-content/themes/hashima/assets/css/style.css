@@ -369,7 +369,7 @@ input[type="file"]::file-selector-button {
   display: block;
   margin-top: 9.375rem;
   margin-left: 0.1625rem;
-  font-family: Oswald, sans-serif;
+  font-family:"ヒラギノ角ゴ W4", "Hiragino Kaku Gothic",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
@@ -411,7 +411,7 @@ input[type="file"]::file-selector-button {
 }
 .l-footer__policy {
   margin-top: 3.03125rem;
-  font-family: Oswald, sans-serif;
+  font-family:"ヒラギノ角ゴ W4", "Hiragino Kaku Gothic",Osaka, "メイリオ", Meiryo, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
   font-style: normal;
   font-weight: 500;
   font-optical-sizing: auto;
