@@ -483,7 +483,7 @@ get_header();
     <div
       class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-6 px-7 md:px-0">
       <a
-        href="/pages/contact.html"
+        href="<?php echo home_url('contact') ?>"
         class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#0057FF] hover:bg-[#0046cc] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md">
         <span
           class="text-[30px] sm:text-[36px] md:text-[70px] lg:text-[75px] leading-none tracking-wide">
