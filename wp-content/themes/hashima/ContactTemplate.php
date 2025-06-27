@@ -66,6 +66,9 @@ get_header();
               <option value="レンタルキッチントレーラーについて">
                 レンタルキッチントレーラーについて
               </option>
+              <option value="レンタルキッチントレーラーについて">
+                HASHIMA BASEでの撮影について
+              </option>
             </select>
           </div>
           <div
