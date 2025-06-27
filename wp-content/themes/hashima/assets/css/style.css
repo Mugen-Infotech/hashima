@@ -4694,6 +4694,9 @@ input[type="file"]::file-selector-button {
   .l-footer__policy {
     font-size: 10px;
   }
+  .l-header__name {
+    font-size: 30px;
+  }
 }
 
 @media (min-width: 1025px) and (max-width: 1280px) {
