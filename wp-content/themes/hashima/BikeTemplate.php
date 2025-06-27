@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<div class="p-main-visual">
+<div class="p-main-visual md:pt-0">
   <span class="p-main-visual__background js-main-visual-background"></span>
   <div class="p-main-visual__group">
     <img

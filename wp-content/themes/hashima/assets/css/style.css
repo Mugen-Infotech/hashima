@@ -4318,7 +4318,6 @@ input[type="file"]::file-selector-button {
     gap: 0;
     padding: 0;
     box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
-    border-top: 1px solid #eee;
     height: auto;
   }
 .l-header__follow-link {
