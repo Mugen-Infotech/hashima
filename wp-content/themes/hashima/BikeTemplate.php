@@ -23,7 +23,7 @@ get_header();
       alt="" />
   </div>
   <div
-    class="absolute top-28 right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
+    class="absolute top-[80px] right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
     <span
       class="text-white text-[8px] md:text-[10px] lg:text-[14px] title__font-family uppercase leading-none tracking-[0.011em]">TOTAL</span>
     <span
@@ -825,12 +825,15 @@ get_header();
 </main>
 
 <script>
-  document.addEventListener('DOMContentLoaded', function () {
+  document.addEventListener('DOMContentLoaded', function() {
     if (window.location.hash === '#garage-availability-section') {
       const el = document.getElementById('garage-availability-section');
       if (el) {
         setTimeout(function() {
-          el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+          el.scrollIntoView({
+            behavior: 'smooth',
+            block: 'start'
+          });
           setTimeout(function() {
             const rect = el.getBoundingClientRect();
             const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
