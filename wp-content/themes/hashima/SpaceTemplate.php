@@ -171,7 +171,17 @@ get_header();
             <div class="space-y-3 mb-4">
               <div class="flex items-baseline px-2 md:px-6">
                 <span
-                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">4時間／</span>
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1時間（1回）／</span>
+                <span
+                  class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">2,500</span>
+                <span
+                  class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 text-white font-normal">（税別）</span>
+              </div>
+              <div class="flex items-baseline px-2 md:px-6">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1日／</span>
                 <span
                   class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">10,000</span>
                 <span
@@ -198,7 +208,6 @@ get_header();
             </div>
             <p
               class="text-[13px] md:text-[16px] mt-4 text-white font-normal leading-[24px]">
-              ※短時間仕様の場合は2時間～とする（2500円/時間）<br />
               ※早朝、夜間および延長はその都度協議する。
             </p>
           </div>
@@ -238,7 +247,16 @@ get_header();
                 <span
                   class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">1日限定／</span>
                 <span
-                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">5,000</span>
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">12,000</span>
+                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
+              </div>
+              <div class="flex items-baseline">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">週末セット（4回）／</span>
+                <span
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">32,000</span>
                 <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
                 <span
                   class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>

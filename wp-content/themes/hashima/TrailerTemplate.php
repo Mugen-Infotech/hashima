@@ -165,7 +165,7 @@ get_header();
                   class="text-[14px] md:text-[18px] xl:text-[28px] text-white font-bold whitespace-nowrap">平日／</span>
                 <div class="text-right">
                   <span
-                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">5,000</span>
+                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">4,000</span>
                   <span
                     class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family">yen</span>
                   <span
@@ -182,7 +182,7 @@ get_header();
                 class="flex ml-[67px] md:ml-[100px] lg:ml-[104px] xl:ml-[153px] 2xl:ml-[152px]">
                 <div class="text-right">
                   <span
-                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">10,000</span>
+                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">5,000</span>
                   <span
                     class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family">yen</span>
                   <span
@@ -249,9 +249,18 @@ get_header();
                 <span
                   class="text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family">1日限定／</span>
                 <span
-                  class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">5,000</span>
+                  class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">12,000</span>
                 <span
                   class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
+              </div>
+              <div class="flex items-baseline">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">週末セット（4回）／</span>
+                <span
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">32,000</span>
+                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
                 <span
                   class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
               </div>
