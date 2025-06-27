@@ -4841,3 +4841,9 @@ input[type="file"]::file-selector-button {
     transition: opacity 0.6s cubic-bezier(0.77, 0, 0.18, 1);
   }
 }
+
+@media (min-width: 500px) and (max-width: 640px)  {
+  .small-image-h{
+    height: 400px !important;
+  }
+}
