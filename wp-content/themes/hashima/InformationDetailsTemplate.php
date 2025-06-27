@@ -71,7 +71,7 @@ get_header();
                                 class="relative flex items-center justify-center px-6 md:px-12 2xl:px-0 py-4 md:py-6 !border border-black rounded-full bg-white text-black font-medium text-[20px] tracking-wide hover:bg-black hover:text-white transition-all duration-200 min-w-[230px] w-[230px] xl:min-w-[250px] xl:w-[250px] min-h[100px]">
                                 一覧に戻る
                                 <span
-                                    class="absolute right-[20px] top-[40px] md:top-[45px] lg:top-[50px] xl:top-[54px] 2xl:top-[62px] -translate-y-1/2 text-[20px]">&#9654;</span>
+                                    class="absolute right-[20px] top-[40px] md:top-[45px] lg:top-[50px] xl:top-[54px] 2xl:top-[56px] -translate-y-1/2 text-[20px]">&#9654;</span>
                             </a>
                         </div>
                     </div>
