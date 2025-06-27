@@ -3850,10 +3850,10 @@ input[type="file"]::file-selector-button {
   body {
     padding-top: 6rem;
   }
-  .l-header__nav,
+  /* .l-header__nav,
   .l-header__follow {
     display: none;
-  }
+  } */
   .p-concept {
     text-align: inherit;
   }
@@ -4259,6 +4259,44 @@ input[type="file"]::file-selector-button {
   }
   .p-about__title {
     justify-content: center;
+  }
+  .l-header__follow {
+    position: fixed;
+    display: flex;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: auto;
+    z-index: 1000;
+    background: #fff;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0;
+    padding: 0;
+    box-shadow: 0 -2px 8px rgba(0,0,0,0.08);
+    border-top: 1px solid #eee;
+    height: auto;
+  }
+.l-header__follow-link {
+    writing-mode: horizontal-tb;
+    -webkit-writing-mode: horizontal-tb;
+    -ms-writing-mode: lr-tb;
+    width: 50%;
+    min-width: 0;
+    height: 50px;
+    font-size: 46px;
+    border-radius: 0;
+    color: #fff;
+    background-color: #0041ff;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+    font-family: Bebas Neue, sans-serif;
+    font-weight: 400;
+    margin: 0;
+    padding: 0;
+    line-height: 1;
   }
 }
 

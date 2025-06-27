@@ -171,7 +171,17 @@ get_header();
             <div class="space-y-3 mb-4">
               <div class="flex items-baseline px-2 md:px-6">
                 <span
-                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">4時間／</span>
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1時間（1回）／</span>
+                <span
+                  class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">2,500</span>
+                <span
+                  class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 text-white font-normal">（税別）</span>
+              </div>
+              <div class="flex items-baseline px-2 md:px-6">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1日／</span>
                 <span
                   class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">10,000</span>
                 <span
@@ -198,7 +208,6 @@ get_header();
             </div>
             <p
               class="text-[13px] md:text-[16px] mt-4 text-white font-normal leading-[24px]">
-              ※短時間仕様の場合は2時間～とする（2500円/時間）<br />
               ※早朝、夜間および延長はその都度協議する。
             </p>
           </div>
@@ -238,7 +247,16 @@ get_header();
                 <span
                   class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">1日限定／</span>
                 <span
-                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">5,000</span>
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">12,000</span>
+                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
+              </div>
+              <div class="flex items-baseline">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">週末セット（4回）／</span>
+                <span
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">32,000</span>
                 <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
                 <span
                   class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
@@ -374,6 +392,20 @@ get_header();
                 class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
             </div>
             RENTAL BIKE GARAGEゾーンへの出入りは禁止。
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            HASHIMA BASEでの撮影をご希望の方へ<br />
+            HASHIMA BASEでは、撮影場所としてスペースの貸し出しを行っております。<br />
+            施設全体のご利用が可能で、貸し出し時間は【1時間から】承っております。<br />
+            ご希望の方は、お気軽に[CONTACT]ページよりお問い合わせください。
           </li>
         </ul>
       </div>

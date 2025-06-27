@@ -165,7 +165,7 @@ get_header();
                   class="text-[14px] md:text-[18px] xl:text-[28px] text-white font-bold whitespace-nowrap">平日／</span>
                 <div class="text-right">
                   <span
-                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">5,000</span>
+                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">4,000</span>
                   <span
                     class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family">yen</span>
                   <span
@@ -182,7 +182,7 @@ get_header();
                 class="flex ml-[67px] md:ml-[100px] lg:ml-[104px] xl:ml-[153px] 2xl:ml-[152px]">
                 <div class="text-right">
                   <span
-                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">10,000</span>
+                    class="text-[32px] md:text-[40px] lg:text-[52px] text-white title__font-family">5,000</span>
                   <span
                     class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family">yen</span>
                   <span
@@ -249,9 +249,18 @@ get_header();
                 <span
                   class="text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family">1日限定／</span>
                 <span
-                  class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">5,000</span>
+                  class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">12,000</span>
                 <span
                   class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
+                <span
+                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
+              </div>
+              <div class="flex items-baseline">
+                <span
+                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">週末セット（4回）／</span>
+                <span
+                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">32,000</span>
+                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
                 <span
                   class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
               </div>
@@ -392,6 +401,20 @@ get_header();
             支払・キャンセルについて <br />
             支払は利用後に現金または振込。当日キャンセルは100％のキャンセル料が発生。
             利用目的と時間の厳守
+          </li>
+
+          <li class="flex items-start gap-1">
+            <div
+              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              <div
+                class="absolute inset-0 border border-black rounded-full"></div>
+              <div
+                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+            </div>
+            HASHIMA BASEでの撮影をご希望の方へ<br />
+            HASHIMA BASEでは、撮影場所としてスペースの貸し出しを行っております。<br />
+            施設全体のご利用が可能で、貸し出し時間は【1時間から】承っております。<br />
+            ご希望の方は、お気軽に[CONTACT]ページよりお問い合わせください。
           </li>
         </ul>
       </div>
