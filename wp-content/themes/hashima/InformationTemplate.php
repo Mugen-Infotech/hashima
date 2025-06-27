@@ -80,7 +80,7 @@ get_header();
 
                         $image_url = get_the_post_thumbnail_url(get_the_ID(), 'medium');
                         if (!$image_url) {
-                            $image_url = get_template_directory_uri() . '/assets/images/p-plan/blog1.webp';
+                            $image_url = get_template_directory_uri() . '/assets/images/p-plan/blog1.png';
                         }
 
                         $post_date = get_the_date('Y.m.d');
