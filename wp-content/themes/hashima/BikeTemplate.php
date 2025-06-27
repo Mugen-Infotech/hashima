@@ -528,7 +528,7 @@ get_header();
       </div>
     </div>
 
-    <div class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
+    <div id="garage-availability-section" class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
       <div
         class="text-left mb-[20px] md:mb-[26px] lg:mb-[32px] xl:mb-[40px]">
         <h2 class="text-[50px] md:text-[68px] title__font-family">
@@ -546,7 +546,7 @@ get_header();
         </div>
       </div>
     </div>
-    <div id="garage-availability-section"
+    <div
       class="max-w-6xl mx-auto flex flex-col md:flex-row items-start justify-center gap-12 px-7 md:px-0">
       <div class="flex flex-col pb-32 gap-6 min-w-[340px] mx-auto">
         <div class="flex flex-row gap-10">
