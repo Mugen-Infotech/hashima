@@ -725,7 +725,7 @@ get_header();
       </div>
     </div>
 
-    <div class="bg-[#f5f5f6]">
+    <div class="bg-[#f5f5f6] lg:hidden">
       <div class="max-w-6xl mx-auto w-full py-24 px-7 md:px-4">
         <div
           class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
@@ -808,6 +808,29 @@ get_header();
               class="w-[130px] h-[100px] md:w-[240px] md:h-[150px] mb-6 md:mb-8" />
             <span
               class="bg-black text-white rounded-full px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">契 約</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[#f5f5f6] hidden lg:block">
+      <div class="max-w-6xl mx-auto w-full py-24 px-7 md:px-4">
+        <div
+          class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
+          <h2
+            class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-[8px]">
+            FLOW
+          </h2>
+          <div class="text-black text-[22px] md:text-[28px] font-bold mb-2">
+            契約までの流れ
+          </div>
+        </div>
+        <div
+          class="max-w-full mx-auto flex flex-col lg:flex-row items-start justify-between gap-x-4 gap-y-14 lg:gap-y-4 w-full">
+          <div class="flex flex-col items-center w-full">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/flow_section.webp"
+              alt="お問い合わせ"
+              class="w-full mb-6 lg:mb-12 xl:mb-[44px] 2xl:mb-[48px]" />
           </div>
         </div>
       </div>
