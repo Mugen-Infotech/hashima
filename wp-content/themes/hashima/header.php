@@ -186,9 +186,5 @@
         </a>
         <p class="l-global-menu__name">HASHIMA<br />BASE</p>
       </div>
-      <div class="header__follow">
-        <a class="header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
-        <a class="header__follow-link" href="#">TEL</a>
-      </div>
     </div>
   </div>
