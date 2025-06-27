@@ -61,24 +61,27 @@ get_header();
     </section>
     <div class="p-contact">
         <hgroup class="p-contact__title">
-            <h2 class="p-contact__title-en js-title leading-[1.11]">
-                <span>C</span>
-                <span>O</span>
-                <span>N</span>
-                <span>T</span>
-                <span>A</span>
-                <span>C</span>
-                <span>T</span>
-            </h2>
-            <p class="p-contact__title-ja">
-                お問い合わせ／内覧お申込み／お申込み
-            </p>
+        <h2 class="p-contact__title-en js-title leading-[1.11]">
+            <span>C</span>
+            <span>O</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>C</span>
+            <span>T</span>
+        </h2>
+        <p class="p-contact__title-ja">
+            お問い合わせ／内覧お申込み／お申込み
+        </p>
         </hgroup>
         <div class="p-contact__group">
+        <div class="flex flex-col items-end">
+            <div class="flex flex-col items-left p-contact__info">
             <p class="p-contact__tel">TEL 090-4153-3258</p>
             <p class="p-contact__time">営業時間 8:00〜18:00</p>
-            <a class="p-contact__button px-[40px] xl:px-[73px] 2xl:px-[80px] ml-auto lg:ml-[160px] xl:ml-[225px] 2xl:ml-[240px]" href="<?php echo home_url('contact') ?>">CONTACT</a>
-            <!-- <a class="p-contact__button ml-auto md:ml-[96px] lg:ml-[241px]" href="<?php echo home_url('contact') ?>">CONTACT</a> -->
+            </div>
+            <a class="p-contact__button" href="<?php echo home_url('contact') ?>">CONTACT</a>
+        </div>
         </div>
     </div>
 </main>

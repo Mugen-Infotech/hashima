@@ -438,9 +438,13 @@ get_header();
       </p>
     </hgroup>
     <div class="p-contact__group">
-      <p class="p-contact__tel">TEL 090-4153-3258</p>
-      <p class="p-contact__time">営業時間 8:00〜18:00</p>
-      <a class="p-contact__button" href="<?php echo home_url('contact') ?>">CONTACT</a>
+      <div class="flex flex-col items-end">
+        <div class="flex flex-col items-left p-contact__info">
+          <p class="p-contact__tel">TEL 090-4153-3258</p>
+          <p class="p-contact__time">営業時間 8:00〜18:00</p>
+        </div>
+        <a class="p-contact__button" href="<?php echo home_url('contact') ?>">CONTACT</a>
+      </div>
     </div>
   </div>
 </main>
