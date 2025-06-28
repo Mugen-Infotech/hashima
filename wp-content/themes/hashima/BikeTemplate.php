@@ -483,10 +483,12 @@ get_header();
               <div
                 class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
             </div>
-            HASHIMA BASEでの撮影をご希望の方へ<br />
-            HASHIMA BASEでは、撮影場所としてスペースの貸し出しを行っております。<br />
-            施設全体のご利用が可能で、貸し出し時間は【1時間から】承っております。<br />
-            ご希望の方は、お気軽に[CONTACT]ページよりお問い合わせください。
+            <span>
+              HASHIMA BASEでの撮影をご希望の方へ<br />
+              HASHIMA BASEでは、撮影場所としてスペースの貸し出しを行っております。<br />
+              施設全体のご利用が可能で、貸し出し時間は【1時間から】承っております。<br />
+              ご希望の方は、お気軽に[<a href="<?php echo home_url('contact') ?>" class="underline text-blue-600 hover:text-blue-800">CONTACT</a>]ページよりお問い合わせください。
+            </span>
           </li>
         </ul>
         <p class="text-2xl md:text-[18px] mt-8">
@@ -675,7 +677,7 @@ get_header();
       </div>
 
       <div class="bg-white py-20 px-7 md:px-4">
-        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-10">
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row gap-20">
           <div class="flex-1 flex flex-col items-start">
             <h2
               class="text-[64px] md:text-[94px] leading-none title__font-family mb-[4px]">
@@ -728,7 +730,7 @@ get_header();
     <div class="bg-[#f5f5f6] lg:hidden">
       <div class="max-w-6xl mx-auto w-full py-24 px-7 md:px-4">
         <div
-          class="flex flex-col items-start justify-start md:justify-center mb-10 md:mb-30">
+          class="flex flex-col items-start justify-start md:justify-center mb-20 md:mb-30">
           <h2
             class="text-black text-[64px] md:text-[68px] title__font-family leading-none mb-[8px]">
             FLOW

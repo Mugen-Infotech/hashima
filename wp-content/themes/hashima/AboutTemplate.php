@@ -15,9 +15,11 @@ get_header();
 <main class="l-main-content pt-10">
   <section class="py-12 md:py-10 !pb-20">
     <div class="flex flex-col lg:flex-row min-h-screen max-w-7xl mx-auto px-7 sm:px-6 lg:px-8">
-      <div class="lg:w-1/3 lg:h-[1430px] xl:h-[1342px] 2xl:h-[1366px]">
+      <div class="lg:w-1/3 lg:h-[1430px] xl:h-[1492px] 2xl:h-[1366px]">
         <div class="sticky top-4 w-full flex justify-center lg:justify-center lg:self-start">
-          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg" class="w-64 lg:w-64 h-auto" />
+          <!-- <div class="fixed"> -->
+            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg" class="w-64 lg:w-64 h-auto" />
+          <!-- </div> -->
         </div>
       </div>
       <div class="lg:w-2/3">
