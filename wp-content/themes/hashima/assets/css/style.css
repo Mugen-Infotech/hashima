@@ -4733,7 +4733,7 @@ input[type="file"]::file-selector-button {
   } */
   .p-main-visual__carousel {
     /* min-height: 600px; */
-    min-height: 30.124444rem;
+    min-height: 64.124444rem;
   }
   .l-main-content {
     padding-top: 6.71875rem;
@@ -4773,6 +4773,11 @@ input[type="file"]::file-selector-button {
   }
 }
 
+@media (min-width: 481px) and (max-width: 750px) {
+  .p-main-visual__carousel {
+    min-height: 64.124444rem;
+  }
+}
 @media (min-width: 481px) and (max-width: 767px) {
   .p-plan__main-title-en {
     font-size: 56px;
@@ -4780,10 +4785,6 @@ input[type="file"]::file-selector-button {
   /* .p-main-visual__image {
     min-height: 600px;
   } */
-  .p-main-visual__carousel {
-    /* min-height: 600px; */
-    min-height: 31.124444rem;
-  }
   .l-main-content {
     padding-top: 6.71875rem;
   }
