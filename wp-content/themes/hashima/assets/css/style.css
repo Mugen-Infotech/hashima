@@ -4872,10 +4872,8 @@ input[type="file"]::file-selector-button {
   }
 
   #intro-title.move-up {
-    /* left: 19vw;
-    bottom: 40vh; */
     left: 18.9vw;
-    bottom: 40.9vh;
+    bottom: 39.9vh;
     transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
@@ -4898,5 +4896,69 @@ input[type="file"]::file-selector-button {
 @media (min-width: 320px) and (max-width: 767px) {
   .pc-hidden {
     display: none !important;
+  }
+}
+
+@media (min-width: 1920px) {
+  #intro-title.move-up {
+    left: 363px;
+    bottom: 437px;
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+  }
+}
+
+/* 1536x864 */
+@media screen and (width: 1536px) and (height: 864px) {
+  #intro-title.move-up {
+    left: 290px;
+    bottom: 453px;
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+  }
+}
+
+/* 1440x900 */
+@media screen and (width: 1440px) and (height: 900px) {
+  #intro-title.move-up {
+    left: 272px;
+    bottom: 505px;
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+  }
+}
+
+/* 1366x768 */
+@media screen and (width: 1366px) and (height: 768px) {
+  #intro-title.move-up {
+    left: 258px;
+    bottom: 393px;
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
+  }
+}
+
+/* 1280x720 */
+@media screen and (width: 1280px) and (height: 720px) {
+  #intro-title.move-up {
+    left: 242px;
+    bottom: 364px;
+    transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      bottom 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      transform 0.8s cubic-bezier(0.77, 0, 0.18, 1),
+      opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
   }
 }
