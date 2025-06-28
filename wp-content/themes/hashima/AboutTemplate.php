@@ -13,15 +13,24 @@ get_header();
 ?>
 
 <main class="l-main-content pt-10">
-  <section class="py-12 md:py-10 !pb-20">
+  <section class="py-12 md:py-10 pb-20">
     <div class="flex flex-col lg:flex-row min-h-screen max-w-7xl mx-auto px-7 sm:px-6 lg:px-8">
-      <div class="lg:w-1/3 lg:h-[1430px] xl:h-[1492px] 2xl:h-[1366px]">
-        <div class="sticky top-4 w-full flex justify-center lg:justify-center lg:self-start">
-          <!-- <div class="fixed"> -->
-            <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg" class="w-64 lg:w-64 h-auto" />
-          <!-- </div> -->
+      <div class="lg:hidden">
+        <div class="top-4 w-full flex justify-center">
+          <img src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg" class="w-64 h-auto" />
         </div>
       </div>
+      <div class="lg:w-1/3 relative lg:h-[1430px] xl:h-[1492px] 2xl:h-[1366px] hidden lg:block">
+        <div id="logo-wrapper" class="w-full flex justify-center">
+          <img
+            id="logo"
+            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg"
+            class="w-64 lg:w-64 h-auto"
+            style="position: relative;"
+          />
+        </div>
+      </div>
+
       <div class="lg:w-2/3">
         <h1
           class="text-9xl lg:text-[102px] lg:text-left lg:leading-loose title__font-family mb-6 lg:mb-0 p-about__title js-title md:flex md:justify-center lg:justify-start">
@@ -171,6 +180,63 @@ get_header();
     </div>
   </div>
 </main>
+
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const logo = document.getElementById("logo");
+    const logoWrapper = document.getElementById("logo-wrapper");
+
+    let offsetTop;
+    if (window.innerWidth >= 1536) {
+      // 2xl (≥1536px)
+      offsetTop = 125;
+    } else if (window.innerWidth >= 1280) {
+      // xl (≥1280px)
+      offsetTop = 140;
+    } else if (window.innerWidth >= 1024) {
+      // lg (≥1024px)
+      offsetTop = 135;
+    } else {
+      // sm or smaller
+      offsetTop = 120;
+    }
+
+    let maxScroll;
+    if (window.innerWidth >= 1536) {
+      // 2xl
+      maxScroll = 1131;
+    } else if (window.innerWidth >= 1280) {
+      // xl
+      maxScroll = 1252;
+    } else if (window.innerWidth >= 1024) {
+      // lg
+      maxScroll = 1451;
+    } else {
+      // sm or smaller
+      maxScroll = 800;
+    }
+
+    function updateLogoPosition() {
+      const scrollY = window.scrollY;
+
+      if (scrollY < logoWrapper.offsetTop - offsetTop) {
+        logo.style.position = "relative";
+        logo.style.top = "100px";
+      } else if (scrollY < maxScroll) {
+        logo.style.position = "fixed";
+        logo.style.top = offsetTop + "px";
+      } else {
+        logo.style.position = "absolute";
+        logo.style.top = (maxScroll - logoWrapper.offsetTop) + "px";
+      }
+    }
+
+    window.addEventListener("scroll", updateLogoPosition);
+    window.addEventListener("resize", updateLogoPosition);
+    updateLogoPosition();
+  });
+</script>
+
 
 <?php
 get_footer();
