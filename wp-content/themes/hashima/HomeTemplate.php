@@ -248,8 +248,12 @@
       </div>
       <div class="p-main-visual__slide">
         <img
-          class="p-main-visual__image"
+          class="p-main-visual__image lg-hidden"
           src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/photo07.jpg"
+          alt="Slide 2" />
+        <img
+          class="p-main-visual__image pc-hidden"
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo07.jpg"
           alt="Slide 2" />
         <div class="p-main-visual__catch">
           <p>愛車と過ごす</p>
@@ -258,8 +262,12 @@
       </div>
       <div class="p-main-visual__slide">
         <img
-          class="p-main-visual__image"
+          class="p-main-visual__image lg-hidden"
           src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/photo08.jpg"
+          alt="Slide 3" />
+        <img
+          class="p-main-visual__image pc-hidden"
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo08.jpg"
           alt="Slide 3" />
         <div class="p-main-visual__catch">
           <p>愛車と過ごす</p>

@@ -4859,6 +4859,9 @@ input[type="file"]::file-selector-button {
     transition: opacity 0.4s cubic-bezier(0.77, 0, 0.18, 1);
     pointer-events: auto;
   }
+  .lg-hidden {
+    display: none !important;
+  }
 
   #intro-title {
     color: #fff;
@@ -4890,5 +4893,10 @@ input[type="file"]::file-selector-button {
 @media (min-width: 500px) and (max-width: 640px) {
   .small-image-h {
     height: 400px !important;
+  }
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .pc-hidden {
+    display: none !important;
   }
 }
