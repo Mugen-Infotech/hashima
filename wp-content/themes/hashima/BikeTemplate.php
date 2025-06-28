@@ -743,9 +743,9 @@ get_header();
           class="max-w-full mx-auto flex flex-col lg:flex-row items-start justify-between gap-x-4 gap-y-14 lg:gap-y-4 w-full">
           <div class="flex flex-col items-center w-full lg:w-1/4">
             <img
-              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/contact.png"
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/contact.webp"
               alt="お問い合わせ"
-              class="w-[130px] h-[100px] md:w-[190px] md:h-[140px] mb-6 lg:mb-12 xl:mb-[44px] 2xl:mb-[48px]" />
+              class="w-[130px] md:w-[190px] md:h-[140px] mb-6 lg:mb-12 xl:mb-[44px] 2xl:mb-[48px]" />
             <span
               class="bg-black text-white rounded-full px-4 lg:px-4 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px] lg:min-w-[195px]">お問い合わせ</span>
           </div>
@@ -763,9 +763,9 @@ get_header();
           </div>
           <div class="flex flex-col items-center w-full lg:w-1/4">
             <img
-              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/preview.png"
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/preview.webp"
               alt="内覧"
-              class="w-[100px] h-[100px] md:w-[140px] md:h-[150px] mb-6 md:mb-8" />
+              class="w-[100px] md:w-[140px] md:h-[150px] mb-6 md:mb-8" />
             <span
               class="bg-black text-white rounded-full px-4 lg:px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">内 覧</span>
             <span
@@ -785,9 +785,9 @@ get_header();
           </div>
           <div class="flex flex-col items-center w-full lg:w-1/4">
             <img
-              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/apply.png"
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/apply.webp"
               alt="お申込み"
-              class="w-[100px] h-[100px] md:w-[160px] md:h-[150px] mb-6 md:mb-8" />
+              class="w-[100px] md:w-[160px] md:h-[150px] mb-6 md:mb-8" />
             <span
               class="bg-black text-white rounded-full px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">お申込み</span>
           </div>
@@ -805,9 +805,9 @@ get_header();
           </div>
           <div class="flex flex-col items-center w-full lg:w-1/4">
             <img
-              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/bike-icon.png"
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/bike-icon.webp"
               alt="契約"
-              class="w-[130px] h-[100px] md:w-[240px] md:h-[150px] mb-6 md:mb-8" />
+              class="w-[130px] md:w-[240px] md:h-[150px] mb-6 md:mb-8" />
             <span
               class="bg-black text-white rounded-full px-8 text-center py-1 text-[18px] md:text-[22px] font-bold mb-2 min-w-[195px]">契 約</span>
           </div>
