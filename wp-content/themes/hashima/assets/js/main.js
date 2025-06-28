@@ -455,3 +455,18 @@ document.querySelectorAll(".l-header__name").forEach((link) => {
     }
   });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const headerLink = document.getElementById("header-link");
+  const headerWrapper = headerLink.closest(".l-home-header__name");
+
+  function toggleHeaderLinkVisibility() {
+    if (window.innerWidth <= 768) {
+      headerWrapper.classList.add("is-visible");
+    }
+  }
+
+  toggleHeaderLinkVisibility(); // Initial check
+  window.addEventListener("scroll", toggleHeaderLinkVisibility);
+  window.addEventListener("resize", toggleHeaderLinkVisibility);
+});
