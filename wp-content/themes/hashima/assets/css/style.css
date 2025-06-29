@@ -4852,12 +4852,13 @@ input[type="file"]::file-selector-button {
     position: fixed;
     z-index: 9999;
     inset: 0;
-    background: #000;
+    background: #212121;
     display: flex;
     align-items: flex-end;
     justify-content: center;
     transition: opacity 0.4s cubic-bezier(0.77, 0, 0.18, 1);
     pointer-events: auto;
+    opacity: 1;
   }
   .lg-hidden {
     display: none !important;
@@ -4868,6 +4869,7 @@ input[type="file"]::file-selector-button {
     position: absolute;
     left: 19vw;
     bottom: 2vh;
+    z-index: 9999;
   }
 
   #intro-title.move-up {
