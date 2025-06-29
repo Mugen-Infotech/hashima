@@ -245,7 +245,8 @@ get_header();
           </div>
           <div class="flex-1/5 flex flex-col items-start lg:items-center">
             <div class="flex flex-col gap-2">
-              <div class="grid grid-cols-12 justify-center items-center gap-4 mt-10">
+              <div class="grid grid-cols-12 justify-center items-center gap-4 max-w-[270px] md:max-w-[370px] lg:max-w-[485px] mx-auto">
+                <!-- <div class="grid grid-cols-12 justify-center items-center gap-4 max-w-[485px] mx-auto mt-10"> -->
                 <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4 whitespace-nowrap">1日限定／</div>
                 <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">12,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
 
