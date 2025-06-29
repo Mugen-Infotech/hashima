@@ -470,3 +470,20 @@ document.addEventListener("DOMContentLoaded", () => {
   window.addEventListener("scroll", toggleHeaderLinkVisibility);
   window.addEventListener("resize", toggleHeaderLinkVisibility);
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+  const link = document.querySelector(".link-hide");
+
+  // Check if you're on the home page
+  const isHomePage =
+    window.location.pathname === "/" ||
+    window.location.pathname === "/index.html" ||
+    window.location.pathname === "/hashima/" ||
+    window.location.pathname === "/hashimabase/";
+
+  if (link && isHomePage) {
+    link.classList.add("link-hide"); // Hide only on home page
+  } else if (link) {
+    link.classList.remove("link-hide"); // Show on other pages
+  }
+});

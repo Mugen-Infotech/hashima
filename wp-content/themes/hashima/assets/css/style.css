@@ -531,13 +531,6 @@ input[type="file"]::file-selector-button {
   font-size: 44px;
   line-height: 1;
 }
-.l-home-header__name {
-  font-family: Bebas Neue, sans-serif;
-  font-style: normal;
-  font-weight: 400;
-  font-size: 44px;
-  line-height: 1;
-}
 .l-header__nav {
   display: flex;
 }
@@ -2242,9 +2235,10 @@ input[type="file"]::file-selector-button {
 .tracking-11 {
   letter-spacing: 0.011em;
 }
-#header-link {
-  display: block;
+.link-hide {
+  display: none;
 }
+
 @media (min-width: 640px) {
   .u-sm-dn {
     display: none !important;
@@ -3903,31 +3897,9 @@ input[type="file"]::file-selector-button {
     padding: 0.5rem 0.5rem 0.5rem 14px;
     text-align: left;
   }
-  .l-home-header__name {
-    opacity: 1;
-    transform: translateY(0px);
-    transition: opacity 0.3s ease, transform 0.3s ease;
-    position: fixed; /* Optional: fixes at top */
-    top: 10px;
-    left: 0px;
-    right: 0;
-    text-align: center;
-    background-color: white;
-    z-index: 1000;
-    padding: 0.5rem 0.5rem 0.5rem 14px;
-    text-align: left;
-  }
   .l-header__name.is-visible {
     opacity: 1;
     transform: translateY(0);
-  }
-  .l-home-header__name.is-visible {
-    opacity: 1;
-    transform: translateY(0);
-    padding: 25.5px;
-  }
-  #header-link {
-    display: none;
   }
   .l-global-menu-button {
     z-index: 1000;
@@ -4831,9 +4803,6 @@ input[type="file"]::file-selector-button {
     font-size: 10px;
   }
   .l-header__name {
-    font-size: 30px;
-  }
-  .l-home-header__name {
     font-size: 30px;
   }
 }
