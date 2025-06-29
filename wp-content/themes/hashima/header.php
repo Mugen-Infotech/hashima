@@ -73,7 +73,7 @@
 <body class="l-body" id="lenis-root">
   <header class="l-header">
     <p class="l-header__name">
-      <a class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
+      <a href="<?php echo home_url() ?>">HASHIMA BASE</a>
     </p>
     <nav class="l-header__nav">
       <ul class="l-header__list">
