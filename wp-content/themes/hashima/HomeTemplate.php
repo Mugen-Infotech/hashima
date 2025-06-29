@@ -214,7 +214,7 @@
         height="185"
         decoding="async"
         alt="ロゴ" />
-      <h1 class="p-main-visual__title-text">HASHIMA <br />BASE</h1>
+      <!-- <h1 class="p-main-visual__title-text">HASHIMA <br />BASE</h1> -->
       <div id="intro-overlay">
         <h1 id="intro-title" class="p-main-visual__title-text-desktop">
           <span>H</span>
@@ -641,7 +641,9 @@
       }, 1200);
 
       setTimeout(() => {
-        intro.classList.add("hide");
+        title.style.color = 'black';
+        intro.style.background = 'rgba(0, 0, 0, 0.5)';
+        // intro.classList.add("hide");
       }, 2000);
     });
 
