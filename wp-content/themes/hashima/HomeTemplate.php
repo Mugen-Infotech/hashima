@@ -572,10 +572,11 @@
           while ($the_query->have_posts()) : $the_query->the_post();
             $post_date = get_the_date('Y.m.d');
             $post_title = get_the_title();
+            $permalink = get_permalink();
         ?>
             <li class="p-information__item">
               <p class="p-information__date"><?php echo esc_html($post_date); ?></p>
-              <a class="p-information__link" href="#">
+              <a class="p-information__link" href="<?php echo esc_url($permalink); ?>">
                 <p class="p-information__news"><?php echo esc_html($post_title); ?></p>
               </a>
             </li>
