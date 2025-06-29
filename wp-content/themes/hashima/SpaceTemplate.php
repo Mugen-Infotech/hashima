@@ -12,6 +12,180 @@
 get_header();
 ?>
 
+<!-- <div class="bg-black text-white py-20">
+  <div class="max-w-7xl lg:max-w-full mx-auto px-7 md:px-4 lg:px-[0px]">
+    <div class="w-full flex flex-col lg:flex-row items-start gap-8">
+      <div
+        class="flex-1/3 flex flex-col lg:flex-row items-center gap-2">
+        <img
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/space8.webp"
+          alt="Rental Space"
+          class="w-full h-auto object-cover max-w-full lg:max-w-full" />
+      </div>
+      <div class="flex-1/5 flex flex-col items-start lg:items-center">
+        <div class="flex flex-col gap-2">
+          <h2
+            class="text-white text-[42px] md:text-[52px] lg:text-[62px] mb-8 md:mb-14 leading-none l-main-content__space-title-en js-title">
+            <span>R</span>
+            <span>E</span>
+            <span>N</span>
+            <span>T</span>
+            <span>A</span>
+            <span>L</span>
+            <span>&nbsp;</span>
+            <span>S</span>
+            <span>P</span>
+            <span>A</span>
+            <span>C</span>
+            <span>E</span>
+          </h2>
+          <div class="flex items-center mb-6">
+            <div class="flex-shrink-0">
+              <div
+                class="rounded-full border-2 border-white w-[45px] md:w-[60px] md:h-[60px] h-[45px] flex items-center justify-center">
+                <span
+                  class="text-white text-[14px] md:text-[18px] lg:text-[20px] font-normal tracking-wide">貸料</span>
+              </div>
+            </div>
+            <div class="ml-6">
+              <p
+                class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white mb-1">
+                午前（8:00から12:00）
+              </p>
+              <p
+                class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white">
+                午後（13:00から17:00）共に
+              </p>
+            </div>
+          </div>
+          <h3
+            class="text-[20px] md:text-[26px] lg:text-[36px] font-bold mb-4 tracking-tight text-white">
+            レンタルスペース
+          </h3>
+          <div class="grid grid-cols-12 justify-center items-center gap-4 max-w-[360px] md:max-w-[390px] lg:max-w-[485px] xl:max-w-[510px] mx-auto">
+            <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4 whitespace-nowrap">1時間（1回）／
+            </div>
+            <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">2,500</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+            <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1日／</div>
+            <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">10,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+            <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1ヶ月／</div>
+            <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">40,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+          </div>
+          <div class="flex items-baseline mt-[-17px]">
+            <div class="text-[14px] md:text-[16px] text-white">
+              ※2年目以降は60,000円。
+            </div>
+          </div>
+          <p
+            class="text-[13px] md:text-[16px] mt-4 text-white font-normal leading-[24px]">
+            ※早朝、夜間および延長はその都度協議する。
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div> -->
+
+<!-- <div
+  class="relative bg-black z-10 w-full flex items-center pt-44 pb-12">
+  <div
+    class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-7 lg:px-0">
+    <div class="md:col-span-4">
+      <div class="w-full flex justify-center mb-8 md:mb-0">
+        <img
+          src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/space8.webp"
+          alt="Rental Space"
+          class="w-full h-auto object-cover max-w-full lg:max-w-full" />
+      </div>
+    </div>
+    <div class="md:col-span-3">
+      <div class="w-full flex flex-col justify-center px-0 lg:px-10">
+        <h2
+          class="text-white text-[42px] md:text-[52px] lg:text-[62px] mb-8 md:mb-14 leading-none l-main-content__space-title-en js-title">
+          <span>R</span>
+          <span>E</span>
+          <span>N</span>
+          <span>T</span>
+          <span>A</span>
+          <span>L</span>
+          <span>&nbsp;</span>
+          <span>S</span>
+          <span>P</span>
+          <span>A</span>
+          <span>C</span>
+          <span>E</span>
+        </h2>
+        <div class="flex items-center mb-6">
+          <div class="flex-shrink-0">
+            <div
+              class="rounded-full border-2 border-white w-[45px] md:w-[60px] md:h-[60px] h-[45px] flex items-center justify-center">
+              <span
+                class="text-white text-[14px] md:text-[18px] lg:text-[20px] font-normal tracking-wide">貸料</span>
+            </div>
+          </div>
+          <div class="ml-6">
+            <p
+              class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white mb-1">
+              午前（8:00から12:00）
+            </p>
+            <p
+              class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white">
+              午後（13:00から17:00）共に
+            </p>
+          </div>
+        </div>
+        <h3
+          class="text-[20px] md:text-[26px] lg:text-[36px] font-bold mb-4 tracking-tight text-white">
+          レンタルスペース
+        </h3>
+        <div class="space-y-3 mb-4">
+          <div class="flex items-baseline px-2 md:px-6">
+            <span
+              class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1時間（1回）／</span>
+            <span
+              class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">2,500</span>
+            <span
+              class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family ml-1">YEN</span>
+            <span
+              class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 text-white font-normal">（税別）</span>
+          </div>
+          <div class="flex items-baseline px-2 md:px-6">
+            <span
+              class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1日／</span>
+            <span
+              class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">10,000</span>
+            <span
+              class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family ml-1">YEN</span>
+            <span
+              class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 text-white font-normal">（税別）</span>
+          </div>
+          <div class="flex items-baseline px-2 md:px-6">
+            <span
+              class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 text-white font-bold">1ヶ月／</span>
+            <span
+              class="text-[32px] md:text-[40px] xl:text-[52px] text-white title__font-family">40,000</span>
+            <span
+              class="text-[16px] md:text-[20px] xl:text-[30px] text-white title__font-family ml-1">YEN</span>
+            <span
+              class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 text-white font-normal">（税別）</span>
+          </div>
+          <div class="flex items-baseline px-2 md:px-6 !mt-0">
+            <p
+              class="text-[13px] md:text-[16px] text-white font-normal">
+              ※2年目以降は50,000円。
+            </p>
+          </div>
+        </div>
+        <p
+          class="text-[13px] md:text-[16px] mt-4 text-white font-normal leading-[24px]">
+          ※早朝、夜間および延長はその都度協議する。
+        </p>
+      </div>
+    </div>
+  </div>
+</div> -->
 <div class="p-main-visual md:pt-0">
   <div class="p-main-visual__group">
     <img
@@ -116,7 +290,83 @@ get_header();
       </div>
     </div>
 
-    <div
+    <div class="bg-black text-white pb-12 pt-44">
+      <div class="max-w-7xl lg:max-w-full mx-auto px-7 md:px-4 lg:px-[0px]">
+        <div class="w-full flex flex-col lg:flex-row items-start gap-8">
+          <div
+            class="flex-1/3 flex flex-col lg:flex-row items-center gap-2">
+            <img
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/space8.webp"
+              alt="Rental Space"
+              class="w-full h-auto object-cover max-w-full lg:max-w-full" />
+          </div>
+          <div class="flex-1/5 flex flex-col items-start lg:items-center">
+            <div class="flex flex-col gap-2">
+              <h2
+                class="text-white text-[42px] md:text-[52px] lg:text-[62px] mb-8 md:mb-14 leading-none l-main-content__space-title-en js-title">
+                <span>R</span>
+                <span>E</span>
+                <span>N</span>
+                <span>T</span>
+                <span>A</span>
+                <span>L</span>
+                <span>&nbsp;</span>
+                <span>S</span>
+                <span>P</span>
+                <span>A</span>
+                <span>C</span>
+                <span>E</span>
+              </h2>
+              <div class="flex items-center mb-6">
+                <div class="flex-shrink-0">
+                  <div
+                    class="rounded-full border-2 border-white w-[45px] md:w-[60px] md:h-[60px] h-[45px] flex items-center justify-center">
+                    <span
+                      class="text-white text-[14px] md:text-[18px] lg:text-[20px] font-normal tracking-wide">貸料</span>
+                  </div>
+                </div>
+                <div class="ml-6">
+                  <p
+                    class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white mb-1">
+                    午前（8:00から12:00）
+                  </p>
+                  <p
+                    class="text-[14px] md:text-[18px] lg:text-[20px] font-normal text-white">
+                    午後（13:00から17:00）共に
+                  </p>
+                </div>
+              </div>
+              <h3
+                class="text-[20px] md:text-[26px] lg:text-[36px] font-bold mb-4 tracking-tight text-white">
+                レンタルスペース
+              </h3>
+              <div class="grid grid-cols-12 justify-center items-center gap-4 max-w-[350px] md:max-w-[425px] lg:max-w-[485px] xl:max-w-[570px] 2xl:max-w-[600px] mx-auto px-[8px] md:px-6">
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4 whitespace-nowrap">1時間（1回）／
+                </div>
+                <div class="text-right col-span-8 pr-[69px] md:pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">2,500</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1日／</div>
+                <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">10,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1ヶ月／</div>
+                <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">40,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+              </div>
+              <div class="flex items-baseline mt-[-17px]">
+                <div class="text-[14px] md:text-[16px] text-white">
+                  ※2年目以降は60,000円。
+                </div>
+              </div>
+              <p
+                class="text-[13px] md:text-[16px] mt-4 text-white font-normal leading-[24px]">
+                ※早朝、夜間および延長はその都度協議する。
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- <div
       class="relative bg-black z-10 w-full flex items-center pt-44 pb-12">
       <div
         class="grid grid-cols-1 lg:grid-cols-7 gap-8 mx-auto px-7 lg:px-0">
@@ -213,7 +463,7 @@ get_header();
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <div class="bg-black text-white py-28">
       <div class="max-w-7xl mx-auto px-7 md:px-4">
@@ -243,32 +493,18 @@ get_header();
           </div>
           <div class="flex-1/5 flex flex-col items-start lg:items-center">
             <div class="flex flex-col gap-2">
-              <div class="flex items-baseline">
-                <span
-                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">1日限定／</span>
-                <span
-                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">12,000</span>
-                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
-                <span
-                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
-              </div>
-              <div class="flex items-baseline">
-                <span
-                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">週末セット（4回）／</span>
-                <span
-                  class="text-[40px] md:text-[52px] xl:text-[52px] title__font-family">32,000</span>
-                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
-                <span
-                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
-              </div>
-              <div class="flex items-baseline">
-                <span
-                  class="text-[14px] md:text-[18px] xl:text-[28px] mr-4 font-bold content__font-family">1ヶ月／</span>
-                <span
-                  class="text-[40px] md:text-[52px] title__font-family">50,000</span>
-                <span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family ml-1">YEN</span>
-                <span
-                  class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span>
+              <div class="grid grid-cols-12 justify-center items-center gap-4 max-w-[270px] md:max-w-[370px] lg:max-w-[485px] mx-auto">
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4 whitespace-nowrap">1日限定／</div>
+                <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">12,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4 whitespace-nowrap">週末セット（4回）／</div>
+                <div class="text-right col-span-8"></div>
+
+                <div class="text-left col-span-4"></div>
+                <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">32,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
+
+                <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1ヶ月／</div>
+                <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">50,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
               </div>
               <div class="flex items-baseline mt-[-17px]">
                 <div class="text-[14px] md:text-[16px] text-white">
