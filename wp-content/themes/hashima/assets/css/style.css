@@ -4823,12 +4823,12 @@ input[type="file"]::file-selector-button {
 
   #intro-title {
     color: #fff;
-    transform : translateY(calc(-100% + 79vh));
+    transform: translateY(calc(-100% + 79vh));
     z-index: 9999;
   }
 
   #intro-title.move-up {
-    transform : translateY(0);
+    transform: translateY(0);
     transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       bottom 5s cubic-bezier(0.77, 0, 0.18, 1),
