@@ -416,7 +416,7 @@
               という思いを実現する場所、 それがHASHIMA
               BASEのバイクガレージです。
             </p>
-            <a class="p-plan__main-button" href="#">View more</a>
+            <a class="p-plan__main-button" href="<?php echo home_url('bike') ?>">View more</a>
           </div>
         </div>
         <div class="p-plan__grid">
@@ -455,7 +455,7 @@
               た、あなたの夢やアイデアをカタチにする拠点として、このスペースをぜひ有
               効にご活用ください。
             </p>
-            <a class="p-plan__sub-button" href="#">View more</a>
+            <a class="p-plan__sub-button" href="?php echo home_url('space') ?>">View more</a>
           </div>
           <div class="p-plan__sub">
             <picture class="p-plan__sub-img">
@@ -491,7 +491,7 @@
               フードを提供したり、既存の飲食店メニューの試験販売、
               新メニューのプロ モーションにもお使いいただけます。
             </p>
-            <a class="p-plan__sub-button" href="#">View more</a>
+            <a class="p-plan__sub-button" href="<?php echo home_url('trailer') ?>">View more</a>
           </div>
         </div>
       </div>
