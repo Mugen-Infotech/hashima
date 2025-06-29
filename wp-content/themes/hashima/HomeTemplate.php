@@ -130,7 +130,7 @@
     </nav>
     <div class="l-header__follow">
       <a class="l-header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
-      <a class="l-header__follow-link" href="#">TEL</a>
+      <a class="l-header__follow-link" href="tel:090-4153-3258">TEL</a>
     </div>
   </header>
   <button

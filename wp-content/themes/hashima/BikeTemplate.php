@@ -515,8 +515,8 @@ get_header();
         </span>
       </a>
 
-      <div
-        class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#555] rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md text-center">
+      <a href="tel:090-4153-3258"
+        class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#555] hover:bg-[#444] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md text-center">
         <div class="flex flex-col justify-start">
           <span
             class="text-[30px] md:text-[54px] leading-[30px] md:leading-[56px] tracking-wider">
@@ -527,7 +527,7 @@ get_header();
             営業時間 8:00〜18:00
           </span>
         </div>
-      </div>
+      </a>
     </div>
 
     <div id="garage-availability-mobile" class="max-w-6xl mx-auto bg-white pt-32 items-start px-7 md:px-0">
