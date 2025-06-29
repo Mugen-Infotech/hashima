@@ -455,7 +455,7 @@
               た、あなたの夢やアイデアをカタチにする拠点として、このスペースをぜひ有
               効にご活用ください。
             </p>
-            <a class="p-plan__sub-button" href="?php echo home_url('space') ?>">View more</a>
+            <a class="p-plan__sub-button" href="<?php echo home_url('space') ?>">View more</a>
           </div>
           <div class="p-plan__sub">
             <picture class="p-plan__sub-img">
