@@ -4898,3 +4898,12 @@ input[type="file"]::file-selector-button {
     display: none !important;
   }
 }
+
+@media (min-width: 1366px) {
+  .l-footer__name{
+    font-size: 77px;
+  }
+  .l-footer__address{
+    font-size: 16px;
+  }
+}
