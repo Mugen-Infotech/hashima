@@ -4321,7 +4321,6 @@ input[type="file"]::file-selector-button {
     letter-spacing: 0.02em;
     display: flex;
     overflow: hidden;
-    z-index: 80 !important;
   }
   .p-main-visual__title-text-desktop {
     flex-wrap: wrap;
