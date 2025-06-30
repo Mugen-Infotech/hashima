@@ -23,7 +23,6 @@ get_header();
       height="185"
       decoding="async"
       alt="ロゴ" />
-    <h1 class="p-main-visual__title-text">HASHIMA <br />BASE</h1>
     <h1 id="intro-title" class="p-main-visual__title-text-desktop">
       <span>H</span>
       <span>A</span>
