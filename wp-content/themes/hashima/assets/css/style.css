@@ -558,7 +558,7 @@ input[type="file"]::file-selector-button {
 }
 .l-header__sns-link {
   display: block;
-  font-size: 1.6625rem;
+  font-size: 20px;
   line-height: 1;
 }
 .l-header__follow.is-hidden {
@@ -4782,9 +4782,22 @@ input[type="file"]::file-selector-button {
     padding-top: 6.71875rem;
   }
 }
+@media (min-width: 1024px) and (max-width: 1070px) {
+  .l-header__list {
+    gap: 16px;
+    margin-right: 16px;
+  }
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
+  .l-header__list {
+    gap: 16px;
+    margin-right: 16px;
+  }
   .l-header__link {
+    font-size: 16px;
+  }
+  .l-header__sns-link {
     font-size: 16px;
   }
   .p-main-visual__carousel {
@@ -4817,7 +4830,21 @@ input[type="file"]::file-selector-button {
     font-size: 30px;
   }
 }
-
+@media (min-width: 750px) and (max-width: 768px) {
+  .l-header__name {
+    font-size: 30px;
+  }
+  .l-header__list {
+    gap: 12px;
+    margin-right: 12px;
+  }
+  .l-header__link {
+    font-size: 16px;
+  }
+  .l-header__sns-link {
+    font-size: 16px;
+  }
+}
 @media (min-width: 1025px) and (max-width: 1280px) {
   .p-main-visual__carousel {
     min-height: 800px;
