@@ -491,7 +491,7 @@ get_header();
 
     if (window.innerWidth <= 750) {
       setTimeout(() => {
-        introTitle.style.zIndex = '100';
+        introTitle.style.zIndex = '1';
       }, 2000); // Delay in milliseconds
     }
   });
