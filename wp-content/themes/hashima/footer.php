@@ -74,6 +74,7 @@
     <p class="l-footer__policy"><a href="<?php echo home_url('privacy-policy') ?>">PRIVACY POLICY</a> &nbsp;&nbsp; <a href="<?php echo home_url('sitemap') ?>">SITEMAP</a></p>
   </nav>
 </footer>
+</div>
 <!-- Include GSAP and ScrollTrigger -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>

@@ -71,120 +71,123 @@
 </head>
 
 <body class="l-body" id="lenis-root">
-  <header class="l-header">
-    <p class="l-header__name">
-      <a class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
-    </p>
-    <nav class="l-header__nav">
-      <ul class="l-header__list">
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('about') ?>"> ABOUT </a>
-        </li>
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('bike') ?>">
-            RENTAL BIKE GARAGE
+  <div class="max-w-[1366px] mx-auto border-x-4 border-black">
+    <header class="l-header">
+      <p class="l-header__name">
+        <a class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
+      </p>
+      <nav class="l-header__nav">
+        <ul class="l-header__list">
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('about') ?>"> ABOUT </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('bike') ?>">
+              RENTAL BIKE GARAGE
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('space') ?>">
+              RENTAL SPACE
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('trailer') ?>">
+              RENTAL KITCHEN TRAILER
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('information') ?>">
+              INFORMATION
+            </a>
+          </li>
+          <li class="l-header__item">
+            <a class="l-header__link" href="<?php echo home_url('contact') ?>"> CONTACT </a>
+          </li>
+        </ul>
+        <div class="l-header__sns">
+          <a class="l-header__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
+            <i class="fa-brands fa-instagram"></i>
           </a>
-        </li>
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('space') ?>">
-            RENTAL SPACE
+          <a class="l-header__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
+            <i class="fa-brands fa-facebook"></i>
           </a>
-        </li>
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('trailer') ?>">
-            RENTAL KITCHEN TRAILER
-          </a>
-        </li>
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('information') ?>">
-            INFORMATION
-          </a>
-        </li>
-        <li class="l-header__item">
-          <a class="l-header__link" href="<?php echo home_url('contact') ?>"> CONTACT </a>
-        </li>
-      </ul>
-      <div class="l-header__sns">
-        <a class="l-header__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a class="l-header__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
+        </div>
+      </nav>
+      <div class="l-header__follow">
+        <a class="l-header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
+        <a class="l-header__follow-link" href="tel:090-4153-3258">TEL</a>
       </div>
-    </nav>
-    <div class="l-header__follow">
-      <a class="l-header__follow-link" href="<?php echo home_url('contact') ?>">CONTACT</a>
-      <a class="l-header__follow-link" href="tel:090-4153-3258">TEL</a>
-    </div>
-  </header>
-  <button
-    class="l-global-menu-button js-global-menu-button"
-    type="button"
-    aria-controls="global-menu"
-    aria-expanded="false"
-    aria-label="メニューを開く">
-    <span
-      class="l-global-menu-button__bar l-global-menu-button__bar--top"></span>
-    <span
-      class="l-global-menu-button__bar l-global-menu-button__bar--bottom"></span>
-  </button>
+    </header>
 
-  <div
-    id="global-menu"
-    class="l-global-menu js-global-menu"
-    aria-hidden="true">
-    <div class="l-global-menu__inner">
-      <div class="l-global-menu__sns">
-        <a class="l-global-menu__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
-          <i class="fa-brands fa-instagram"></i>
-        </a>
-        <a class="l-global-menu__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
-          <i class="fa-brands fa-facebook"></i>
-        </a>
-      </div>
-      <ul class="l-global-menu__list">
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('about') ?>"> ABOUT </a>
-        </li>
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('bike') ?>">
-            RENTAL BIKE GARAGE
-          </a>
-        </li>
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('space') ?>">
-            RENTAL SPACE
-          </a>
-        </li>
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('trailer') ?>">
-            RENTAL KITCHEN TRAILER
-          </a>
-        </li>
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('information') ?>">
-            INFORMATION
-          </a>
-        </li>
-        <li class="l-global-menu__item">
-          <a class="l-global-menu__link" href="<?php echo home_url('contact') ?>">
-            CONTACT
-          </a>
-        </li>
-      </ul>
 
-      <div class="l-global-menu__group">
-        <a href="<?php echo home_url() ?>">
-          <img
-            class="l-global-menu__logo"
-            src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg"
-            width="236"
-            height="220"
-            decoding="async"
-            alt="ロゴ" />
-        </a>
-        <p class="l-global-menu__name">HASHIMA<br />BASE</p>
+    <button
+      class="l-global-menu-button js-global-menu-button"
+      type="button"
+      aria-controls="global-menu"
+      aria-expanded="false"
+      aria-label="メニューを開く">
+      <span
+        class="l-global-menu-button__bar l-global-menu-button__bar--top"></span>
+      <span
+        class="l-global-menu-button__bar l-global-menu-button__bar--bottom"></span>
+    </button>
+
+    <div
+      id="global-menu"
+      class="l-global-menu js-global-menu"
+      aria-hidden="true">
+      <div class="l-global-menu__inner">
+        <div class="l-global-menu__sns">
+          <a class="l-global-menu__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="l-global-menu__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+        </div>
+        <ul class="l-global-menu__list">
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('about') ?>"> ABOUT </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('bike') ?>">
+              RENTAL BIKE GARAGE
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('space') ?>">
+              RENTAL SPACE
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('trailer') ?>">
+              RENTAL KITCHEN TRAILER
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('information') ?>">
+              INFORMATION
+            </a>
+          </li>
+          <li class="l-global-menu__item">
+            <a class="l-global-menu__link" href="<?php echo home_url('contact') ?>">
+              CONTACT
+            </a>
+          </li>
+        </ul>
+
+        <div class="l-global-menu__group">
+          <a href="<?php echo home_url() ?>">
+            <img
+              class="l-global-menu__logo"
+              src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg"
+              width="236"
+              height="220"
+              decoding="async"
+              alt="ロゴ" />
+          </a>
+          <p class="l-global-menu__name">HASHIMA<br />BASE</p>
+        </div>
       </div>
     </div>
-  </div>

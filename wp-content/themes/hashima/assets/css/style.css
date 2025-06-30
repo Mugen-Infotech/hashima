@@ -536,18 +536,18 @@ input[type="file"]::file-selector-button {
 }
 .l-header__list {
   display: flex;
-  gap: 1.875rem;
+  gap: 30px;
   align-items: center;
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-  margin-right: 2.6875rem;
+  margin-right: 41px;
 }
 .l-header__link {
   font-family: Bebas Neue, sans-serif;
   font-style: normal;
   font-weight: 400;
-  font-size: 1.5rem;
+  font-size: 20px;
   line-height: 1.1666666667;
   color: #000;
 }
