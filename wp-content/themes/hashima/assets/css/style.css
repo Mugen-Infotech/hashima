@@ -4899,3 +4899,8 @@ input[type="file"]::file-selector-button {
     display: none !important;
   }
 }
+@media (min-width: 2190px) and (max-width: 2560px) {
+  .large-screen-button {
+    width: 500px !important;
+  }
+}
