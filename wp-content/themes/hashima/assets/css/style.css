@@ -4907,3 +4907,8 @@ input[type="file"]::file-selector-button {
     font-size: 16px;
   }
 }
+@media (min-width: 2190px) and (max-width: 2560px) {
+  .large-screen-button {
+    width: 500px !important;
+  }
+}
