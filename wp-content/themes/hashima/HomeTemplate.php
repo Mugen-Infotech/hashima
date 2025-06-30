@@ -485,6 +485,16 @@ get_header();
   // Re-check on scroll and resize
   window.addEventListener("scroll", applyPaddingIfMobile);
   window.addEventListener("resize", applyPaddingIfMobile);
+
+  document.addEventListener('DOMContentLoaded', function() {
+    const introTitle = document.getElementById('intro-title');
+
+    if (window.innerWidth <= 750) {
+      setTimeout(() => {
+        introTitle.style.zIndex = '100';
+      }, 2000); // Delay in milliseconds
+    }
+  });
 </script>
 
 
