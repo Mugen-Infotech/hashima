@@ -4695,6 +4695,23 @@ input[type="file"]::file-selector-button {
 .header__follow-link:last-child {
 	background-color: #595757;
 }
+
+.max-w-\[1366px\] {
+	max-width: 1366px;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+.border-x-4 {
+	border-left-width: 4px;
+	border-right-width: 4px;
+}
+.border-black {
+	--tw-border-opacity: 1;
+	border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+}
 @media (max-width: 425px) {
 	.p-facility-intro__paragraph {
 		width: 100%;
