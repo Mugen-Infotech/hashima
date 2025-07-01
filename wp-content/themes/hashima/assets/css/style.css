@@ -1128,7 +1128,7 @@ input[type='file']::file-selector-button {
 }
 .p-main-visual {
     width: calc(100% - 2.5rem);
-    padding-top: 20px;
+    /* padding-top: 20px; */
     margin-inline: auto;
 }
 .p-main-visual__background {
