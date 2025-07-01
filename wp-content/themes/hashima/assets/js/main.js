@@ -100,7 +100,7 @@ function H(n, e) {
       rootMargin: e.rootMargin,
       threshold: e.threshold || 0,
     },
-    i = { onEnter: e.onEnter || (() => {}), onLeave: e.onLeave || (() => {}) };
+    i = { onEnter: e.onEnter || (() => { }), onLeave: e.onLeave || (() => { }) };
   let o;
   return (
     (() => {
@@ -177,8 +177,8 @@ class T {
             "メニューを開く",
         },
         focusTrap: e.focusTrap ?? !0,
-        onEnter: e.onEnter !== void 0 ? e.onEnter : () => {},
-        onLeave: e.onLeave !== void 0 ? e.onLeave : () => {},
+        onEnter: e.onEnter !== void 0 ? e.onEnter : () => { },
+        onLeave: e.onLeave !== void 0 ? e.onLeave : () => { },
       }),
       (this._buttonElement = this._options.buttonElement),
       (this._menuElement = this._options.menuElement),
@@ -367,8 +367,8 @@ class q {
     u(this, d);
     (this._options = {
       breakpoint: e.breakpoint || null,
-      onEnter: e.onEnter || (() => {}),
-      onLeave: e.onLeave || (() => {}),
+      onEnter: e.onEnter || (() => { }),
+      onLeave: e.onLeave || (() => { }),
     }),
       r(this, d, g).call(this);
   }

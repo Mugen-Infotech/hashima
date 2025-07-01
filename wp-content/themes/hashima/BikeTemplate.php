@@ -694,7 +694,7 @@ get_header();
               <img
                 src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/user1.webp"
                 alt="利用者1"
-                class="max-w-lg rounded-full -mt-0 md:-mt-[128px] lg:-mt-[30px] xl:-mt-[0px]" />
+                class="bike-img max-w-lg rounded-full -mt-0 md:-mt-[128px] lg:-mt-[30px] xl:-mt-[0px]" />
               <div>
                 <div
                   class="text-black text-[22px] md:text-[26px] font-bold pb-8 pt-0 md:pt-2 2xl:pt-0">
@@ -710,7 +710,7 @@ get_header();
               <img
                 src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-plan/user2.webp"
                 alt="利用者2"
-                class="max-w-lg rounded-full -mt-0 md:-mt-[147px] lg:-mt-[46px] xl:-mt-[0px]" />
+                class="bike-img max-w-lg rounded-full -mt-0 md:-mt-[147px] lg:-mt-[46px] xl:-mt-[0px]" />
               <div>
                 <div
                   class="text-black text-[22px] md:text-[26px] font-bold pb-8 pt-0 md:pt-2 2xl:pt-0">

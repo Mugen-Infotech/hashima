@@ -516,6 +516,14 @@ input[type="file"]::file-selector-button {
   letter-spacing: 0.04em;
   color: #040000;
 }
+
+@media screen and (max-width: 767px) {
+  .l-global-menu__name {
+    font-size: 17vw;
+  }
+}
+
+
 .l-header {
   position: relative;
   display: flex;
@@ -1172,7 +1180,7 @@ input[type="file"]::file-selector-button {
 }
 .p-main-visual__title-text-desktop {
   display: flex;
-  overflow: hidden;
+  /* overflow: hidden; */
   z-index: 80;
   padding: 0.1rem 0.90625rem;
   margin-top: 0.95625rem;
@@ -1229,6 +1237,26 @@ input[type="file"]::file-selector-button {
   transition: transform 0.8s cubic-bezier(0.215, 0.61, 0.355, 1),
     opacity 0.8s ease;
 }
+
+
+@media screen and (max-width: 767px) {
+  .p-main-visual__title-text-desktop {
+    font-size: 20vw;
+    display: grid;
+    grid-template-columns: repeat(7, auto);
+  }
+
+  .p-main-visual__title-text-desktop.hide {
+    z-index: 0 !important;
+  }
+
+  .p-main-visual__title-text-desktop__br {
+    display: none !important;
+  }
+
+}
+
+
 
 .p-main-visual__title-text-desktop.is-visible span {
   transform: translateY(0);
@@ -2148,19 +2176,21 @@ input[type="file"]::file-selector-button {
   cursor: pointer;
 }
 
-#slide1:checked ~ .carousel__slides {
+#slide1:checked~.carousel__slides {
   transform: translateX(0%);
 }
-#slide2:checked ~ .carousel__slides {
+
+#slide2:checked~.carousel__slides {
   transform: translateX(-100%);
 }
-#slide3:checked ~ .carousel__slides {
+
+#slide3:checked~.carousel__slides {
   transform: translateX(-200%);
 }
 
-#slide1:checked ~ .carousel__nav label[for="slide1"],
-#slide2:checked ~ .carousel__nav label[for="slide2"],
-#slide3:checked ~ .carousel__nav label[for="slide3"] {
+#slide1:checked~.carousel__nav label[for="slide1"],
+#slide2:checked~.carousel__nav label[for="slide2"],
+#slide3:checked~.carousel__nav label[for="slide3"] {
   background: #333;
 }
 
@@ -3867,7 +3897,8 @@ input[type="file"]::file-selector-button {
     opacity: 1;
     transform: translateY(0);
     transition: opacity 0.3s ease, transform 0.3s ease;
-    position: fixed; /* Optional: fixes at top */
+    position: fixed;
+    /* Optional: fixes at top */
     top: 10px;
     left: 0px;
     right: 0;
@@ -4300,9 +4331,11 @@ input[type="file"]::file-selector-button {
   .p-main-visual__title-text {
     display: block;
   }
-  .p-main-visual__title-text-desktop {
+
+  /* .p-main-visual__title-text-desktop {
     display: none;
-  }
+  } */
+
   .p-about__title {
     justify-content: center;
   }
@@ -4776,8 +4809,10 @@ input[type="file"]::file-selector-button {
   }
 }
 
-@media screen and (min-width: 768px) {
-  #intro-overlay {
+
+
+/* @media screen and (min-width: 768px) { */
+#intro-overlay {
     position: fixed;
     z-index: 9999;
     inset: 0;
@@ -4788,32 +4823,35 @@ input[type="file"]::file-selector-button {
     transition: opacity 0.4s cubic-bezier(0.77, 0, 0.18, 1);
     pointer-events: auto;
     opacity: 1;
-  }
-  .lg-hidden {
-    display: none !important;
-  }
+}
 
-  #intro-title {
+.lg-hidden {
+    display: none !important;
+}
+
+#intro-title {
     color: #fff;
     transform: translateY(calc(-100% + 79vh));
     z-index: 9999;
-  }
+}
 
-  #intro-title.move-up {
+#intro-title.move-up {
     transform: translateY(0);
     transition: font-size 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       left 0.8s cubic-bezier(0.77, 0, 0.18, 1),
       bottom 5s cubic-bezier(0.77, 0, 0.18, 1),
-      transform 2s cubic-bezier(0.77, 0, 0.18, 1),
+    /* transform 2s cubic-bezier(0.77, 0, 0.18, 1), */
+    transform 1s cubic-bezier(0.77, 0, 0.18, 1),
       opacity 0.8s cubic-bezier(0.77, 0, 0.18, 1);
-  }
+}
 
-  #intro-overlay.hide {
+#intro-overlay.hide {
     opacity: 0;
     pointer-events: none;
     transition: opacity 0.6s cubic-bezier(0.77, 0, 0.18, 1);
-  }
 }
+
+/* } */
 
 @media (min-width: 500px) and (max-width: 640px) {
   .small-image-h {
@@ -4823,5 +4861,18 @@ input[type="file"]::file-selector-button {
 @media (min-width: 320px) and (max-width: 767px) {
   .pc-hidden {
     display: none !important;
+  }
+}
+
+
+.bike-img {
+  flex-shrink: 0;
+  flex-basis: 30%;
+}
+
+@media (max-width: 767px) {
+  .bike-img {
+    flex-shrink: 1;
+    flex-basis: auto;
   }
 }

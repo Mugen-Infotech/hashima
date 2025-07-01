@@ -23,7 +23,7 @@ get_header();
       height="185"
       decoding="async"
       alt="ロゴ" />
-    <h1 class="p-main-visual__title-text">HASHIMA <br />BASE</h1>
+    <!-- <h1 class="p-main-visual__title-text">HASHIMA <br />BASE</h1> -->
     <h1 id="intro-title" class="p-main-visual__title-text-desktop">
       <span>H</span>
       <span>A</span>
@@ -32,7 +32,7 @@ get_header();
       <span>I</span>
       <span>M</span>
       <span>A</span>
-      <span>&nbsp;</span>
+      <span class="p-main-visual__title-text-desktop__br">&nbsp;</span>
       <span>B</span>
       <span>A</span>
       <span>S</span>
@@ -54,28 +54,26 @@ get_header();
       </div>
     </div>
     <div class="p-main-visual__slide">
+      <picture>
+        <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo07.jpg">
       <img
-        class="p-main-visual__image lg-hidden"
+          class="p-main-visual__image"
         src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/photo07.jpg"
-        alt="Slide 2" />
-      <img
-        class="p-main-visual__image pc-hidden"
-        src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo07.jpg"
-        alt="Slide 2" />
+          alt="Responsive Slide 1" />
+      </picture>
       <div class="p-main-visual__catch">
         <p>愛車と過ごす</p>
         <p>レンタルバイクガレージ。</p>
       </div>
     </div>
     <div class="p-main-visual__slide">
+      <picture>
+        <source media="(min-width: 768px)" srcset="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo08.jpg">
       <img
-        class="p-main-visual__image lg-hidden"
+          class="p-main-visual__image"
         src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/photo08.jpg"
-        alt="Slide 3" />
-      <img
-        class="p-main-visual__image pc-hidden"
-        src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/p-facility-intro/d_photo08.jpg"
-        alt="Slide 3" />
+          alt="Responsive Slide 1" />
+      </picture>
       <div class="p-main-visual__catch">
         <p>愛車と過ごす</p>
         <p>レンタルバイクガレージ。</p>
@@ -451,6 +449,10 @@ get_header();
       title.style.color = 'black';
       intro.classList.add("hide");
     }, 2000);
+
+    setTimeout(() => {
+      title.classList.add("hide");
+    }, 3000);
   });
 
   document.addEventListener("DOMContentLoaded", function() {
