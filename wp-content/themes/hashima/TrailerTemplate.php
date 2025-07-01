@@ -226,7 +226,7 @@ get_header();
                             class="text-[21px] md:text-[57px] lg:text-[58px] xl:text-[62px] mb-4 title__font-family">
                             <span>SET RENTAL</span>
                             <span
-                                class="text-[12px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-[6px] align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
+                                class="text-[11px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-[6px] align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
                         </h2>
                     </div>
                 </div>
@@ -258,7 +258,7 @@ get_header();
                                 <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1ヶ月／</div>
                                 <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">50,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
                             </div>
-                            <div class="flex items-baseline mt-[-17px]">
+                            <div class="flex items-baseline -mt-[10px] md:mt-[-17px]">
                                 <div class="text-[14px] md:text-[16px] text-white">
                                     ※2年目以降は60,000円。
                                 </div>
