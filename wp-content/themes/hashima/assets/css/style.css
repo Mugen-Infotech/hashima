@@ -4704,14 +4704,6 @@ input[type="file"]::file-selector-button {
 	margin-left: auto;
 	margin-right: auto;
 }
-.border-x-4 {
-	border-left-width: 4px;
-	border-right-width: 4px;
-}
-.border-black {
-	--tw-border-opacity: 1;
-	border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
-}
 @media (max-width: 425px) {
 	.p-facility-intro__paragraph {
 		width: 100%;
@@ -4897,11 +4889,13 @@ input[type="file"]::file-selector-button {
 }
 
 @media (min-width: 1366px) {
-	.l-footer__name {
-		font-size: 77px;
+	.border-x-2 {
+		border-left-width: 2px;
+		border-right-width: 2px;
 	}
-	.l-footer__address {
-		font-size: 16px;
+	.border-black {
+		--tw-border-opacity: 1;
+		border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
 	}
 }
 @media (min-width: 2190px) and (max-width: 2560px) {

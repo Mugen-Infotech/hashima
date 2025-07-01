@@ -71,7 +71,7 @@
 </head>
 
 <body class="l-body" id="lenis-root">
-    <div class="max-w-[1366px] mx-auto border-x-4 border-black relative">
+    <div class="max-w-[1366px] mx-auto border-x-2 border-black relative">
         <header class="l-header">
             <p class="l-header__name">
                 <a class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
