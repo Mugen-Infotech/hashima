@@ -172,20 +172,25 @@ get_header();
                         同意いただける方は「入力内容確認画面へ」と進んでください。
                     </p>
                     <div class="flex items-center">
-                        <div
-                            id="customRadio"
-                            class="relative w-6 h-6 md:w-6 md:h-6 lg:w-4 lg:h-4 cursor-pointer"
-                            onclick="toggleCircle(this)">
-                            <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
-                            <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full inner-circle"></div>
-                        </div>
-                        <span
-                            class="text-[14px] md:text-[18px] lg:text-[18px] font-normal ml-2">プライバシーポリシーに同意する</span>
+                        <input
+                            type="checkbox"
+                            id="checkboxInput"
+                            class="peer" />
+                        <label for="checkboxInput" class="flex items-center cursor-pointer">
+                            <div class="relative w-6 h-6 md:w-6 md:h-6 lg:w-4 lg:h-4">
+                                <!-- Outer circle -->
+                                <div class="absolute inset-0 border border-black rounded-full"></div>
+                                <!-- Inner circle (shown only if checked) -->
+                                <div
+                                    class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full inner-circle"></div>
+
+                            </div>
+                            <span class="text-[14px] md:text-[18px] lg:text-[18px] font-normal ml-2">
+                                プライバシーポリシーに同意する
+                            </span>
+                        </label>
                     </div>
-                    <input type="checkbox" name="checkbox" id="checkboxInput">
-                    <label for="checkboxInput">プライバシーポリシーに同意する</label>
+
                 </div>
 
                 <div class="flex justify-center mt-28 md:mt-32 lg:mt-20">
@@ -245,10 +250,15 @@ get_header();
         });
     });
 
-    function toggleCircle(element) {
-        const inner = element.querySelector(".inner-circle");
-        inner.classList.toggle("bg-black"); // Add or remove background
-    }
+    document.getElementById('checkboxInput').addEventListener('change', function() {
+        const inner = document.querySelector(".inner-circle");
+        
+        if (this.checked) {
+            inner.classList.add("bg-black"); 
+        } else {
+            inner.classList.remove("bg-black"); 
+        }
+    });
 </script>
 <script>
     let isScrolling;
