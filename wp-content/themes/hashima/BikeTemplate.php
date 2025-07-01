@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<div class="p-main-visual md:pt-0 relative">
+<div class="p-main-visual mt-[30px] md:mt-0 md:pt-0 relative">
     <span class="p-main-visual__background js-main-visual-background"></span>
     <div class="p-main-visual__group">
         <img
@@ -23,7 +23,7 @@ get_header();
             alt="" />
     </div>
     <div
-        class="absolute top-5 right-5 md:top-5 md:right-5 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
+        class="absolute top-[10px] right-[10px] md:top-5 md:right-5 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
         <span
             class="text-white text-[8px] md:text-[10px] lg:text-[14px] title__font-family uppercase leading-none tracking-[0.011em]">TOTAL</span>
         <span
