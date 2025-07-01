@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <main class="l-main-content pt-10">
-    <section class="py-12 md:py-10 pb-20">
+    <section class="py-12 md:py-10 pb-[100px] lg:pb-[200px]">
         <div class="flex flex-col lg:flex-row min-h-screen max-w-7xl mx-auto px-7 sm:px-6 lg:px-8">
             <div class="lg:hidden">
                 <div class="top-4 w-full flex justify-center">
