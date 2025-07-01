@@ -568,7 +568,7 @@ input[type='file']::file-selector-button {
 .l-header__follow {
     position: fixed;
     top: 22.6125rem;
-    right: calc((100vw - 1366px) / 2);
+    right: 0;
     z-index: 50;
     transition: opacity 0.3s ease;
 }
@@ -4890,6 +4890,9 @@ input[type='file']::file-selector-button {
     .border-black {
         --tw-border-opacity: 1;
         border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+    }
+    .l-header__follow {
+        right: calc((100vw - 1366px) / 2);
     }
 }
 @media (max-width: 1366px) {
