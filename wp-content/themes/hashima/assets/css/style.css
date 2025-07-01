@@ -3786,6 +3786,15 @@ input[type='file']::file-selector-button {
         margin-top: 6.25rem !important;
     }
 }
+@media (max-width: 1366px) {
+    html {
+        font-size: 1.1713030747vw;
+    }
+    .border-x-2 {
+        border-left-width: 0 !important;
+        border-right-width: 0 !important;
+    }
+}
 @media (max-width: 750px) {
     html {
         font-size: 2.1333333333vw;
