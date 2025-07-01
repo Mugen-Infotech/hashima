@@ -4744,7 +4744,9 @@ input[type='file']::file-selector-button {
 .flex-price-sec .p-plan__sub-price {
     margin-bottom: -5px;
 }
-
+.home.p-main-visual {
+    padding-top: 20px;
+}
 @media (max-width: 425px) {
     .p-facility-intro__paragraph {
         width: 100%;

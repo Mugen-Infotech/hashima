@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <div id="intro-overlay"></div>
-<div class="p-main-visual">
+<div class="home p-main-visual">
     <span class="p-main-visual__background js-main-visual-background"></span>
     <div class="p-main-visual__title">
         <img
