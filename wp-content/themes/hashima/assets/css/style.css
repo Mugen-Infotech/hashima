@@ -4737,6 +4737,7 @@ input[type='file']::file-selector-button {
     justify-content: space-between;
     align-items: flex-end;
     margin-top: -0.625rem;
+    flex-wrap: wrap;
 }
 .flex-price-sec.subtitle {
     margin-top: 6px;
