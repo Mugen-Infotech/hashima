@@ -1485,7 +1485,7 @@ input[type='file']::file-selector-button {
     transform: translate(0);
 }
 .p-plan__main-title-ja {
-    margin-top: -0.625rem;
+    /* margin-top: -0.625rem; */
     font-family: Bebas Neue, sans-serif;
     font-style: normal;
     font-weight: bold;
@@ -1494,9 +1494,9 @@ input[type='file']::file-selector-button {
     color: #fff;
 }
 .p-plan__main-price {
-    position: absolute;
-    top: 31.8rem;
-    right: 3.5375rem;
+    /* position: absolute; */
+    /* top: 31.8rem;
+    right: 3.5375rem; */
     font-family: Noto Sans JP, sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -4188,8 +4188,8 @@ input[type='file']::file-selector-button {
         font-weight: 900;
     }
     .p-plan__main-price {
-        top: 208px;
-        right: 6px;
+        /* top: 208px;
+        right: 6px; */
         font-size: 11px;
         font-weight: 500;
     }
@@ -4245,7 +4245,7 @@ input[type='file']::file-selector-button {
         font-size: 22px;
     }
     .p-plan__sub-price {
-        position: absolute;
+        /* position: absolute; */
         top: 23.575rem;
         right: 6px;
         font-size: 11px;
@@ -4255,7 +4255,7 @@ input[type='file']::file-selector-button {
         margin-left: inherit;
     }
     .p-plan__sub-price2 {
-        position: absolute;
+        /* position: absolute; */
         top: 233px;
         font-size: 11px;
         right: 0.54375rem;
@@ -4719,6 +4719,18 @@ input[type='file']::file-selector-button {
 .mx-auto {
     margin-left: auto;
     margin-right: auto;
+}
+
+/* Homepage extra */
+.flex-price-sec {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-top: -0.625rem;
+    align-items: flex-end;
+}
+.flex-price-sec.subtitle {
+    margin-top: 6px;
 }
 @media (max-width: 425px) {
     .p-facility-intro__paragraph {
