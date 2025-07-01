@@ -186,7 +186,7 @@ get_header();
     </div>
   </div>
 </div> -->
-<div class="p-main-visual md:pt-0">
+<div class="p-main-visual  mt-[30px] md:mt-0 md:pt-0">
     <div class="p-main-visual__group">
         <img
             class="w-full h-auto block"

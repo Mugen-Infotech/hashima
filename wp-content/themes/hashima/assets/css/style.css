@@ -1128,7 +1128,7 @@ input[type='file']::file-selector-button {
 }
 .p-main-visual {
     width: calc(100% - 2.5rem);
-    /* padding-top: 20px; */
+    padding-top: 20px;
     margin-inline: auto;
 }
 .p-main-visual__background {
@@ -4902,15 +4902,6 @@ input[type='file']::file-selector-button {
     }
     .l-header__follow {
         right: calc((100vw - 1366px) / 2);
-    }
-}
-@media (max-width: 1366px) {
-    html {
-        font-size: 1.1713030747vw;
-    }
-    .border-x-2 {
-        border-left-width: 0 !important;
-        border-right-width: 0 !important;
     }
 }
 @media (min-width: 2190px) and (max-width: 2560px) {
