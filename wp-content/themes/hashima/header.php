@@ -23,7 +23,7 @@
   <link rel="canonical" href="https://hoge.com" />
 
   <!-- Favicon -->
-  <link rel="icon" href="#" />
+  <link rel="icon" href="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg" />
 
   <!-- apple-touch-icon -->
   <link rel="apple-touch-icon" sizes="180x180" href="#" />
