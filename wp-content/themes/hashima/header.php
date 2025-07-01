@@ -72,9 +72,9 @@
 
 <body class="l-body" id="lenis-root">
   <div class="max-w-[1366px] mx-auto border-x-2 border-black relative">
-  <header class="l-header">
+  <header class="l-header is-visible">
     <p class="l-header__name">
-      <a class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
+      <a onclick="location.href = '<?php echo home_url() ?>'" class="link-hide" href="<?php echo home_url() ?>">HASHIMA BASE</a>
     </p>
     <nav class="l-header__nav">
       <ul class="l-header__list">
