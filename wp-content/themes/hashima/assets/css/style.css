@@ -1494,7 +1494,7 @@ input[type='file']::file-selector-button {
     color: #fff;
 }
 .p-plan__main-price {
-    position: absolute;
+    /* position: absolute; */
     top: 31.8rem;
     right: 3.5375rem;
     font-family: Noto Sans JP, sans-serif;
@@ -4254,7 +4254,7 @@ input[type='file']::file-selector-button {
         font-size: 22px;
     }
     .p-plan__sub-price {
-        position: absolute;
+        /* position: absolute; */
         top: 23.575rem;
         right: 6px;
         font-size: 11px;
@@ -4264,7 +4264,7 @@ input[type='file']::file-selector-button {
         margin-left: inherit;
     }
     .p-plan__sub-price2 {
-        position: absolute;
+        /* position: absolute; */
         top: 233px;
         font-size: 11px;
         right: 0.54375rem;
@@ -4729,6 +4729,22 @@ input[type='file']::file-selector-button {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* home extra */
+
+.flex-price-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -0.625rem;
+}
+.flex-price-sec.subtitle {
+    margin-top: 6px;
+}
+.flex-price-sec .p-plan__sub-price {
+    margin-bottom: -5px;
+}
+
 @media (max-width: 425px) {
     .p-facility-intro__paragraph {
         width: 100%;
