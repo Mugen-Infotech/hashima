@@ -35,7 +35,7 @@ get_header();
             </h2>
         </div>
         <div
-            class="md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1250px] 2xl:max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-7 md:px-[12px]">
+            class="md:max-w-[720px] lg:max-w-[960px] xl:max-w-[1250px] 2xl:max-w-[1320px] mx-auto flex flex-col items-center justify-center text-[14px] md:text-[16px] leading-[20px] md:leading-[29px] gap-x-[16px] gap-y-[20px] px-7 md:px-[12px] 2xl:px-8">
             <div
                 class="w-full space-y-[20px] md:space-y-[30px] mt-[25px] md:mt-[32px] lg:mt-[48px]">
                 <p>
