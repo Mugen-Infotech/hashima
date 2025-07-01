@@ -29,7 +29,7 @@ get_header();
     <span
       class="text-white text-[24px] md:text-[40px] lg:text-[74px] title__font-family leading-none tracking-[0.011em]">18</span>
     <span
-      class="text-white text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] title__font-family uppercase leading-none -mt-[3px] md:-mt-[5px] lg:-mt-[8px] xl:-mt-[8px] tracking-[0.060em] pl-[8px]">GARAGE</span>
+      class="text-white text-[12px] md:text-[16px] lg:text-[18px] xl:text-[20px] title__font-family uppercase leading-none -mt-[3px] md:-mt-[5px] lg:-mt-[8px] xl:-mt-[8px] tracking-[0.060em] pl-[4px] md:pl-[8px]">GARAGE</span>
   </div>
 </div>
 
