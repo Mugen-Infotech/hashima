@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<div class="p-main-visual md:pt-0">
+<div class="p-main-visual md:pt-0 mt-[30px] md:mt-0 relative">
   <span class="p-main-visual__background js-main-visual-background"></span>
   <div class="p-main-visual__group">
     <img
@@ -23,7 +23,7 @@ get_header();
       alt="" />
   </div>
   <div
-    class="absolute top-[80px] right-8 md:top-36 md:right-10 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
+    class="absolute top-[10px] right-[10px] md:top-5 md:right-5 bg-black rounded-full flex flex-col items-center justify-center w-[55px] h-[55px] md:w-[80px] md:h-[80px] lg:w-[125px] lg:h-[125px] xl:w-[150px] xl:h-[150px] 2xl:w-[140px] 2xl:h-[140px] z-20">
     <span
       class="text-white text-[8px] md:text-[10px] lg:text-[14px] title__font-family uppercase leading-none tracking-[0.011em]">TOTAL</span>
     <span
@@ -366,110 +366,110 @@ get_header();
         <ul class="space-y-3 text-2xl md:text-[16px] lg:text-[18px]">
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             BASEでのイベント時にはフェンスを解放して会員専用地内を自由に散策できます。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             イベントのない場合はフェンスは閉じています。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             ペットはペットケース・バギーなど、体全体が外に出ていないようにしてください。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             コンテナは複数人で使用しても良いが契約者は代表者1人が責任を持って管理すること。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             また貸し禁止。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             コンテナ内及びBASE敷地内での宿泊禁止。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             バイクの空ふかし禁止。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             ゴミは各自持ち帰ること。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             コンテナ内でのたばこは禁止 (電子タバコを含む)。
           </li>
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             バイクコンテナ契約者のレンタルシェアスペース使用は有料とする
             (割引あり)
@@ -477,11 +477,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             <span>
               HASHIMA BASEでの撮影をご希望の方へ<br />
@@ -497,7 +497,7 @@ get_header();
       </div>
     </div>
     <div
-      class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-6 px-7 md:px-0">
+      class="max-w-6xl mx-auto w-full flex flex-col xl:flex-row justify-between items-center gap-9 px-7 md:px-0">
       <a
         href="<?php echo home_url('contact') ?>"
         class="relative flex flex-col title__font-family justify-center items-center text-white bg-[#0057FF] hover:bg-[#0046cc] transition-colors duration-200 rounded-full w-full max-w-[350px] md:max-w-[550px] xl:max-w-[700px] h-[90px] md:h-[140px] xl:h-[165px] shadow-md">

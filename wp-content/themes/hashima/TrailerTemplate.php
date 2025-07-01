@@ -12,7 +12,7 @@
 get_header();
 ?>
 
-<div class="p-main-visual md:pt-0">
+<div class="p-main-visual md:pt-0 mt-[30px] md:mt-0">
   <div class="p-main-visual__group">
     <img
       class="w-full h-auto block"
@@ -226,7 +226,7 @@ get_header();
               class="text-[21px] md:text-[57px] lg:text-[58px] xl:text-[62px] mb-4 title__font-family">
               <span>SET RENTAL</span>
               <span
-                class="text-[12px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-[6px] align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
+                class="text-[11px] md:text-[21px] lg:text-[32px] xl:text-[36px] font-bold ml-[6px] align-middle content__font-family">レンタルスペース + レンタルキッチントレーラー</span>
             </h2>
           </div>
         </div>
@@ -258,7 +258,7 @@ get_header();
                 <div class="text-left text-[14px] md:text-[18px] xl:text-[28px] mr-1 font-bold content__font-family col-span-4">1ヶ月／</div>
                 <div class="text-right col-span-8 pr-[80px] whitespace-nowrap"><span class="text-[32px] md:text-[40px] xl:text-[52px] title__font-family">50,000</span><span class="text-[16px] md:text-[20px] xl:text-[30px] title__font-family"> YEN</span><span class="text-[14px] md:text-[16px] xl:text-[18px] ml-1 font-normal content__font-family">（税別）</span></div>
               </div>
-              <div class="flex items-baseline mt-[-17px]">
+              <div class="flex items-baseline -mt-[10px] md:mt-[-17px]">
                 <div class="text-[14px] md:text-[16px] text-white">
                   ※2年目以降は60,000円。
                 </div>
@@ -328,11 +328,11 @@ get_header();
         <ul class="space-y-3 text-2xl md:text-[16px] lg:text-[20px]">
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[16px] h-[10px] sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-4 lg:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             利用目的と時間の厳守 <br />
             調理・販売目的に限り使用可。利用時間は申込時間内厳守で、準備や片付けも時間に含まれます。
@@ -340,11 +340,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[16px] h-[10px] sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-4 lg:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             施設・設備の保全と原状回復 <br />
             利用後は原状回復が必須。破損・汚損・紛失時は賠償。ゴミや残材は持ち帰りが原則です。
@@ -352,11 +352,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[16px] h-[10px] sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-4 lg:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             禁止行為と利用停止の条件 <br />
             無断譲渡や危険行為、強い臭いの調理、大音量は禁止。違反時は利用停止や以降の利用不可。
@@ -364,11 +364,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[16px] h-[10px] sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-4 lg:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             安全・衛生管理の徹底 <br />
             責任者の常駐が必要。危険物持込不可、ペット入場禁止。防災・防犯にも配慮してください。
@@ -376,11 +376,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[16px] h-[10px] sm:w-4 sm:h-4 md:w-5 md:h-5 lg:w-4 lg:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             支払・キャンセルについて <br />
             支払は利用後に現金または振込。当日キャンセルは100％のキャンセル料が発生。
@@ -389,11 +389,11 @@ get_header();
 
           <li class="flex items-start gap-1">
             <div
-              class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+              class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
               <div
                 class="absolute inset-0 border border-black rounded-full"></div>
               <div
-                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                class="absolute inset-[2px] border border-black rounded-full"></div>
             </div>
             <span>
               HASHIMA BASEでの撮影をご希望の方へ<br />

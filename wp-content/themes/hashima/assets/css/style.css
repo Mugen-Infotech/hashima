@@ -231,7 +231,7 @@ th {
 }
 html {
   overflow: visible;
-  font-size: 1.1713030747vw;
+  /* font-size: 1.1713030747vw; */
 }
 body {
   overflow-x: hidden;
@@ -1136,7 +1136,7 @@ input[type="file"]::file-selector-button {
 }
 .p-main-visual {
   width: calc(100% - 2.5rem);
-  padding-top: 20px;
+  /* padding-top: 20px; */
   margin-inline: auto;
 }
 .p-main-visual__background {
@@ -1511,7 +1511,7 @@ input[type="file"]::file-selector-button {
   color: #fff;
 }
 .p-plan__main-price {
-  position: absolute;
+  /* position: absolute; */
   top: 31.8rem;
   right: 3.5375rem;
   font-family: Noto Sans JP, sans-serif;
@@ -3496,6 +3496,17 @@ input[type="file"]::file-selector-button {
   .u-xl-mt100 {
     margin-top: 6.25rem !important;
   }
+  .border-x-2 {
+	  border-left-width: 2px;
+	  border-right-width: 2px;
+  }
+  .border-black {
+	  --tw-border-opacity: 1;
+	  border-color: rgb(0 0 0 / var(--tw-border-opacity, 1));
+	}
+    .l-header__follow {
+        right: calc((100vw - 1366px) / 2);
+    }
 }
 @media (min-width: 1920px) {
   .u-2xl-dn {
@@ -3804,6 +3815,15 @@ input[type="file"]::file-selector-button {
   .u-2xl-mt100 {
     margin-top: 6.25rem !important;
   }
+}
+@media (max-width: 1366px) {
+    html {
+        font-size: 1.1713030747vw;
+    }
+    .border-x-2 {
+        border-left-width: 0 !important;
+        border-right-width: 0 !important;
+    }
 }
 @media (max-width: 750px) {
   html {
@@ -4262,7 +4282,7 @@ input[type="file"]::file-selector-button {
     font-size: 22px;
   }
   .p-plan__sub-price {
-    position: absolute;
+    /* position: absolute; */
     top: 23.575rem;
     right: 6px;
     font-size: 11px;
@@ -4272,7 +4292,7 @@ input[type="file"]::file-selector-button {
     margin-left: inherit;
   }
   .p-plan__sub-price2 {
-    position: absolute;
+    /* position: absolute; */
     top: 233px;
     font-size: 11px;
     right: 0.54375rem;
@@ -4694,6 +4714,35 @@ input[type="file"]::file-selector-button {
 .header__follow-link:last-child {
   background-color: #595757;
 }
+
+.max-w-\[1366px\] {
+	max-width: 1366px;
+}
+
+.mx-auto {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* home extra */
+
+.flex-price-sec {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin-top: -0.625rem;
+    flex-wrap: wrap;
+}
+.flex-price-sec.subtitle {
+    margin-top: 6px;
+}
+.flex-price-sec .p-plan__sub-price {
+    margin-bottom: -5px;
+}
+.home.p-main-visual {
+    padding-top: 20px;
+}
+
 @media (max-width: 425px) {
   .p-facility-intro__paragraph {
     width: 100%;
@@ -4874,5 +4923,11 @@ input[type="file"]::file-selector-button {
   .bike-img {
     flex-shrink: 1;
     flex-basis: auto;
+  }
+}
+
+@media (min-width: 2190px) and (max-width: 2560px) {
+  .large-screen-button {
+    width: 500px !important;
   }
 }

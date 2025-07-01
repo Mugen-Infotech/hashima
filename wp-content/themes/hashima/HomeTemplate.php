@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <div id="intro-overlay"></div>
-<div class="p-main-visual">
+<div class="home p-main-visual">
   <span class="p-main-visual__background js-main-visual-background"></span>
   <div class="p-main-visual__title">
     <img
@@ -204,11 +204,13 @@ get_header();
             <span>G</span>
             <span>E</span>
           </h2>
-          <p class="p-plan__main-title-ja">レンタルバイクガレージ</p>
+          <div class="flex-price-sec">
+              <p class="p-plan__main-title-ja">レンタルバイクガレージ</p>
+              <p class="p-plan__main-price">
+                月額／<span class="p-plan__main-price-number">39,000</span><span class="p-plan__main-price-unit">YEN</span>～
+              </p>
+          </div>
         </hgroup>
-        <p class="p-plan__main-price">
-          月額／<span class="p-plan__main-price-number">39,000</span><span class="p-plan__main-price-unit">YEN</span>～
-        </p>
         <div class="plan__main-description">
           <p class="p-plan__main-description">
             バイク好きのための夢のスペースで、
@@ -245,11 +247,13 @@ get_header();
               <span>RENTAL <br class="line-break-lg" />
                 SPACE</span>
             </h2>
-            <p class="p-plan__sub-title-ja">レンタルスペース</p>
+            <div class="flex-price-sec subtitle">
+                <p class="p-plan__sub-title-ja">レンタルスペース</p>
+                <p class="p-plan__sub-price">
+                    1時間／<span class="p-plan__sub-price-number">2,500</span><span class="p-plan__sub-price-unit">YEN</span>～
+                </p>
+            </div>
           </hgroup>
-          <p class="p-plan__sub-price">
-            1時間／<span class="p-plan__sub-price-number">2,500</span><span class="p-plan__sub-price-unit">YEN</span>～
-          </p>
           <p class="p-plan__sub-description">
             自由度満点のお洒落でオープンな空間です。
             バイク仲間とのイベントやミー
@@ -282,11 +286,13 @@ get_header();
               <span>RENTAL <br />
                 KITCHEN TRAILER</span>
             </h2>
-            <p class="p-plan__sub-title-ja">レンタルキッチントレーラー</p>
+            <div class="flex-price-sec subtitle">
+                <p class="p-plan__sub-title-ja">レンタルキッチントレーラー</p>
+                <p class="p-plan__sub-price">
+                    1日／<span class="p-plan__sub-price-number">5,000</span><span class="p-plan__sub-price-unit">YEN</span>～
+                </p>
+            </div>
           </hgroup>
-          <p class="p-plan__sub-price2">
-            1日／<span class="p-plan__sub-price-number">5,000</span><span class="p-plan__sub-price-unit">YEN</span>～
-          </p>
           <p class="p-plan__sub-description">
             カフェや飲食店の夢を叶える第一歩に、レンタルキッチントレーラーをご利
             用いただけます。 副業や週末限定でカフェをはじめたい方や、

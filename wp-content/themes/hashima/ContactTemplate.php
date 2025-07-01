@@ -190,7 +190,7 @@ get_header();
           <button
             type="submit"
             id="submit-button"
-            class="w-[250px] md:w-[320px] 2xl:w-[400px] h-25 md:h-25 bg-[#595757] text-white text-[16px] md:text-3xl lg:text-lg font-medium rounded-full flex items-center text-center justify-between px-8 hover:bg-[#0041FF] transition">
+            class="w-[250px] md:w-[320px] 2xl:w-[400px] h-25 md:h-25 bg-[#595757] text-white text-[16px] md:text-3xl lg:text-lg font-medium rounded-full flex items-center text-center justify-between px-8 hover:bg-[#0041FF] transition large-screen-button">
             <span class="mx-auto block w-full text-center">入力内容確認画面</span>
             <span class="text-lg md:text-3xl lg:text-xl">&#9654;</span>
           </button>

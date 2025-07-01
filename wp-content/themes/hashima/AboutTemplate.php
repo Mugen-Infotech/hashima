@@ -13,7 +13,7 @@ get_header();
 ?>
 
 <main class="l-main-content pt-10">
-  <section class="py-12 md:py-10 pb-20">
+  <section class="py-12 md:py-10 pb-[100px] lg:pb-[200px]">
     <div class="flex flex-col lg:flex-row min-h-screen max-w-7xl mx-auto px-7 sm:px-6 lg:px-8">
       <div class="lg:hidden">
         <div class="top-4 w-full flex justify-center">
@@ -25,7 +25,7 @@ get_header();
           <img
             id="logo"
             src="<?php echo esc_url(get_template_directory_uri()); ?>/assets/images/common/logo.svg"
-            class="w-64 lg:w-64 h-auto"
+            class="w-64 lg:w-[256px] h-auto"
             style="position: relative;"
           />
         </div>
@@ -189,7 +189,7 @@ get_header();
     let offsetTop;
     if (window.innerWidth >= 1536) {
       // 2xl (≥1536px)
-      offsetTop = 125;
+      offsetTop = 190;
     } else if (window.innerWidth >= 1280) {
       // xl (≥1280px)
       offsetTop = 140;
@@ -204,7 +204,7 @@ get_header();
     let maxScroll;
     if (window.innerWidth >= 1536) {
       // 2xl
-      maxScroll = 1131;
+      maxScroll = 1278;
     } else if (window.innerWidth >= 1280) {
       // xl
       maxScroll = 1252;
