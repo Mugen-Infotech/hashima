@@ -578,66 +578,66 @@ get_header();
                 <ul class="space-y-3 text-2xl md:text-[16px] lg:text-[18px]">
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         フリースペース（コンテナ内の設備は自由に使用してもOK）
                     </li>
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         ゴミはお持ち帰りください。
                     </li>
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[14px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         ペットはペットケース・バギーなど、体全体が外に出ていないようにしてください。
                     </li>
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         契約駐車場以外の駐車場をご利用ください。
                     </li>
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         RENTAL BIKE GARAGEゾーンへの出入りは禁止。
                     </li>
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[13px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-2 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
-                                class="absolute inset-0 border border-black rounded-full"></div>
+                                class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
-                                class="absolute top-1 left-1 right-1 md:right-[3px] xl:right-1 bottom-1 border border-black rounded-full"></div>
+                                class="absolute inset-[2px] border border-black rounded-full"></div>
                         </div>
                         <span>
                             HASHIMA BASEでの撮影をご希望の方へ<br />

@@ -366,7 +366,7 @@ get_header();
                 <ul class="space-y-3 text-2xl md:text-[16px] lg:text-[18px]">
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -377,7 +377,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -388,7 +388,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -399,7 +399,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -410,7 +410,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -421,7 +421,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -432,7 +432,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -443,7 +443,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -454,7 +454,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -465,7 +465,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
@@ -477,7 +477,7 @@ get_header();
 
                     <li class="flex items-start gap-1">
                         <div
-                            class="relative w-[7px] h-[7px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
+                            class="relative w-[10px] min-w-[10px] h-[10px] sm:w-4 sm:h-4 md:w-4 md:h-4 mt-1 md:mt-2">
                             <div
                                 class="absolute inset-0 border sm:border border-black rounded-full"></div>
                             <div
