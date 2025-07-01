@@ -35,7 +35,8 @@ get_header();
                 メールフォームにてお気軽にお問い合わせください。
             </p>
 
-            <form class="w-full" id="contactForm" method="POST">
+            <form method="POST" action="<?php echo esc_url(admin_url('admin-post.php')); ?>">
+                <input type="hidden" name="action" value="submit_contact_form">
                 <div class="border-t border-b border-black rounded-none">
                     <div
                         class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#EBECEC] border-b border-black">
@@ -199,12 +200,9 @@ get_header();
                     </div>
 
                 </div>
-                <?php wp_nonce_field('contact_form_ajax_nonce', 'contact_form_nonce'); ?>
-
                 <div class="flex justify-center mt-28 md:mt-32 lg:mt-20">
                     <button
                         type="submit"
-                        id="submit-button"
                         class="w-[250px] md:w-[320px] 2xl:w-[400px] h-25 md:h-25 bg-[#595757] text-white text-[16px] md:text-3xl lg:text-lg font-medium rounded-full flex items-center text-center justify-between px-8 hover:bg-[#0041FF] transition large-screen-button">
                         <span class="mx-auto block w-full text-center">入力内容確認画面</span>
                         <span class="text-lg md:text-3xl lg:text-xl">&#9654;</span>
@@ -231,32 +229,46 @@ get_header();
     requestAnimationFrame(raf);
 </script>
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelector("form").addEventListener("submit", function(e) {
-            e.preventDefault();
-            const selected =
-                document.querySelector(".inner-circle.bg-black") !== null;
-            // Collect form data
-            if (!selected) {
-                alert("プライバシーポリシーに同意してください。");
-                return;
-            }
-            const data = {
-                category: document.getElementById("category").value,
-                company: document.getElementById("company").value,
-                name: document.getElementById("name").value,
-                furigana: document.getElementById("furigana").value,
-                tel: document.getElementById("tel").value,
-                email: document.getElementById("email").value,
-                message: document.getElementById("message").value,
-                privacy: selected,
-            };
-            // Save to localStorage
-            localStorage.setItem("contactForm", JSON.stringify(data));
-            // Redirect
-            window.location.href = "contact-details";
-        });
+    document.addEventListener("DOMContentLoaded", function () {
+    document.querySelector("form").addEventListener("submit", function (e) {
+        e.preventDefault();
+
+        const selected = document.querySelector(".inner-circle.bg-black") !== null;
+        if (!selected) {
+            alert("プライバシーポリシーに同意してください。");
+            return;
+        }
+
+        const data = {
+            action: "send_contact_form", // important for WP AJAX
+            category: document.getElementById("category").value,
+            company: document.getElementById("company").value,
+            name: document.getElementById("name").value,
+            furigana: document.getElementById("furigana").value,
+            tel: document.getElementById("tel").value,
+            email: document.getElementById("email").value,
+            message: document.getElementById("message").value,
+        };
+
+        fetch("<?php echo admin_url('admin-ajax.php'); ?>", {
+            method: "POST",
+            headers: {
+                "Content-Type": "application/x-www-form-urlencoded",
+            },
+            body: new URLSearchParams(data),
+        })
+            .then((res) => res.text())
+            .then((result) => {
+                alert("送信されました！");
+                console.log(result);
+            })
+            .catch((error) => {
+                alert("送信に失敗しました。");
+                console.error(error);
+            });
     });
+});
+
 
     document.getElementById('checkboxInput').addEventListener('change', function() {
         const inner = document.querySelector(".inner-circle");
