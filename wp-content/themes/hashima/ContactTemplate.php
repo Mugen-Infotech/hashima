@@ -35,7 +35,7 @@ get_header();
                 メールフォームにてお気軽にお問い合わせください。
             </p>
 
-            <form class="w-full">
+            <form class="w-full" id="contactForm" method="POST">
                 <div class="border-t border-b border-black rounded-none">
                     <div
                         class="flex flex-col md:flex-row items-start md:items-center p-3 md:p-4 md:pr-10 bg-[#EBECEC] border-b border-black">
@@ -48,6 +48,7 @@ get_header();
                         </div>
                         <select
                             id="category"
+                            name="category"
                             required
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]">
                             <option value="">以下から選択してください</option>
@@ -82,6 +83,7 @@ get_header();
                         </div>
                         <input
                             id="company"
+                            name="company"
                             type="text"
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
                     </div>
@@ -96,6 +98,7 @@ get_header();
                         </div>
                         <input
                             id="name"
+                            name="name"
                             type="text"
                             required
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
@@ -111,6 +114,7 @@ get_header();
                         </div>
                         <input
                             id="furigana"
+                            name="furigana"
                             type="text"
                             required
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
@@ -126,6 +130,7 @@ get_header();
                         </div>
                         <input
                             id="tel"
+                            name="tel"
                             type="tel"
                             required
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
@@ -141,6 +146,7 @@ get_header();
                         </div>
                         <input
                             id="email"
+                            name="email"
                             type="email"
                             required
                             class="w-full md:flex-1 px-3 py-2 bg-white border-none outline-none text-[14px] md:text-[18px]" />
@@ -156,6 +162,7 @@ get_header();
                         </div>
                         <textarea
                             id="message"
+                            name="message"
                             required
                             rows="7"
                             class="w-full md:flex-1 px-3 py-2 mt-0 md:mt-3 bg-white border-none outline-none text-[14px] md:text-[18px] resize-none"></textarea>
@@ -192,6 +199,7 @@ get_header();
                     </div>
 
                 </div>
+                <?php wp_nonce_field('contact_form_ajax_nonce', 'contact_form_nonce'); ?>
 
                 <div class="flex justify-center mt-28 md:mt-32 lg:mt-20">
                     <button
@@ -252,11 +260,11 @@ get_header();
 
     document.getElementById('checkboxInput').addEventListener('change', function() {
         const inner = document.querySelector(".inner-circle");
-        
+
         if (this.checked) {
-            inner.classList.add("bg-black"); 
+            inner.classList.add("bg-black");
         } else {
-            inner.classList.remove("bg-black"); 
+            inner.classList.remove("bg-black");
         }
     });
 </script>
