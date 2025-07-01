@@ -854,3 +854,43 @@ function use_info_details_template_for_categories($template)
 	return $template;
 }
 add_filter('single_template', 'use_info_details_template_for_categories');
+
+add_action('wp_ajax_send_contact_form', 'send_contact_form_ajax');
+add_action('wp_ajax_nopriv_send_contact_form', 'send_contact_form_ajax');
+
+function send_contact_form_ajax() {
+    $category = sanitize_text_field($_POST['category']);
+    $company  = sanitize_text_field($_POST['company']);
+    $name     = sanitize_text_field($_POST['name']);
+    $furigana = sanitize_text_field($_POST['furigana']);
+    $tel      = sanitize_text_field($_POST['tel']);
+    $email    = sanitize_email($_POST['email']);
+    $message  = sanitize_textarea_field($_POST['message']);
+
+    $to = get_option('admin_email');
+    $subject = 'New Contact Form Submission';
+    $body = <<<EOD
+カテゴリー: $category
+会社名: $company
+氏名: $name
+ふりがな: $furigana
+電話番号: $tel
+メール: $email
+
+お問い合わせ内容:
+$message
+EOD;
+
+    $headers = ['Content-Type: text/plain; charset=UTF-8'];
+echo $body;
+    $mail_sent = wp_mail($to, $subject, $body, $headers);
+
+    if ($mail_sent) {
+        echo 'メール送信に成功しました';
+    } else {
+        echo 'メール送信に失敗しました';
+    }
+
+    wp_die(); // Required to terminate and return response
+}
+
