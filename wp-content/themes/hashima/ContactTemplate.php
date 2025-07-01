@@ -229,45 +229,48 @@ get_header();
     requestAnimationFrame(raf);
 </script>
 <script>
-    document.addEventListener("DOMContentLoaded", function () {
-    document.querySelector("form").addEventListener("submit", function (e) {
-        e.preventDefault();
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelector("form").addEventListener("submit", function(e) {
+            e.preventDefault();
 
-        const selected = document.querySelector(".inner-circle.bg-black") !== null;
-        if (!selected) {
-            alert("プライバシーポリシーに同意してください。");
-            return;
-        }
+            const selected = document.querySelector(".inner-circle.bg-black") !== null;
+            if (!selected) {
+                alert("プライバシーポリシーに同意してください。");
+                return;
+            }
 
-        const data = {
-            action: "send_contact_form", // important for WP AJAX
-            category: document.getElementById("category").value,
-            company: document.getElementById("company").value,
-            name: document.getElementById("name").value,
-            furigana: document.getElementById("furigana").value,
-            tel: document.getElementById("tel").value,
-            email: document.getElementById("email").value,
-            message: document.getElementById("message").value,
-        };
+            const data = {
+                action: "send_contact_form", // important for WP AJAX
+                category: document.getElementById("category").value,
+                company: document.getElementById("company").value,
+                name: document.getElementById("name").value,
+                furigana: document.getElementById("furigana").value,
+                tel: document.getElementById("tel").value,
+                email: document.getElementById("email").value,
+                message: document.getElementById("message").value,
+            };
 
-        fetch("<?php echo admin_url('admin-ajax.php'); ?>", {
-            method: "POST",
-            headers: {
-                "Content-Type": "application/x-www-form-urlencoded",
-            },
-            body: new URLSearchParams(data),
-        })
-            .then((res) => res.text())
-            .then((result) => {
-                alert("送信されました！");
-                console.log(result);
-            })
-            .catch((error) => {
-                alert("送信に失敗しました。");
-                console.error(error);
-            });
+            fetch("<?php echo admin_url('admin-ajax.php'); ?>", {
+                    method: "POST",
+                    headers: {
+                        "Content-Type": "application/x-www-form-urlencoded",
+                    },
+                    body: new URLSearchParams(data),
+                })
+                .then((res) => res.text())
+                .then((result) => {
+                    alert("送信されました！");
+                    console.log(result);
+                    localStorage.setItem("contactForm", JSON.stringify(data));
+                    // Redirect
+                    window.location.href = "contact-details";
+                })
+                .catch((error) => {
+                    alert("送信に失敗しました。");
+                    console.error(error);
+                });
+        });
     });
-});
 
 
     document.getElementById('checkboxInput').addEventListener('change', function() {
