@@ -27,7 +27,7 @@ get_header();
   <section class="w-full bg-white">
     <div class="max-w-6xl mx-auto px-7">
       <h2
-        class="text-[50px] md:text-[120px] lg:text-[158px] title__font-family leading-none text-center l-main-content__trailer-title-en js-title">
+        class="text-[50px] md:text-[118px] lg:text-[158px] title__font-family leading-none text-center l-main-content__trailer-title-en js-title">
         <div class="flex flex-wrap justify-center tracking-11">
           <span>R</span>
           <span>E</span>
