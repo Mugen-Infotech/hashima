@@ -39,7 +39,7 @@
       <a class="l-footer__sns-link" target="__blank" href="https://www.instagram.com/hashimabase39/?hl=ja">
         <i class="fa-brands fa-instagram"></i>
       </a>
-      <a class="l-footer__sns-link" target="__blank" href="https://www.facebook.com/profile.php?id=100095356001962">
+      <a class="l-footer__sns-link" target="__blank" href="https://www.facebook.com/share/1AuGL8C971/?mibextid=wwXIfr">
         <i class="fa-brands fa-facebook"></i>
       </a>
     </div>
